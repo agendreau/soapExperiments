@@ -1,0 +1,4901 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/Alex/Desktop/Development/src/FlowDroidEclipse/soot-infoflow-android/lib/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/Alex/Desktop/Development/src/FlowDroidEclipse/soot-infoflow/lib/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/Alex/Desktop/Development/src/FlowDroidEclipse/heros/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.05006 seconds
+Using '/usr/local/opt/android-sdk/platforms/android-19/android.jar' as android.jar
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod()
+    {
+        int $i0;
+        org.npr.android.util.PlaylistProvider $r0;
+        boolean $z0, $z1;
+        org.npr.android.news.Main $r1;
+        android.os.Bundle $r2, $r4, $r10, $r12, $r14, $r16, $r18, $r20, $r22, $r24, $r26, $r28, $r30;
+        org.npr.android.news.StationListActivity $r3;
+        org.npr.android.news.PlaybackService $r5;
+        android.content.Intent $r6, $r8;
+        android.os.IBinder $r7;
+        org.npr.android.news.SearchResultsActivity $r9;
+        org.npr.android.news.PodcastActivity $r11;
+        org.npr.android.news.PlaylistActivity $r13;
+        org.npr.android.news.StationSearchActivity $r15;
+        org.npr.android.news.StationDetailsActivity $r17;
+        org.npr.android.news.NewsListActivity $r19;
+        org.npr.android.news.EditPreferences $r21;
+        org.npr.android.news.SearchActivity $r23;
+        org.npr.android.news.NewsTopicActivity $r25;
+        org.npr.android.news.AboutActivity $r27;
+        org.npr.android.news.NewsStoryActivity $r29;
+
+        $i0 = 0;
+
+     label01:
+        $r0 = new org.npr.android.util.PlaylistProvider;
+
+        specialinvoke $r0.<org.npr.android.util.PlaylistProvider: void <init>()>();
+
+        if $i0 == 0 goto label02;
+
+        $z0 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: boolean onCreate()>();
+
+     label02:
+        if $i0 == 1 goto label01;
+
+     label03:
+        if $i0 == 2 goto label06;
+
+        $r1 = new org.npr.android.news.Main;
+
+        specialinvoke $r1.<org.npr.android.news.Main: void <init>()>();
+
+        if $i0 == 3 goto label06;
+
+        $r2 = new android.os.Bundle;
+
+        specialinvoke $r2.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r1.<org.npr.android.news.Main: void onCreate(android.os.Bundle)>($r2);
+
+        $r2 = null;
+
+     label04:
+        if $i0 == 5 goto label05;
+
+        if $i0 == 6 goto label04;
+
+     label05:
+        virtualinvoke $r1.<org.npr.android.news.Main: void onDestroy()>();
+
+     label06:
+        if $i0 == 8 goto label08;
+
+        $r3 = new org.npr.android.news.StationListActivity;
+
+        specialinvoke $r3.<org.npr.android.news.StationListActivity: void <init>()>();
+
+        if $i0 == 9 goto label08;
+
+        $r4 = new android.os.Bundle;
+
+        specialinvoke $r4.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r3.<org.npr.android.news.StationListActivity: void onCreate(android.os.Bundle)>($r4);
+
+        $r4 = null;
+
+     label07:
+        if $i0 == 11 goto label08;
+
+        if $i0 == 12 goto label07;
+
+     label08:
+        if $i0 == 14 goto label13;
+
+        $r5 = new org.npr.android.news.PlaybackService;
+
+        specialinvoke $r5.<org.npr.android.news.PlaybackService: void <init>()>();
+
+        virtualinvoke $r5.<org.npr.android.news.PlaybackService: void onCreate()>();
+
+     label09:
+        if $i0 == 15 goto label10;
+
+        if $i0 == 16 goto label09;
+
+     label10:
+        $r6 = new android.content.Intent;
+
+        specialinvoke $r6.<android.content.Intent: void <init>()>();
+
+        $r7 = virtualinvoke $r5.<org.npr.android.news.PlaybackService: android.os.IBinder onBind(android.content.Intent)>($r6);
+
+        $r6 = null;
+
+     label11:
+        $r8 = new android.content.Intent;
+
+        specialinvoke $r8.<android.content.Intent: void <init>()>();
+
+        $z1 = virtualinvoke $r5.<org.npr.android.news.PlaybackService: boolean onUnbind(android.content.Intent)>($r8);
+
+        $r8 = null;
+
+        if $i0 == 18 goto label12;
+
+        if $i0 == 19 goto label11;
+
+     label12:
+        virtualinvoke $r5.<org.npr.android.news.PlaybackService: void onDestroy()>();
+
+     label13:
+        if $i0 == 20 goto label15;
+
+        $r9 = new org.npr.android.news.SearchResultsActivity;
+
+        specialinvoke $r9.<org.npr.android.news.SearchResultsActivity: void <init>()>();
+
+        if $i0 == 21 goto label15;
+
+        $r10 = new android.os.Bundle;
+
+        specialinvoke $r10.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r9.<org.npr.android.news.SearchResultsActivity: void onCreate(android.os.Bundle)>($r10);
+
+        $r10 = null;
+
+     label14:
+        if $i0 == 23 goto label15;
+
+        if $i0 == 24 goto label14;
+
+     label15:
+        if $i0 == 26 goto label17;
+
+        $r11 = new org.npr.android.news.PodcastActivity;
+
+        specialinvoke $r11.<org.npr.android.news.PodcastActivity: void <init>()>();
+
+        if $i0 == 27 goto label17;
+
+        $r12 = new android.os.Bundle;
+
+        specialinvoke $r12.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r11.<org.npr.android.news.PodcastActivity: void onCreate(android.os.Bundle)>($r12);
+
+        $r12 = null;
+
+     label16:
+        if $i0 == 29 goto label17;
+
+        if $i0 == 30 goto label16;
+
+     label17:
+        if $i0 == 32 goto label19;
+
+        $r13 = new org.npr.android.news.PlaylistActivity;
+
+        specialinvoke $r13.<org.npr.android.news.PlaylistActivity: void <init>()>();
+
+        if $i0 == 33 goto label19;
+
+        $r14 = new android.os.Bundle;
+
+        specialinvoke $r14.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r13.<org.npr.android.news.PlaylistActivity: void onCreate(android.os.Bundle)>($r14);
+
+        $r14 = null;
+
+     label18:
+        if $i0 == 35 goto label19;
+
+        if $i0 == 36 goto label18;
+
+     label19:
+        if $i0 == 38 goto label21;
+
+        $r15 = new org.npr.android.news.StationSearchActivity;
+
+        specialinvoke $r15.<org.npr.android.news.StationSearchActivity: void <init>()>();
+
+        if $i0 == 39 goto label21;
+
+        $r16 = new android.os.Bundle;
+
+        specialinvoke $r16.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r15.<org.npr.android.news.StationSearchActivity: void onCreate(android.os.Bundle)>($r16);
+
+        $r16 = null;
+
+     label20:
+        virtualinvoke $r15.<org.npr.android.news.StationSearchActivity: void onResume()>();
+
+        if $i0 == 40 goto label20;
+
+        if $i0 == 41 goto label21;
+
+        if $i0 == 42 goto label20;
+
+     label21:
+        if $i0 == 47 goto label23;
+
+        $r17 = new org.npr.android.news.StationDetailsActivity;
+
+        specialinvoke $r17.<org.npr.android.news.StationDetailsActivity: void <init>()>();
+
+        if $i0 == 48 goto label23;
+
+        $r18 = new android.os.Bundle;
+
+        specialinvoke $r18.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r17.<org.npr.android.news.StationDetailsActivity: void onCreate(android.os.Bundle)>($r18);
+
+        $r18 = null;
+
+     label22:
+        if $i0 == 50 goto label23;
+
+        if $i0 == 51 goto label22;
+
+     label23:
+        if $i0 == 53 goto label25;
+
+        $r19 = new org.npr.android.news.NewsListActivity;
+
+        specialinvoke $r19.<org.npr.android.news.NewsListActivity: void <init>()>();
+
+        if $i0 == 54 goto label25;
+
+        $r20 = new android.os.Bundle;
+
+        specialinvoke $r20.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r19.<org.npr.android.news.NewsListActivity: void onCreate(android.os.Bundle)>($r20);
+
+        $r20 = null;
+
+     label24:
+        if $i0 == 56 goto label25;
+
+        if $i0 == 57 goto label24;
+
+     label25:
+        if $i0 == 59 goto label27;
+
+        $r21 = new org.npr.android.news.EditPreferences;
+
+        specialinvoke $r21.<org.npr.android.news.EditPreferences: void <init>()>();
+
+        if $i0 == 60 goto label27;
+
+        $r22 = new android.os.Bundle;
+
+        specialinvoke $r22.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r21.<org.npr.android.news.EditPreferences: void onCreate(android.os.Bundle)>($r22);
+
+        $r22 = null;
+
+     label26:
+        if $i0 == 62 goto label27;
+
+        if $i0 == 63 goto label26;
+
+     label27:
+        if $i0 == 65 goto label29;
+
+        $r23 = new org.npr.android.news.SearchActivity;
+
+        specialinvoke $r23.<org.npr.android.news.SearchActivity: void <init>()>();
+
+        if $i0 == 66 goto label29;
+
+        $r24 = new android.os.Bundle;
+
+        specialinvoke $r24.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r23.<org.npr.android.news.SearchActivity: void onCreate(android.os.Bundle)>($r24);
+
+        $r24 = null;
+
+     label28:
+        if $i0 == 68 goto label29;
+
+        if $i0 == 69 goto label28;
+
+     label29:
+        if $i0 == 71 goto label31;
+
+        $r25 = new org.npr.android.news.NewsTopicActivity;
+
+        specialinvoke $r25.<org.npr.android.news.NewsTopicActivity: void <init>()>();
+
+        if $i0 == 72 goto label31;
+
+        $r26 = new android.os.Bundle;
+
+        specialinvoke $r26.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r25.<org.npr.android.news.NewsTopicActivity: void onCreate(android.os.Bundle)>($r26);
+
+        $r26 = null;
+
+     label30:
+        if $i0 == 74 goto label31;
+
+        if $i0 == 75 goto label30;
+
+     label31:
+        if $i0 == 77 goto label33;
+
+        $r27 = new org.npr.android.news.AboutActivity;
+
+        specialinvoke $r27.<org.npr.android.news.AboutActivity: void <init>()>();
+
+        if $i0 == 78 goto label33;
+
+        $r28 = new android.os.Bundle;
+
+        specialinvoke $r28.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r27.<org.npr.android.news.AboutActivity: void onCreate(android.os.Bundle)>($r28);
+
+        $r28 = null;
+
+     label32:
+        if $i0 == 80 goto label33;
+
+        if $i0 == 81 goto label32;
+
+     label33:
+        if $i0 == 83 goto label35;
+
+        $r29 = new org.npr.android.news.NewsStoryActivity;
+
+        specialinvoke $r29.<org.npr.android.news.NewsStoryActivity: void <init>()>();
+
+        if $i0 == 84 goto label35;
+
+        $r30 = new android.os.Bundle;
+
+        specialinvoke $r30.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r29.<org.npr.android.news.NewsStoryActivity: void onCreate(android.os.Bundle)>($r30);
+
+        $r30 = null;
+
+     label34:
+        if $i0 == 86 goto label35;
+
+        if $i0 == 87 goto label34;
+
+     label35:
+        if $i0 == 89 goto label03;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.4 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 11.0 seconds.
+[Spark] Solution found in 11.0 seconds.
+Callback analysis done.
+Warning: LinearLayout is a phantom class!
+Warning: org.npr.android.news.LinearLayout is a phantom class!
+Warning: android.view.LinearLayout is a phantom class!
+Warning: ScrollView is a phantom class!
+Warning: org.npr.android.news.ScrollView is a phantom class!
+Warning: android.view.ScrollView is a phantom class!
+Warning: ImageView is a phantom class!
+Warning: org.npr.android.news.ImageView is a phantom class!
+Warning: android.view.ImageView is a phantom class!
+Warning: TextView is a phantom class!
+Warning: org.npr.android.news.TextView is a phantom class!
+Warning: android.view.TextView is a phantom class!
+Warning: Button is a phantom class!
+Warning: org.npr.android.news.Button is a phantom class!
+Warning: android.view.Button is a phantom class!
+Found 1 layout controls in file res/layout/about.xml
+Warning: View is a phantom class!
+Warning: org.npr.android.news.View is a phantom class!
+Found 1 layout controls in file res/layout/divider.xml
+Warning: SlidingDrawer is a phantom class!
+Warning: org.npr.android.news.SlidingDrawer is a phantom class!
+Warning: android.view.SlidingDrawer is a phantom class!
+Warning: SeekBar is a phantom class!
+Warning: org.npr.android.news.SeekBar is a phantom class!
+Warning: android.view.SeekBar is a phantom class!
+Warning: ImageButton is a phantom class!
+Warning: org.npr.android.news.ImageButton is a phantom class!
+Warning: android.view.ImageButton is a phantom class!
+Found 2 layout controls in file res/layout/listen.xml
+Warning: ProgressBar is a phantom class!
+Warning: org.npr.android.news.ProgressBar is a phantom class!
+Warning: android.view.ProgressBar is a phantom class!
+Found 3 layout controls in file res/layout/logo.xml
+Warning: RelativeLayout is a phantom class!
+Warning: org.npr.android.news.RelativeLayout is a phantom class!
+Warning: android.view.RelativeLayout is a phantom class!
+Warning: FrameLayout is a phantom class!
+Warning: org.npr.android.news.FrameLayout is a phantom class!
+Warning: android.view.FrameLayout is a phantom class!
+Found 4 layout controls in file res/layout/main.xml
+Warning: ListView is a phantom class!
+Warning: org.npr.android.news.ListView is a phantom class!
+Warning: android.view.ListView is a phantom class!
+Found 5 layout controls in file res/layout/main_inner.xml
+Found 6 layout controls in file res/layout/main_item.xml
+Found 7 layout controls in file res/layout/news.xml
+Found 8 layout controls in file res/layout/news_item.xml
+Warning: WebView is a phantom class!
+Warning: org.npr.android.news.WebView is a phantom class!
+Warning: android.view.WebView is a phantom class!
+Warning: android.widget.WebView is a phantom class!
+Found 9 layout controls in file res/layout/news_story.xml
+Found 10 layout controls in file res/layout/news_topics.xml
+Found 11 layout controls in file res/layout/player.xml
+Warning: RadioGroup is a phantom class!
+Warning: org.npr.android.news.RadioGroup is a phantom class!
+Warning: android.view.RadioGroup is a phantom class!
+Warning: RadioButton is a phantom class!
+Warning: org.npr.android.news.RadioButton is a phantom class!
+Warning: android.view.RadioButton is a phantom class!
+Found 12 layout controls in file res/layout/playlist.xml
+Found 13 layout controls in file res/layout/playlist_item.xml
+Found 14 layout controls in file res/layout/podcast.xml
+Warning: TableLayout is a phantom class!
+Warning: org.npr.android.news.TableLayout is a phantom class!
+Warning: android.view.TableLayout is a phantom class!
+Found unrecognized XML attribute:  stretchColumns
+Warning: TableRow is a phantom class!
+Warning: org.npr.android.news.TableRow is a phantom class!
+Warning: android.view.TableRow is a phantom class!
+Warning: EditText is a phantom class!
+Warning: org.npr.android.news.EditText is a phantom class!
+Warning: android.view.EditText is a phantom class!
+Found 15 layout controls in file res/layout/search.xml
+Warning: ExpandableListView is a phantom class!
+Warning: org.npr.android.news.ExpandableListView is a phantom class!
+Warning: android.view.ExpandableListView is a phantom class!
+Found 16 layout controls in file res/layout/station_details.xml
+Found 17 layout controls in file res/layout/station_item.xml
+Found 18 layout controls in file res/layout/station_list.xml
+Found 19 layout controls in file res/layout/station_search.xml
+Found 20 layout controls in file res/layout/station_search_by_item.xml
+Found 21 layout controls in file res/layout/station_stream.xml
+Using '/usr/local/opt/android-sdk/platforms/android-19/android.jar' as android.jar
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.widget.AdapterView, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.content.DialogInterface, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.widget.CompoundButton, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.net.Uri, because it is abstract and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod()
+    {
+        int $i0, $i1, $i2;
+        org.npr.android.util.PlaylistProvider $r0;
+        boolean $z0, $z1, $z2, $z3, $z4, $z5, $z6;
+        org.npr.android.news.Main $r1;
+        android.os.Bundle $r2, $r8, $r27, $r30, $r33, $r37, $r50, $r54, $r57, $r59, $r66, $r69, $r77;
+        android.view.View $r3, $r9, $r10, $r28, $r31, $r34, $r35, $r38, $r52, $r55, $r64, $r67, $r71, $r73, $r75, $r78;
+        org.npr.android.news.Main$4 $r4;
+        android.location.Location $r5;
+        org.npr.android.news.Main$3 $r6;
+        org.npr.android.news.StationListActivity $r7;
+        android.content.Intent $r11, $r18, $r25;
+        org.npr.android.news.PlaybackService $r12;
+        android.media.MediaPlayer $r13, $r14, $r15, $r16, $r17, $r20, $r21, $r22, $r23, $r24;
+        android.os.IBinder $r19;
+        org.npr.android.news.SearchResultsActivity $r26;
+        org.npr.android.news.PodcastActivity $r29;
+        org.npr.android.news.PlaylistActivity $r32;
+        org.npr.android.news.StationSearchActivity $r36;
+        android.widget.RadioGroup $r39;
+        java.lang.String[] $r40, $r41, $r42, $r48;
+        android.database.Cursor $r43;
+        android.content.ContentValues $r44, $r47;
+        android.net.Uri $r45;
+        java.lang.String $r46;
+        org.npr.android.news.StationDetailsActivity $r49;
+        android.widget.ExpandableListView $r51;
+        org.npr.android.news.NewsListActivity $r53;
+        org.npr.android.news.EditPreferences $r56;
+        org.npr.android.news.SearchActivity $r58;
+        org.npr.android.news.SearchActivity$1 $r60;
+        android.widget.DatePicker $r61, $r63;
+        org.npr.android.news.SearchActivity$2 $r62;
+        org.npr.android.news.NewsTopicActivity $r65;
+        org.npr.android.news.AboutActivity $r68;
+        org.npr.android.news.AboutActivity$2 $r70;
+        org.npr.android.news.AboutActivity$1 $r72;
+        org.npr.android.news.AboutActivity$3 $r74;
+        org.npr.android.news.NewsStoryActivity $r76;
+
+        $i0 = 0;
+
+     label001:
+        $r0 = new org.npr.android.util.PlaylistProvider;
+
+        specialinvoke $r0.<org.npr.android.util.PlaylistProvider: void <init>()>();
+
+        if $i0 == 0 goto label002;
+
+        $z0 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: boolean onCreate()>();
+
+     label002:
+        if $i0 == 1 goto label001;
+
+     label003:
+        if $i0 == 2 goto label012;
+
+        $r1 = new org.npr.android.news.Main;
+
+        specialinvoke $r1.<org.npr.android.news.Main: void <init>()>();
+
+        if $i0 == 3 goto label012;
+
+        $r2 = new android.os.Bundle;
+
+        specialinvoke $r2.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r1.<org.npr.android.news.Main: void onCreate(android.os.Bundle)>($r2);
+
+        $r2 = null;
+
+     label004:
+        if $i0 == 4 goto label010;
+
+     label005:
+        if $i0 == 5 goto label006;
+
+        $r3 = new android.view.View;
+
+        specialinvoke $r3.<android.view.View: void <init>(android.content.Context)>($r1);
+
+        virtualinvoke $r1.<org.npr.android.news.Main: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r3, 0, 0L);
+
+        $r3 = null;
+
+     label006:
+        if $i0 == 6 goto label007;
+
+        staticinvoke <org.npr.android.news.Main: void <clinit>()>();
+
+     label007:
+        $r4 = new org.npr.android.news.Main$4;
+
+        specialinvoke $r4.<org.npr.android.news.Main$4: void <init>(org.npr.android.news.Main)>($r1);
+
+        if $i0 == 7 goto label008;
+
+        $r5 = new android.location.Location;
+
+        specialinvoke $r5.<android.location.Location: void <init>(java.lang.String)>("");
+
+        virtualinvoke $r4.<org.npr.android.news.Main$4: void onLocationChanged(android.location.Location)>($r5);
+
+        $r5 = null;
+
+     label008:
+        $r6 = new org.npr.android.news.Main$3;
+
+        specialinvoke $r6.<org.npr.android.news.Main$3: void <init>(org.npr.android.news.Main)>($r1);
+
+        if $i0 == 8 goto label009;
+
+        virtualinvoke $r6.<org.npr.android.news.Main$3: void onCancel(android.content.DialogInterface)>(null);
+
+     label009:
+        if $i0 == 9 goto label005;
+
+     label010:
+        if $i0 == 10 goto label004;
+
+        if $i0 == 11 goto label011;
+
+        if $i0 == 12 goto label004;
+
+     label011:
+        virtualinvoke $r1.<org.npr.android.news.Main: void onDestroy()>();
+
+     label012:
+        if $i0 == 14 goto label021;
+
+        $r7 = new org.npr.android.news.StationListActivity;
+
+        specialinvoke $r7.<org.npr.android.news.StationListActivity: void <init>()>();
+
+        if $i0 == 15 goto label021;
+
+        $r8 = new android.os.Bundle;
+
+        specialinvoke $r8.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r7.<org.npr.android.news.StationListActivity: void onCreate(android.os.Bundle)>($r8);
+
+        $r8 = null;
+
+     label013:
+        if $i0 == 16 goto label020;
+
+     label014:
+        if $i0 == 17 goto label015;
+
+        $r9 = new android.view.View;
+
+        specialinvoke $r9.<android.view.View: void <init>(android.content.Context)>($r7);
+
+        virtualinvoke $r7.<org.npr.android.news.StationListActivity: void onClick(android.view.View)>($r9);
+
+        $r9 = null;
+
+     label015:
+        if $i0 == 18 goto label016;
+
+        virtualinvoke $r7.<org.npr.android.news.StationListActivity: void onLowMemory()>();
+
+     label016:
+        if $i0 == 19 goto label017;
+
+        $r10 = new android.view.View;
+
+        specialinvoke $r10.<android.view.View: void <init>(android.content.Context)>($r7);
+
+        virtualinvoke $r7.<org.npr.android.news.StationListActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r10, 0, 0L);
+
+        $r10 = null;
+
+     label017:
+        if $i0 == 20 goto label018;
+
+        staticinvoke <org.npr.android.news.StationListActivity: void <clinit>()>();
+
+     label018:
+        if $i0 == 21 goto label019;
+
+        $r11 = new android.content.Intent;
+
+        specialinvoke $r11.<android.content.Intent: void <init>()>();
+
+        virtualinvoke $r7.<org.npr.android.news.StationListActivity: void onActivityResult(int,int,android.content.Intent)>(0, 0, $r11);
+
+        $r11 = null;
+
+     label019:
+        if $i0 == 22 goto label014;
+
+     label020:
+        if $i0 == 23 goto label013;
+
+        if $i0 == 24 goto label021;
+
+        if $i0 == 25 goto label013;
+
+     label021:
+        if $i0 == 27 goto label038;
+
+        $r12 = new org.npr.android.news.PlaybackService;
+
+        specialinvoke $r12.<org.npr.android.news.PlaybackService: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onCreate()>();
+
+     label022:
+        if $i0 == 28 goto label023;
+
+        if $i0 == 29 goto label022;
+
+     label023:
+        if $i0 == 30 goto label030;
+
+     label024:
+        if $i0 == 31 goto label025;
+
+        $r13 = new android.media.MediaPlayer;
+
+        specialinvoke $r13.<android.media.MediaPlayer: void <init>()>();
+
+        $z1 = virtualinvoke $r12.<org.npr.android.news.PlaybackService: boolean onInfo(android.media.MediaPlayer,int,int)>($r13, 0, 0);
+
+        $r13 = null;
+
+     label025:
+        if $i0 == 32 goto label026;
+
+        $r14 = new android.media.MediaPlayer;
+
+        specialinvoke $r14.<android.media.MediaPlayer: void <init>()>();
+
+        $z2 = virtualinvoke $r12.<org.npr.android.news.PlaybackService: boolean onError(android.media.MediaPlayer,int,int)>($r14, 0, 0);
+
+        $r14 = null;
+
+     label026:
+        if $i0 == 33 goto label027;
+
+        $r15 = new android.media.MediaPlayer;
+
+        specialinvoke $r15.<android.media.MediaPlayer: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onBufferingUpdate(android.media.MediaPlayer,int)>($r15, 0);
+
+        $r15 = null;
+
+     label027:
+        if $i0 == 34 goto label028;
+
+        $r16 = new android.media.MediaPlayer;
+
+        specialinvoke $r16.<android.media.MediaPlayer: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onCompletion(android.media.MediaPlayer)>($r16);
+
+        $r16 = null;
+
+     label028:
+        if $i0 == 35 goto label029;
+
+        $r17 = new android.media.MediaPlayer;
+
+        specialinvoke $r17.<android.media.MediaPlayer: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onPrepared(android.media.MediaPlayer)>($r17);
+
+        $r17 = null;
+
+     label029:
+        if $i0 == 36 goto label024;
+
+     label030:
+        $r18 = new android.content.Intent;
+
+        specialinvoke $r18.<android.content.Intent: void <init>()>();
+
+        $r19 = virtualinvoke $r12.<org.npr.android.news.PlaybackService: android.os.IBinder onBind(android.content.Intent)>($r18);
+
+        $r18 = null;
+
+     label031:
+        if $i0 == 37 goto label032;
+
+        $r20 = new android.media.MediaPlayer;
+
+        specialinvoke $r20.<android.media.MediaPlayer: void <init>()>();
+
+        $z3 = virtualinvoke $r12.<org.npr.android.news.PlaybackService: boolean onInfo(android.media.MediaPlayer,int,int)>($r20, 0, 0);
+
+        $r20 = null;
+
+     label032:
+        if $i0 == 38 goto label033;
+
+        $r21 = new android.media.MediaPlayer;
+
+        specialinvoke $r21.<android.media.MediaPlayer: void <init>()>();
+
+        $z4 = virtualinvoke $r12.<org.npr.android.news.PlaybackService: boolean onError(android.media.MediaPlayer,int,int)>($r21, 0, 0);
+
+        $r21 = null;
+
+     label033:
+        if $i0 == 39 goto label034;
+
+        $r22 = new android.media.MediaPlayer;
+
+        specialinvoke $r22.<android.media.MediaPlayer: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onBufferingUpdate(android.media.MediaPlayer,int)>($r22, 0);
+
+        $r22 = null;
+
+     label034:
+        if $i0 == 40 goto label035;
+
+        $r23 = new android.media.MediaPlayer;
+
+        specialinvoke $r23.<android.media.MediaPlayer: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onCompletion(android.media.MediaPlayer)>($r23);
+
+        $r23 = null;
+
+     label035:
+        if $i0 == 41 goto label036;
+
+        $r24 = new android.media.MediaPlayer;
+
+        specialinvoke $r24.<android.media.MediaPlayer: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onPrepared(android.media.MediaPlayer)>($r24);
+
+        $r24 = null;
+
+     label036:
+        if $i0 == 42 goto label031;
+
+        $r25 = new android.content.Intent;
+
+        specialinvoke $r25.<android.content.Intent: void <init>()>();
+
+        $z5 = virtualinvoke $r12.<org.npr.android.news.PlaybackService: boolean onUnbind(android.content.Intent)>($r25);
+
+        $r25 = null;
+
+        if $i0 == 43 goto label037;
+
+        if $i0 == 44 goto label031;
+
+     label037:
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onDestroy()>();
+
+     label038:
+        if $i0 == 45 goto label044;
+
+        $r26 = new org.npr.android.news.SearchResultsActivity;
+
+        specialinvoke $r26.<org.npr.android.news.SearchResultsActivity: void <init>()>();
+
+        if $i0 == 46 goto label044;
+
+        $r27 = new android.os.Bundle;
+
+        specialinvoke $r27.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r26.<org.npr.android.news.SearchResultsActivity: void onCreate(android.os.Bundle)>($r27);
+
+        $r27 = null;
+
+     label039:
+        if $i0 == 47 goto label043;
+
+     label040:
+        if $i0 == 48 goto label041;
+
+        virtualinvoke $r26.<org.npr.android.news.NewsListActivity: void onLowMemory()>();
+
+     label041:
+        if $i0 == 49 goto label042;
+
+        $r28 = new android.view.View;
+
+        specialinvoke $r28.<android.view.View: void <init>(android.content.Context)>($r26);
+
+        virtualinvoke $r26.<org.npr.android.news.NewsListActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r28, 0, 0L);
+
+        $r28 = null;
+
+     label042:
+        if $i0 == 50 goto label040;
+
+     label043:
+        if $i0 == 51 goto label039;
+
+        if $i0 == 52 goto label044;
+
+        if $i0 == 53 goto label039;
+
+     label044:
+        if $i0 == 55 goto label050;
+
+        $r29 = new org.npr.android.news.PodcastActivity;
+
+        specialinvoke $r29.<org.npr.android.news.PodcastActivity: void <init>()>();
+
+        if $i0 == 56 goto label050;
+
+        $r30 = new android.os.Bundle;
+
+        specialinvoke $r30.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r29.<org.npr.android.news.PodcastActivity: void onCreate(android.os.Bundle)>($r30);
+
+        $r30 = null;
+
+     label045:
+        if $i0 == 57 goto label049;
+
+     label046:
+        if $i0 == 58 goto label047;
+
+        virtualinvoke $r29.<org.npr.android.news.PodcastActivity: void onClick(android.content.DialogInterface,int)>(null, 0);
+
+     label047:
+        if $i0 == 59 goto label048;
+
+        $r31 = new android.view.View;
+
+        specialinvoke $r31.<android.view.View: void <init>(android.content.Context)>($r29);
+
+        virtualinvoke $r29.<org.npr.android.news.PodcastActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r31, 0, 0L);
+
+        $r31 = null;
+
+     label048:
+        if $i0 == 60 goto label046;
+
+     label049:
+        if $i0 == 61 goto label045;
+
+        if $i0 == 62 goto label050;
+
+        if $i0 == 63 goto label045;
+
+     label050:
+        if $i0 == 65 goto label058;
+
+        $r32 = new org.npr.android.news.PlaylistActivity;
+
+        specialinvoke $r32.<org.npr.android.news.PlaylistActivity: void <init>()>();
+
+        if $i0 == 66 goto label058;
+
+        $r33 = new android.os.Bundle;
+
+        specialinvoke $r33.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r32.<org.npr.android.news.PlaylistActivity: void onCreate(android.os.Bundle)>($r33);
+
+        $r33 = null;
+
+     label051:
+        if $i0 == 67 goto label057;
+
+     label052:
+        if $i0 == 68 goto label053;
+
+        staticinvoke <org.npr.android.news.PlaylistActivity: void <clinit>()>();
+
+     label053:
+        if $i0 == 69 goto label054;
+
+        $r34 = new android.view.View;
+
+        specialinvoke $r34.<android.view.View: void <init>(android.content.Context)>($r32);
+
+        virtualinvoke $r32.<org.npr.android.news.PlaylistActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r34, 0, 0L);
+
+        $r34 = null;
+
+     label054:
+        if $i0 == 70 goto label055;
+
+        $r35 = new android.view.View;
+
+        specialinvoke $r35.<android.view.View: void <init>(android.content.Context)>($r32);
+
+        virtualinvoke $r32.<org.npr.android.news.PlaylistActivity: void onClick(android.view.View)>($r35);
+
+        $r35 = null;
+
+     label055:
+        if $i0 == 71 goto label056;
+
+        virtualinvoke $r32.<org.npr.android.news.PlaylistActivity: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label056:
+        if $i0 == 72 goto label052;
+
+     label057:
+        if $i0 == 73 goto label051;
+
+        if $i0 == 74 goto label058;
+
+        if $i0 == 75 goto label051;
+
+     label058:
+        if $i0 == 77 goto label065;
+
+        $r36 = new org.npr.android.news.StationSearchActivity;
+
+        specialinvoke $r36.<org.npr.android.news.StationSearchActivity: void <init>()>();
+
+        if $i0 == 78 goto label065;
+
+        $r37 = new android.os.Bundle;
+
+        specialinvoke $r37.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r36.<org.npr.android.news.StationSearchActivity: void onCreate(android.os.Bundle)>($r37);
+
+        $r37 = null;
+
+     label059:
+        virtualinvoke $r36.<org.npr.android.news.StationSearchActivity: void onResume()>();
+
+        if $i0 == 79 goto label064;
+
+     label060:
+        if $i0 == 80 goto label061;
+
+        staticinvoke <org.npr.android.news.StationSearchActivity: void <clinit>()>();
+
+     label061:
+        if $i0 == 81 goto label062;
+
+        $r38 = new android.view.View;
+
+        specialinvoke $r38.<android.view.View: void <init>(android.content.Context)>($r36);
+
+        virtualinvoke $r36.<org.npr.android.news.StationSearchActivity: void onClick(android.view.View)>($r38);
+
+        $r38 = null;
+
+     label062:
+        if $i0 == 82 goto label063;
+
+        $r39 = new android.widget.RadioGroup;
+
+        specialinvoke $r39.<android.widget.RadioGroup: void <init>(android.content.Context)>($r36);
+
+        virtualinvoke $r36.<org.npr.android.news.StationSearchActivity: void onCheckedChanged(android.widget.RadioGroup,int)>($r39, 0);
+
+        $r39 = null;
+
+     label063:
+        if $i0 == 83 goto label060;
+
+     label064:
+        if $i0 == 84 goto label059;
+
+        if $i0 == 85 goto label065;
+
+        if $i0 == 86 goto label059;
+
+     label065:
+        if $i0 == 88 goto label072;
+
+        if $i0 == 89 goto label072;
+
+        if $i0 == 90 goto label072;
+
+     label066:
+        if $i0 == 91 goto label067;
+
+        $r40 = newarray (java.lang.String)[1];
+
+        $r40[0] = "";
+
+        $i1 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>(null, "", $r40);
+
+     label067:
+        if $i0 == 92 goto label068;
+
+        $r41 = newarray (java.lang.String)[1];
+
+        $r41[0] = "";
+
+        $r42 = newarray (java.lang.String)[1];
+
+        $r42[0] = "";
+
+        $r43 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>(null, $r41, "", $r42, "");
+
+     label068:
+        if $i0 == 93 goto label069;
+
+        $r44 = new android.content.ContentValues;
+
+        specialinvoke $r44.<android.content.ContentValues: void <init>()>();
+
+        $r45 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>(null, $r44);
+
+        $r44 = null;
+
+     label069:
+        if $i0 == 94 goto label070;
+
+        $r46 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: java.lang.String getType(android.net.Uri)>(null);
+
+     label070:
+        if $i0 == 95 goto label071;
+
+        $r47 = new android.content.ContentValues;
+
+        specialinvoke $r47.<android.content.ContentValues: void <init>()>();
+
+        $r48 = newarray (java.lang.String)[1];
+
+        $r48[0] = "";
+
+        $i2 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>(null, $r47, "", $r48);
+
+        $r47 = null;
+
+     label071:
+        if $i0 == 96 goto label066;
+
+     label072:
+        if $i0 == 97 goto label077;
+
+        $r49 = new org.npr.android.news.StationDetailsActivity;
+
+        specialinvoke $r49.<org.npr.android.news.StationDetailsActivity: void <init>()>();
+
+        if $i0 == 98 goto label077;
+
+        $r50 = new android.os.Bundle;
+
+        specialinvoke $r50.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r49.<org.npr.android.news.StationDetailsActivity: void onCreate(android.os.Bundle)>($r50);
+
+        $r50 = null;
+
+     label073:
+        if $i0 == 99 goto label076;
+
+     label074:
+        if $i0 == 100 goto label075;
+
+        $r51 = new android.widget.ExpandableListView;
+
+        specialinvoke $r51.<android.widget.ExpandableListView: void <init>(android.content.Context)>($r49);
+
+        $r52 = new android.view.View;
+
+        specialinvoke $r52.<android.view.View: void <init>(android.content.Context)>($r49);
+
+        $z6 = virtualinvoke $r49.<org.npr.android.news.StationDetailsActivity: boolean onChildClick(android.widget.ExpandableListView,android.view.View,int,int,long)>($r51, $r52, 0, 0, 0L);
+
+        $r51 = null;
+
+        $r52 = null;
+
+     label075:
+        if $i0 == 101 goto label074;
+
+     label076:
+        if $i0 == 102 goto label073;
+
+        if $i0 == 103 goto label077;
+
+        if $i0 == 104 goto label073;
+
+     label077:
+        if $i0 == 106 goto label084;
+
+        $r53 = new org.npr.android.news.NewsListActivity;
+
+        specialinvoke $r53.<org.npr.android.news.NewsListActivity: void <init>()>();
+
+        if $i0 == 107 goto label084;
+
+        $r54 = new android.os.Bundle;
+
+        specialinvoke $r54.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r53.<org.npr.android.news.NewsListActivity: void onCreate(android.os.Bundle)>($r54);
+
+        $r54 = null;
+
+     label078:
+        if $i0 == 108 goto label083;
+
+     label079:
+        if $i0 == 109 goto label080;
+
+        virtualinvoke $r53.<org.npr.android.news.NewsListActivity: void onLowMemory()>();
+
+     label080:
+        if $i0 == 110 goto label081;
+
+        staticinvoke <org.npr.android.news.NewsListActivity: void <clinit>()>();
+
+     label081:
+        if $i0 == 111 goto label082;
+
+        $r55 = new android.view.View;
+
+        specialinvoke $r55.<android.view.View: void <init>(android.content.Context)>($r53);
+
+        virtualinvoke $r53.<org.npr.android.news.NewsListActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r55, 0, 0L);
+
+        $r55 = null;
+
+     label082:
+        if $i0 == 112 goto label079;
+
+     label083:
+        if $i0 == 113 goto label078;
+
+        if $i0 == 114 goto label084;
+
+        if $i0 == 115 goto label078;
+
+     label084:
+        if $i0 == 117 goto label086;
+
+        $r56 = new org.npr.android.news.EditPreferences;
+
+        specialinvoke $r56.<org.npr.android.news.EditPreferences: void <init>()>();
+
+        if $i0 == 118 goto label086;
+
+        $r57 = new android.os.Bundle;
+
+        specialinvoke $r57.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r56.<org.npr.android.news.EditPreferences: void onCreate(android.os.Bundle)>($r57);
+
+        $r57 = null;
+
+     label085:
+        if $i0 == 120 goto label085;
+
+        if $i0 == 121 goto label086;
+
+        if $i0 == 122 goto label085;
+
+     label086:
+        if $i0 == 124 goto label093;
+
+        $r58 = new org.npr.android.news.SearchActivity;
+
+        specialinvoke $r58.<org.npr.android.news.SearchActivity: void <init>()>();
+
+        if $i0 == 125 goto label093;
+
+        $r59 = new android.os.Bundle;
+
+        specialinvoke $r59.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r58.<org.npr.android.news.SearchActivity: void onCreate(android.os.Bundle)>($r59);
+
+        $r59 = null;
+
+     label087:
+        if $i0 == 126 goto label092;
+
+     label088:
+        $r60 = new org.npr.android.news.SearchActivity$1;
+
+        specialinvoke $r60.<org.npr.android.news.SearchActivity$1: void <init>(org.npr.android.news.SearchActivity)>($r58);
+
+        if $i0 == 127 goto label089;
+
+        $r61 = new android.widget.DatePicker;
+
+        specialinvoke $r61.<android.widget.DatePicker: void <init>(android.content.Context)>($r58);
+
+        virtualinvoke $r60.<org.npr.android.news.SearchActivity$1: void onDateSet(android.widget.DatePicker,int,int,int)>($r61, 0, 0, 0);
+
+        $r61 = null;
+
+     label089:
+        $r62 = new org.npr.android.news.SearchActivity$2;
+
+        specialinvoke $r62.<org.npr.android.news.SearchActivity$2: void <init>(org.npr.android.news.SearchActivity)>($r58);
+
+        if $i0 == 128 goto label090;
+
+        $r63 = new android.widget.DatePicker;
+
+        specialinvoke $r63.<android.widget.DatePicker: void <init>(android.content.Context)>($r58);
+
+        virtualinvoke $r62.<org.npr.android.news.SearchActivity$2: void onDateSet(android.widget.DatePicker,int,int,int)>($r63, 0, 0, 0);
+
+        $r63 = null;
+
+     label090:
+        if $i0 == 129 goto label091;
+
+        $r64 = new android.view.View;
+
+        specialinvoke $r64.<android.view.View: void <init>(android.content.Context)>($r58);
+
+        virtualinvoke $r58.<org.npr.android.news.SearchActivity: void onClick(android.view.View)>($r64);
+
+        $r64 = null;
+
+     label091:
+        if $i0 == 130 goto label088;
+
+     label092:
+        if $i0 == 131 goto label087;
+
+        if $i0 == 132 goto label093;
+
+        if $i0 == 133 goto label087;
+
+     label093:
+        if $i0 == 135 goto label098;
+
+        $r65 = new org.npr.android.news.NewsTopicActivity;
+
+        specialinvoke $r65.<org.npr.android.news.NewsTopicActivity: void <init>()>();
+
+        if $i0 == 136 goto label098;
+
+        $r66 = new android.os.Bundle;
+
+        specialinvoke $r66.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r65.<org.npr.android.news.NewsTopicActivity: void onCreate(android.os.Bundle)>($r66);
+
+        $r66 = null;
+
+     label094:
+        if $i0 == 137 goto label097;
+
+     label095:
+        if $i0 == 138 goto label096;
+
+        $r67 = new android.view.View;
+
+        specialinvoke $r67.<android.view.View: void <init>(android.content.Context)>($r65);
+
+        virtualinvoke $r65.<org.npr.android.news.NewsTopicActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r67, 0, 0L);
+
+        $r67 = null;
+
+     label096:
+        if $i0 == 139 goto label095;
+
+     label097:
+        if $i0 == 140 goto label094;
+
+        if $i0 == 141 goto label098;
+
+        if $i0 == 142 goto label094;
+
+     label098:
+        if $i0 == 144 goto label105;
+
+        $r68 = new org.npr.android.news.AboutActivity;
+
+        specialinvoke $r68.<org.npr.android.news.AboutActivity: void <init>()>();
+
+        if $i0 == 145 goto label105;
+
+        $r69 = new android.os.Bundle;
+
+        specialinvoke $r69.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r68.<org.npr.android.news.AboutActivity: void onCreate(android.os.Bundle)>($r69);
+
+        $r69 = null;
+
+     label099:
+        if $i0 == 146 goto label104;
+
+     label100:
+        $r70 = new org.npr.android.news.AboutActivity$2;
+
+        specialinvoke $r70.<org.npr.android.news.AboutActivity$2: void <init>(org.npr.android.news.AboutActivity)>($r68);
+
+        if $i0 == 147 goto label101;
+
+        $r71 = new android.view.View;
+
+        specialinvoke $r71.<android.view.View: void <init>(android.content.Context)>($r68);
+
+        virtualinvoke $r70.<org.npr.android.news.AboutActivity$2: void onClick(android.view.View)>($r71);
+
+        $r71 = null;
+
+     label101:
+        $r72 = new org.npr.android.news.AboutActivity$1;
+
+        specialinvoke $r72.<org.npr.android.news.AboutActivity$1: void <init>(org.npr.android.news.AboutActivity)>($r68);
+
+        if $i0 == 148 goto label102;
+
+        $r73 = new android.view.View;
+
+        specialinvoke $r73.<android.view.View: void <init>(android.content.Context)>($r68);
+
+        virtualinvoke $r72.<org.npr.android.news.AboutActivity$1: void onClick(android.view.View)>($r73);
+
+        $r73 = null;
+
+     label102:
+        $r74 = new org.npr.android.news.AboutActivity$3;
+
+        specialinvoke $r74.<org.npr.android.news.AboutActivity$3: void <init>(org.npr.android.news.AboutActivity)>($r68);
+
+        if $i0 == 149 goto label103;
+
+        $r75 = new android.view.View;
+
+        specialinvoke $r75.<android.view.View: void <init>(android.content.Context)>($r68);
+
+        virtualinvoke $r74.<org.npr.android.news.AboutActivity$3: void onClick(android.view.View)>($r75);
+
+        $r75 = null;
+
+     label103:
+        if $i0 == 150 goto label100;
+
+     label104:
+        if $i0 == 151 goto label099;
+
+        if $i0 == 152 goto label105;
+
+        if $i0 == 153 goto label099;
+
+     label105:
+        if $i0 == 155 goto label111;
+
+        $r76 = new org.npr.android.news.NewsStoryActivity;
+
+        specialinvoke $r76.<org.npr.android.news.NewsStoryActivity: void <init>()>();
+
+        if $i0 == 156 goto label111;
+
+        $r77 = new android.os.Bundle;
+
+        specialinvoke $r77.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r76.<org.npr.android.news.NewsStoryActivity: void onCreate(android.os.Bundle)>($r77);
+
+        $r77 = null;
+
+     label106:
+        if $i0 == 157 goto label110;
+
+     label107:
+        if $i0 == 158 goto label108;
+
+        staticinvoke <org.npr.android.news.NewsStoryActivity: void <clinit>()>();
+
+     label108:
+        if $i0 == 159 goto label109;
+
+        $r78 = new android.view.View;
+
+        specialinvoke $r78.<android.view.View: void <init>(android.content.Context)>($r76);
+
+        virtualinvoke $r76.<org.npr.android.news.NewsStoryActivity: void onClick(android.view.View)>($r78);
+
+        $r78 = null;
+
+     label109:
+        if $i0 == 160 goto label107;
+
+     label110:
+        if $i0 == 161 goto label106;
+
+        if $i0 == 162 goto label111;
+
+        if $i0 == 163 goto label106;
+
+     label111:
+        if $i0 == 165 goto label003;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 8.3 seconds.
+[Spark] Solution found in 8.3 seconds.
+Running incremental callback analysis for 15 components...
+Incremental callback analysis done.
+Found 221 callback methods for 16 components
+Found {res/layout/news_story.xml=[2131296295 - android.widget.Button, 2131296289 - android.widget.LinearLayout, 2131296298 - android.webkit.WebView, 2131296256 - android.widget.LinearLayout, 2131296290 - android.widget.LinearLayout, 2131296296 - android.widget.ImageButton, 2131296294 - android.widget.Button, 2131296293 - android.widget.LinearLayout, 2131296297 - android.widget.TextView, 2131296291 - android.widget.ImageView, 2131296292 - android.widget.TextView], res/layout/podcast.xml=[2131296276 - android.widget.ProgressBar, 2131296256 - android.widget.LinearLayout, 2131296307 - android.widget.TextView, 2131296306 - android.widget.TextView, 2131296285 - android.widget.ListView], res/layout/station_list.xml=[2131296327 - android.widget.Button, 2131296285 - android.widget.ListView], res/layout/news_topics.xml=[2131296285 - android.widget.ListView], res/layout/station_item.xml=[2131296304 - android.widget.ImageView, 2131296325 - android.widget.ImageView, 2131296326 - android.widget.TextView], res/layout/player.xml=[2131296271 - android.widget.Button, 2131296268 - android.widget.SeekBar, 2131296269 - android.widget.TextView, 2131296260 - android.widget.TextView, 2131296299 - android.widget.TextView, 2131296257 - android.widget.ImageView, 2131296265 - android.widget.LinearLayout, 2131296270 - android.widget.ImageButton], res/layout/station_search.xml=[2131296329 - android.widget.Button, 2131296301 - android.widget.RadioButton, 2131296302 - android.widget.RadioButton, 2131296300 - android.widget.RadioGroup, 2131296328 - android.widget.EditText], res/layout/station_stream.xml=[2131296260 - android.widget.TextView, 2131296331 - android.widget.ImageButton], res/layout/playlist.xml=[2131296301 - android.widget.RadioButton, 2131296260 - android.widget.TextView, 2131296302 - android.widget.RadioButton, 2131296303 - android.widget.Button, 2131296300 - android.widget.RadioGroup, 2131296285 - android.widget.ListView], res/layout/news_item.xml=[2131296286 - android.widget.ImageView, 2131296288 - android.widget.TextView, 2131296287 - android.widget.TextView], res/layout/playlist_item.xml=[2131296304 - android.widget.ImageView, 2131296305 - android.widget.TextView], res/layout/main.xml=[2131296278 - android.widget.LinearLayout, 2131296281 - android.widget.FrameLayout, 2131296279 - android.widget.TextView, 2131296280 - android.widget.FrameLayout], res/layout/news.xml=[2131296256 - android.widget.LinearLayout, 2131296285 - android.widget.ListView], res/layout/logo.xml=[2131296276 - android.widget.ProgressBar, 2131296277 - android.widget.ImageButton, 2131296275 - android.widget.LinearLayout, 2131296274 - android.widget.ImageView, 2131296273 - android.widget.ImageView], res/layout/main_item.xml=[2131296283 - android.widget.TextView, 2131296284 - android.widget.TextView], res/layout/station_details.xml=[2131296322 - android.widget.TextView, 2131296319 - android.widget.RelativeLayout, 2131296256 - android.widget.LinearLayout, 2131296323 - android.widget.TextView, 2131296321 - android.widget.ImageView, 2131296324 - android.widget.ExpandableListView, 2131296320 - android.widget.ImageView], res/layout/main_inner.xml=[2131296282 - android.widget.ListView], res/layout/search.xml=[2131296318 - android.widget.Button, 2131296260 - android.widget.TextView, 2131296312 - android.widget.Button, 2131296310 - android.widget.TableRow, 2131296317 - android.widget.EditText, 2131296299 - android.widget.TextView, 2131296313 - android.widget.TableRow, 2131296308 - android.widget.ScrollView, 2131296314 - android.widget.TextView, 2131296311 - android.widget.TextView, 2131296316 - android.widget.TableRow, 2131296315 - android.widget.Button, 2131296309 - android.widget.TableLayout], res/layout/about.xml=[2131296261 - android.widget.Button, 2131296260 - android.widget.TextView, 2131296256 - android.widget.LinearLayout, 2131296257 - android.widget.ImageView, 2131296258 - android.widget.TextView, 2131296259 - android.widget.Button, 2131296262 - android.widget.Button], res/layout/listen.xml=[2131296271 - android.widget.Button, 2131296268 - android.widget.SeekBar, 2131296266 - android.widget.ImageView, 2131296269 - android.widget.TextView, 2131296264 - android.widget.LinearLayout, 2131296272 - android.widget.ImageButton, 2131296267 - android.widget.TextView, 2131296263 - android.widget.SlidingDrawer, 2131296265 - android.widget.LinearLayout, 2131296270 - android.widget.ImageButton], res/layout/station_search_by_item.xml=[2131296330 - android.widget.TextView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 92 sources, 126 sinks, and 221 callback methods.
+Running data flow analysis...
+Running data flow analysis on /Users/Alex/Desktop/apps/buildBenchHEAD/npr/bin/Main-debug.apk with 92 sources and 126 sinks...
+Starting infoflow computation...
+[main] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+Using '/usr/local/opt/android-sdk/platforms/android-19/android.jar' as android.jar
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.widget.AdapterView, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.content.DialogInterface, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.util.AttributeSet, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.os.Parcelable, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.graphics.drawable.Drawable, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.widget.Adapter, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.widget.ListAdapter, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class java.util.ArrayList
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot generate constructor for phantom class java.lang.CharSequence
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.widget.CompoundButton, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.view.ViewGroup$OnHierarchyChangeListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Could not find a suitable constructor for class android.text.TextUtils$TruncateAt
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Could not find a suitable constructor for class android.widget.TextView$BufferType
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.net.Uri, because it is abstract and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod()
+    {
+        int $i0, $i1, $i2, $i3, $i4, $i5, $i6, $i7, $i8, $i9, $i10, $i11, $i12, $i13, $i14, $i15, $i16, $i17, $i18, $i19, $i20, $i21, $i22, $i23, $i24, $i25, $i26, $i27, $i28, $i29;
+        org.npr.android.util.PlaylistProvider $r0;
+        boolean $z0, $z1, $z2, $z3, $z4, $z5, $z6, $z7, $z8, $z9, $z10, $z11, $z12, $z13, $z14, $z15, $z16, $z17, $z18, $z19, $z20, $z21, $z22, $z23, $z24, $z25, $z26, $z27, $z28, $z29, $z30, $z31, $z32, $z33, $z34, $z35, $z36, $z37, $z38, $z39, $z40, $z41, $z42, $z43, $z44, $z45, $z46, $z47, $z48, $z49, $z50, $z51, $z52, $z53, $z54, $z55, $z56, $z57, $z58, $z59, $z60, $z61, $z62, $z63, $z64, $z65, $z66, $z67, $z68, $z69, $z70, $z71, $z72, $z73, $z74, $z75, $z76, $z77;
+        org.npr.android.news.Main $r1;
+        android.os.Bundle $r2, $r8, $r27, $r30, $r82, $r87, $r139, $r144, $r176, $r180, $r183, $r185, $r192, $r195, $r238, $r243;
+        android.view.View $r3, $r9, $r10, $r28, $r31, $r45, $r49, $r51, $r59, $r79, $r88, $r89, $r97, $r103, $r105, $r113, $r136, $r145, $r154, $r178, $r181, $r190, $r193, $r203, $r214, $r216, $r235, $r244;
+        org.npr.android.news.Main$4 $r4;
+        android.location.Location $r5;
+        org.npr.android.news.Main$3 $r6;
+        org.npr.android.news.StationListActivity $r7;
+        android.content.Intent $r11, $r18, $r25, $r57, $r111;
+        org.npr.android.news.PlaybackService $r12;
+        android.media.MediaPlayer $r13, $r14, $r15, $r16, $r17, $r20, $r21, $r22, $r23, $r24;
+        android.os.IBinder $r19;
+        org.npr.android.news.SearchResultsActivity $r26;
+        org.npr.android.news.PodcastActivity $r29;
+        android.widget.LinearLayout $r32, $r204;
+        android.view.ViewGroup$LayoutParams $r33, $r34, $r35, $r36, $r38, $r95, $r98, $r152, $r155, $r205, $r206, $r207, $r208, $r210;
+        android.graphics.Canvas $r37, $r43, $r58, $r62, $r84, $r112, $r116, $r141, $r201, $r209, $r240;
+        android.view.accessibility.AccessibilityEvent $r39, $r42, $r55, $r69, $r76, $r91, $r100, $r109, $r120, $r126, $r133, $r148, $r157, $r162, $r165, $r197, $r198, $r211, $r219, $r225, $r232;
+        android.view.accessibility.AccessibilityNodeInfo $r40, $r44, $r52, $r60, $r81, $r92, $r99, $r106, $r114, $r119, $r138, $r149, $r156, $r161, $r164, $r199, $r212, $r218, $r237;
+        android.widget.ProgressBar $r41;
+        android.os.Parcelable $r46, $r68, $r125, $r224;
+        android.widget.ListView $r47, $r101;
+        android.view.KeyEvent $r48, $r53, $r61, $r63, $r65, $r73, $r77, $r78, $r85, $r102, $r107, $r115, $r117, $r122, $r130, $r134, $r135, $r142, $r221, $r229, $r233, $r234, $r241;
+        android.graphics.Rect $r50, $r54, $r66, $r80, $r104, $r108, $r123, $r137, $r222, $r236;
+        android.widget.Adapter $r56, $r110;
+        android.widget.TextView $r64, $r121, $r220;
+        android.view.DragEvent $r67, $r124, $r223;
+        float $f0, $f1, $f2, $f3, $f4, $f5;
+        android.view.MotionEvent $r70, $r74, $r83, $r127, $r131, $r140, $r226, $r231, $r239;
+        android.view.inputmethod.EditorInfo $r71, $r128, $r227;
+        android.view.inputmethod.InputConnection $r72, $r129, $r228;
+        int[] $r75, $r132, $r200, $r230;
+        org.npr.android.news.PlaylistActivity $r86;
+        android.widget.RadioButton $r90, $r147;
+        android.widget.RadioGroup $r93, $r146, $r150;
+        android.widget.LinearLayout$LayoutParams $r94, $r96, $r151, $r153;
+        android.widget.Button $r118, $r163, $r217;
+        org.npr.android.news.StationSearchActivity $r143;
+        android.widget.EditText $r158;
+        android.text.method.MovementMethod $r159;
+        java.lang.CharSequence $r160;
+        java.lang.String[] $r166, $r168, $r169, $r172;
+        java.lang.String $r167;
+        android.database.Cursor $r170;
+        android.content.ContentValues $r171, $r173;
+        android.net.Uri $r174;
+        org.npr.android.news.StationDetailsActivity $r175;
+        android.widget.ExpandableListView $r177;
+        org.npr.android.news.NewsListActivity $r179;
+        org.npr.android.news.EditPreferences $r182;
+        org.npr.android.news.SearchActivity $r184;
+        org.npr.android.news.SearchActivity$2 $r186;
+        android.widget.DatePicker $r187, $r189;
+        org.npr.android.news.SearchActivity$1 $r188;
+        org.npr.android.news.NewsTopicActivity $r191;
+        org.npr.android.news.AboutActivity $r194;
+        android.widget.ImageView $r196;
+        org.npr.android.news.AboutActivity$3 $r202;
+        org.npr.android.news.AboutActivity$2 $r213;
+        org.npr.android.news.AboutActivity$1 $r215;
+        org.npr.android.news.NewsStoryActivity $r242;
+
+        $i0 = 0;
+
+     label001:
+        $r0 = new org.npr.android.util.PlaylistProvider;
+
+        specialinvoke $r0.<org.npr.android.util.PlaylistProvider: void <init>()>();
+
+        if $i0 == 0 goto label002;
+
+        $z0 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: boolean onCreate()>();
+
+     label002:
+        if $i0 == 1 goto label001;
+
+     label003:
+        if $i0 == 2 goto label012;
+
+        $r1 = new org.npr.android.news.Main;
+
+        specialinvoke $r1.<org.npr.android.news.Main: void <init>()>();
+
+        if $i0 == 3 goto label012;
+
+        $r2 = new android.os.Bundle;
+
+        specialinvoke $r2.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r1.<org.npr.android.news.Main: void onCreate(android.os.Bundle)>($r2);
+
+        $r2 = null;
+
+     label004:
+        if $i0 == 4 goto label010;
+
+     label005:
+        if $i0 == 5 goto label006;
+
+        staticinvoke <org.npr.android.news.Main: void <clinit>()>();
+
+     label006:
+        if $i0 == 6 goto label007;
+
+        $r3 = new android.view.View;
+
+        specialinvoke $r3.<android.view.View: void <init>(android.content.Context)>($r1);
+
+        virtualinvoke $r1.<org.npr.android.news.Main: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r3, 0, 0L);
+
+        $r3 = null;
+
+     label007:
+        $r4 = new org.npr.android.news.Main$4;
+
+        specialinvoke $r4.<org.npr.android.news.Main$4: void <init>(org.npr.android.news.Main)>($r1);
+
+        if $i0 == 7 goto label008;
+
+        $r5 = new android.location.Location;
+
+        specialinvoke $r5.<android.location.Location: void <init>(java.lang.String)>("");
+
+        virtualinvoke $r4.<org.npr.android.news.Main$4: void onLocationChanged(android.location.Location)>($r5);
+
+        $r5 = null;
+
+     label008:
+        $r6 = new org.npr.android.news.Main$3;
+
+        specialinvoke $r6.<org.npr.android.news.Main$3: void <init>(org.npr.android.news.Main)>($r1);
+
+        if $i0 == 8 goto label009;
+
+        virtualinvoke $r6.<org.npr.android.news.Main$3: void onCancel(android.content.DialogInterface)>(null);
+
+     label009:
+        if $i0 == 9 goto label005;
+
+     label010:
+        if $i0 == 10 goto label004;
+
+        if $i0 == 11 goto label011;
+
+        if $i0 == 12 goto label004;
+
+     label011:
+        virtualinvoke $r1.<org.npr.android.news.Main: void onDestroy()>();
+
+     label012:
+        if $i0 == 14 goto label021;
+
+        $r7 = new org.npr.android.news.StationListActivity;
+
+        specialinvoke $r7.<org.npr.android.news.StationListActivity: void <init>()>();
+
+        if $i0 == 15 goto label021;
+
+        $r8 = new android.os.Bundle;
+
+        specialinvoke $r8.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r7.<org.npr.android.news.StationListActivity: void onCreate(android.os.Bundle)>($r8);
+
+        $r8 = null;
+
+     label013:
+        if $i0 == 16 goto label020;
+
+     label014:
+        if $i0 == 17 goto label015;
+
+        virtualinvoke $r7.<org.npr.android.news.StationListActivity: void onLowMemory()>();
+
+     label015:
+        if $i0 == 18 goto label016;
+
+        $r9 = new android.view.View;
+
+        specialinvoke $r9.<android.view.View: void <init>(android.content.Context)>($r7);
+
+        virtualinvoke $r7.<org.npr.android.news.StationListActivity: void onClick(android.view.View)>($r9);
+
+        $r9 = null;
+
+     label016:
+        if $i0 == 19 goto label017;
+
+        staticinvoke <org.npr.android.news.StationListActivity: void <clinit>()>();
+
+     label017:
+        if $i0 == 20 goto label018;
+
+        $r10 = new android.view.View;
+
+        specialinvoke $r10.<android.view.View: void <init>(android.content.Context)>($r7);
+
+        virtualinvoke $r7.<org.npr.android.news.StationListActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r10, 0, 0L);
+
+        $r10 = null;
+
+     label018:
+        if $i0 == 21 goto label019;
+
+        $r11 = new android.content.Intent;
+
+        specialinvoke $r11.<android.content.Intent: void <init>()>();
+
+        virtualinvoke $r7.<org.npr.android.news.StationListActivity: void onActivityResult(int,int,android.content.Intent)>(0, 0, $r11);
+
+        $r11 = null;
+
+     label019:
+        if $i0 == 22 goto label014;
+
+     label020:
+        if $i0 == 23 goto label013;
+
+        if $i0 == 24 goto label021;
+
+        if $i0 == 25 goto label013;
+
+     label021:
+        if $i0 == 27 goto label038;
+
+        $r12 = new org.npr.android.news.PlaybackService;
+
+        specialinvoke $r12.<org.npr.android.news.PlaybackService: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onCreate()>();
+
+     label022:
+        if $i0 == 28 goto label023;
+
+        if $i0 == 29 goto label022;
+
+     label023:
+        if $i0 == 30 goto label030;
+
+     label024:
+        if $i0 == 31 goto label025;
+
+        $r13 = new android.media.MediaPlayer;
+
+        specialinvoke $r13.<android.media.MediaPlayer: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onPrepared(android.media.MediaPlayer)>($r13);
+
+        $r13 = null;
+
+     label025:
+        if $i0 == 32 goto label026;
+
+        $r14 = new android.media.MediaPlayer;
+
+        specialinvoke $r14.<android.media.MediaPlayer: void <init>()>();
+
+        $z1 = virtualinvoke $r12.<org.npr.android.news.PlaybackService: boolean onInfo(android.media.MediaPlayer,int,int)>($r14, 0, 0);
+
+        $r14 = null;
+
+     label026:
+        if $i0 == 33 goto label027;
+
+        $r15 = new android.media.MediaPlayer;
+
+        specialinvoke $r15.<android.media.MediaPlayer: void <init>()>();
+
+        $z2 = virtualinvoke $r12.<org.npr.android.news.PlaybackService: boolean onError(android.media.MediaPlayer,int,int)>($r15, 0, 0);
+
+        $r15 = null;
+
+     label027:
+        if $i0 == 34 goto label028;
+
+        $r16 = new android.media.MediaPlayer;
+
+        specialinvoke $r16.<android.media.MediaPlayer: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onBufferingUpdate(android.media.MediaPlayer,int)>($r16, 0);
+
+        $r16 = null;
+
+     label028:
+        if $i0 == 35 goto label029;
+
+        $r17 = new android.media.MediaPlayer;
+
+        specialinvoke $r17.<android.media.MediaPlayer: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onCompletion(android.media.MediaPlayer)>($r17);
+
+        $r17 = null;
+
+     label029:
+        if $i0 == 36 goto label024;
+
+     label030:
+        $r18 = new android.content.Intent;
+
+        specialinvoke $r18.<android.content.Intent: void <init>()>();
+
+        $r19 = virtualinvoke $r12.<org.npr.android.news.PlaybackService: android.os.IBinder onBind(android.content.Intent)>($r18);
+
+        $r18 = null;
+
+     label031:
+        if $i0 == 37 goto label032;
+
+        $r20 = new android.media.MediaPlayer;
+
+        specialinvoke $r20.<android.media.MediaPlayer: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onPrepared(android.media.MediaPlayer)>($r20);
+
+        $r20 = null;
+
+     label032:
+        if $i0 == 38 goto label033;
+
+        $r21 = new android.media.MediaPlayer;
+
+        specialinvoke $r21.<android.media.MediaPlayer: void <init>()>();
+
+        $z3 = virtualinvoke $r12.<org.npr.android.news.PlaybackService: boolean onInfo(android.media.MediaPlayer,int,int)>($r21, 0, 0);
+
+        $r21 = null;
+
+     label033:
+        if $i0 == 39 goto label034;
+
+        $r22 = new android.media.MediaPlayer;
+
+        specialinvoke $r22.<android.media.MediaPlayer: void <init>()>();
+
+        $z4 = virtualinvoke $r12.<org.npr.android.news.PlaybackService: boolean onError(android.media.MediaPlayer,int,int)>($r22, 0, 0);
+
+        $r22 = null;
+
+     label034:
+        if $i0 == 40 goto label035;
+
+        $r23 = new android.media.MediaPlayer;
+
+        specialinvoke $r23.<android.media.MediaPlayer: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onBufferingUpdate(android.media.MediaPlayer,int)>($r23, 0);
+
+        $r23 = null;
+
+     label035:
+        if $i0 == 41 goto label036;
+
+        $r24 = new android.media.MediaPlayer;
+
+        specialinvoke $r24.<android.media.MediaPlayer: void <init>()>();
+
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onCompletion(android.media.MediaPlayer)>($r24);
+
+        $r24 = null;
+
+     label036:
+        if $i0 == 42 goto label031;
+
+        $r25 = new android.content.Intent;
+
+        specialinvoke $r25.<android.content.Intent: void <init>()>();
+
+        $z5 = virtualinvoke $r12.<org.npr.android.news.PlaybackService: boolean onUnbind(android.content.Intent)>($r25);
+
+        $r25 = null;
+
+        if $i0 == 43 goto label037;
+
+        if $i0 == 44 goto label031;
+
+     label037:
+        virtualinvoke $r12.<org.npr.android.news.PlaybackService: void onDestroy()>();
+
+     label038:
+        if $i0 == 45 goto label044;
+
+        $r26 = new org.npr.android.news.SearchResultsActivity;
+
+        specialinvoke $r26.<org.npr.android.news.SearchResultsActivity: void <init>()>();
+
+        if $i0 == 46 goto label044;
+
+        $r27 = new android.os.Bundle;
+
+        specialinvoke $r27.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r26.<org.npr.android.news.SearchResultsActivity: void onCreate(android.os.Bundle)>($r27);
+
+        $r27 = null;
+
+     label039:
+        if $i0 == 47 goto label043;
+
+     label040:
+        if $i0 == 48 goto label041;
+
+        $r28 = new android.view.View;
+
+        specialinvoke $r28.<android.view.View: void <init>(android.content.Context)>($r26);
+
+        virtualinvoke $r26.<org.npr.android.news.NewsListActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r28, 0, 0L);
+
+        $r28 = null;
+
+     label041:
+        if $i0 == 49 goto label042;
+
+        virtualinvoke $r26.<org.npr.android.news.NewsListActivity: void onLowMemory()>();
+
+     label042:
+        if $i0 == 50 goto label040;
+
+     label043:
+        if $i0 == 51 goto label039;
+
+        if $i0 == 52 goto label044;
+
+        if $i0 == 53 goto label039;
+
+     label044:
+        if $i0 == 55 goto label158;
+
+        $r29 = new org.npr.android.news.PodcastActivity;
+
+        specialinvoke $r29.<org.npr.android.news.PodcastActivity: void <init>()>();
+
+        if $i0 == 56 goto label158;
+
+        $r30 = new android.os.Bundle;
+
+        specialinvoke $r30.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r29.<org.npr.android.news.PodcastActivity: void onCreate(android.os.Bundle)>($r30);
+
+        $r30 = null;
+
+     label045:
+        if $i0 == 57 goto label157;
+
+     label046:
+        if $i0 == 58 goto label047;
+
+        $r31 = new android.view.View;
+
+        specialinvoke $r31.<android.view.View: void <init>(android.content.Context)>($r29);
+
+        virtualinvoke $r29.<org.npr.android.news.PodcastActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r31, 0, 0L);
+
+        $r31 = null;
+
+     label047:
+        if $i0 == 59 goto label048;
+
+        virtualinvoke $r29.<org.npr.android.news.PodcastActivity: void onClick(android.content.DialogInterface,int)>(null, 0);
+
+     label048:
+        $r32 = new android.widget.LinearLayout;
+
+        specialinvoke $r32.<android.widget.LinearLayout: void <init>(android.content.Context)>($r29);
+
+        if $i0 == 60 goto label049;
+
+        $r33 = new android.view.ViewGroup$LayoutParams;
+
+        specialinvoke $r33.<android.view.ViewGroup$LayoutParams: void <init>(android.content.Context,android.util.AttributeSet)>($r29, null);
+
+        $r34 = virtualinvoke $r32.<android.widget.LinearLayout: android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams)>($r33);
+
+        $r33 = null;
+
+     label049:
+        if $i0 == 61 goto label050;
+
+        $r35 = new android.view.ViewGroup$LayoutParams;
+
+        specialinvoke $r35.<android.view.ViewGroup$LayoutParams: void <init>(android.content.Context,android.util.AttributeSet)>($r29, null);
+
+        $z6 = virtualinvoke $r32.<android.widget.LinearLayout: boolean checkLayoutParams(android.view.ViewGroup$LayoutParams)>($r35);
+
+        $r35 = null;
+
+     label050:
+        if $i0 == 62 goto label051;
+
+        $r36 = virtualinvoke $r32.<android.widget.LinearLayout: android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet)>(null);
+
+     label051:
+        if $i0 == 63 goto label052;
+
+        $r37 = new android.graphics.Canvas;
+
+        specialinvoke $r37.<android.graphics.Canvas: void <init>()>();
+
+        virtualinvoke $r32.<android.widget.LinearLayout: void onDraw(android.graphics.Canvas)>($r37);
+
+        $r37 = null;
+
+     label052:
+        if $i0 == 64 goto label053;
+
+        virtualinvoke $r32.<android.widget.LinearLayout: void onLayout(boolean,int,int,int,int)>(false, 0, 0, 0, 0);
+
+     label053:
+        if $i0 == 65 goto label054;
+
+        $r38 = virtualinvoke $r32.<android.widget.LinearLayout: android.view.ViewGroup$LayoutParams generateDefaultLayoutParams()>();
+
+     label054:
+        if $i0 == 66 goto label055;
+
+        $i1 = virtualinvoke $r32.<android.widget.LinearLayout: int getBaseline()>();
+
+     label055:
+        if $i0 == 67 goto label056;
+
+        $z7 = virtualinvoke $r32.<android.widget.LinearLayout: boolean shouldDelayChildPressedState()>();
+
+     label056:
+        if $i0 == 68 goto label057;
+
+        $r39 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r39.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r32.<android.widget.LinearLayout: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r39);
+
+        $r39 = null;
+
+     label057:
+        if $i0 == 69 goto label058;
+
+        virtualinvoke $r32.<android.widget.LinearLayout: void onMeasure(int,int)>(0, 0);
+
+     label058:
+        if $i0 == 70 goto label059;
+
+        $r40 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r40.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r32.<android.widget.LinearLayout: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r40);
+
+        $r40 = null;
+
+     label059:
+        $r41 = new android.widget.ProgressBar;
+
+        specialinvoke $r41.<android.widget.ProgressBar: void <init>(android.content.Context)>($r29);
+
+        if $i0 == 71 goto label060;
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void onDetachedFromWindow()>();
+
+     label060:
+        if $i0 == 72 goto label061;
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void drawableStateChanged()>();
+
+     label061:
+        if $i0 == 73 goto label062;
+
+        $r42 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r42.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r42);
+
+        $r42 = null;
+
+     label062:
+        if $i0 == 74 goto label063;
+
+        $r43 = new android.graphics.Canvas;
+
+        specialinvoke $r43.<android.graphics.Canvas: void <init>()>();
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void onDraw(android.graphics.Canvas)>($r43);
+
+        $r43 = null;
+
+     label063:
+        if $i0 == 75 goto label064;
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void onRestoreInstanceState(android.os.Parcelable)>(null);
+
+     label064:
+        if $i0 == 76 goto label065;
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void onAttachedToWindow()>();
+
+     label065:
+        if $i0 == 77 goto label066;
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void invalidateDrawable(android.graphics.drawable.Drawable)>(null);
+
+     label066:
+        if $i0 == 78 goto label067;
+
+        $z8 = virtualinvoke $r41.<android.widget.ProgressBar: boolean verifyDrawable(android.graphics.drawable.Drawable)>(null);
+
+     label067:
+        if $i0 == 79 goto label068;
+
+        $r44 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r44.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r44);
+
+        $r44 = null;
+
+     label068:
+        if $i0 == 80 goto label069;
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void postInvalidate()>();
+
+     label069:
+        if $i0 == 81 goto label070;
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void onMeasure(int,int)>(0, 0);
+
+     label070:
+        if $i0 == 82 goto label071;
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void setVisibility(int)>(0);
+
+     label071:
+        if $i0 == 83 goto label072;
+
+        $r45 = new android.view.View;
+
+        specialinvoke $r45.<android.view.View: void <init>(android.content.Context)>($r29);
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void onVisibilityChanged(android.view.View,int)>($r45, 0);
+
+        $r45 = null;
+
+     label072:
+        if $i0 == 84 goto label073;
+
+        $r46 = virtualinvoke $r41.<android.widget.ProgressBar: android.os.Parcelable onSaveInstanceState()>();
+
+     label073:
+        if $i0 == 85 goto label074;
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void onSizeChanged(int,int,int,int)>(0, 0, 0, 0);
+
+     label074:
+        if $i0 == 86 goto label075;
+
+        virtualinvoke $r41.<android.widget.ProgressBar: void jumpDrawablesToCurrentState()>();
+
+     label075:
+        $r47 = new android.widget.ListView;
+
+        specialinvoke $r47.<android.widget.ListView: void <init>(android.content.Context)>($r29);
+
+        if $i0 == 87 goto label076;
+
+        $r48 = new android.view.KeyEvent;
+
+        specialinvoke $r48.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z9 = virtualinvoke $r47.<android.widget.ListView: boolean dispatchKeyEvent(android.view.KeyEvent)>($r48);
+
+        $r48 = null;
+
+     label076:
+        if $i0 == 88 goto label077;
+
+        $r49 = new android.view.View;
+
+        specialinvoke $r49.<android.view.View: void <init>(android.content.Context)>($r29);
+
+        $r50 = new android.graphics.Rect;
+
+        specialinvoke $r50.<android.graphics.Rect: void <init>()>();
+
+        $z10 = virtualinvoke $r47.<android.widget.ListView: boolean requestChildRectangleOnScreen(android.view.View,android.graphics.Rect,boolean)>($r49, $r50, false);
+
+        $r49 = null;
+
+        $r50 = null;
+
+     label077:
+        if $i0 == 89 goto label078;
+
+        $r51 = new android.view.View;
+
+        specialinvoke $r51.<android.view.View: void <init>(android.content.Context)>($r29);
+
+        $r52 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r52.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r47.<android.widget.ListView: void onInitializeAccessibilityNodeInfoForItem(android.view.View,int,android.view.accessibility.AccessibilityNodeInfo)>($r51, 0, $r52);
+
+        $r51 = null;
+
+        $r52 = null;
+
+     label078:
+        if $i0 == 90 goto label079;
+
+        $r53 = new android.view.KeyEvent;
+
+        specialinvoke $r53.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z11 = virtualinvoke $r47.<android.widget.ListView: boolean onKeyDown(int,android.view.KeyEvent)>(0, $r53);
+
+        $r53 = null;
+
+     label079:
+        if $i0 == 91 goto label080;
+
+        $r54 = new android.graphics.Rect;
+
+        specialinvoke $r54.<android.graphics.Rect: void <init>()>();
+
+        virtualinvoke $r47.<android.widget.ListView: void onFocusChanged(boolean,int,android.graphics.Rect)>(false, 0, $r54);
+
+        $r54 = null;
+
+     label080:
+        if $i0 == 92 goto label081;
+
+        $r55 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r55.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r47.<android.widget.ListView: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r55);
+
+        $r55 = null;
+
+     label081:
+        if $i0 == 93 goto label082;
+
+        virtualinvoke $r47.<android.widget.ListView: void layoutChildren()>();
+
+     label082:
+        if $i0 == 94 goto label083;
+
+        $r56 = virtualinvoke $r47.<android.widget.ListView: android.widget.Adapter getAdapter()>();
+
+     label083:
+        if $i0 == 95 goto label084;
+
+        virtualinvoke $r47.<android.widget.ListView: void onSizeChanged(int,int,int,int)>(0, 0, 0, 0);
+
+     label084:
+        if $i0 == 96 goto label085;
+
+        $z12 = virtualinvoke $r47.<android.widget.ListView: boolean canAnimate()>();
+
+     label085:
+        if $i0 == 97 goto label086;
+
+        virtualinvoke $r47.<android.widget.ListView: void setCacheColorHint(int)>(0);
+
+     label086:
+        if $i0 == 98 goto label087;
+
+        virtualinvoke $r47.<android.widget.ListView: void smoothScrollToPosition(int)>(0);
+
+     label087:
+        if $i0 == 99 goto label088;
+
+        virtualinvoke $r47.<android.widget.ListView: void setAdapter(android.widget.Adapter)>(null);
+
+     label088:
+        if $i0 == 100 goto label089;
+
+        virtualinvoke $r47.<android.widget.ListView: void onFinishInflate()>();
+
+     label089:
+        if $i0 == 101 goto label090;
+
+        virtualinvoke $r47.<android.widget.ListView: void onMeasure(int,int)>(0, 0);
+
+     label090:
+        if $i0 == 102 goto label091;
+
+        $r57 = new android.content.Intent;
+
+        specialinvoke $r57.<android.content.Intent: void <init>()>();
+
+        virtualinvoke $r47.<android.widget.ListView: void setRemoteViewsAdapter(android.content.Intent)>($r57);
+
+        $r57 = null;
+
+     label091:
+        if $i0 == 103 goto label092;
+
+        $r58 = new android.graphics.Canvas;
+
+        specialinvoke $r58.<android.graphics.Canvas: void <init>()>();
+
+        $r59 = new android.view.View;
+
+        specialinvoke $r59.<android.view.View: void <init>(android.content.Context)>($r29);
+
+        $z13 = virtualinvoke $r47.<android.widget.ListView: boolean drawChild(android.graphics.Canvas,android.view.View,long)>($r58, $r59, 0L);
+
+        $r58 = null;
+
+        $r59 = null;
+
+     label092:
+        if $i0 == 104 goto label093;
+
+        $r60 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r60.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r47.<android.widget.ListView: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r60);
+
+        $r60 = null;
+
+     label093:
+        if $i0 == 105 goto label094;
+
+        $r61 = new android.view.KeyEvent;
+
+        specialinvoke $r61.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z14 = virtualinvoke $r47.<android.widget.ListView: boolean onKeyMultiple(int,int,android.view.KeyEvent)>(0, 0, $r61);
+
+        $r61 = null;
+
+     label094:
+        if $i0 == 106 goto label095;
+
+        virtualinvoke $r47.<android.widget.ListView: void setSelection(int)>(0);
+
+     label095:
+        if $i0 == 107 goto label096;
+
+        $r62 = new android.graphics.Canvas;
+
+        specialinvoke $r62.<android.graphics.Canvas: void <init>()>();
+
+        virtualinvoke $r47.<android.widget.ListView: void dispatchDraw(android.graphics.Canvas)>($r62);
+
+        $r62 = null;
+
+     label096:
+        if $i0 == 108 goto label097;
+
+        $r63 = new android.view.KeyEvent;
+
+        specialinvoke $r63.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z15 = virtualinvoke $r47.<android.widget.ListView: boolean onKeyUp(int,android.view.KeyEvent)>(0, $r63);
+
+        $r63 = null;
+
+     label097:
+        if $i0 == 109 goto label098;
+
+        virtualinvoke $r47.<android.widget.ListView: void setAdapter(android.widget.ListAdapter)>(null);
+
+     label098:
+        if $i0 == 110 goto label099;
+
+        $z16 = virtualinvoke $r47.<android.widget.ListView: boolean isOpaque()>();
+
+     label099:
+        $r64 = new android.widget.TextView;
+
+        specialinvoke $r64.<android.widget.TextView: void <init>(android.content.Context)>($r29);
+
+        if $i0 == 111 goto label100;
+
+        virtualinvoke $r64.<android.widget.TextView: void onAttachedToWindow()>();
+
+     label100:
+        if $i0 == 112 goto label101;
+
+        virtualinvoke $r64.<android.widget.TextView: void setPadding(int,int,int,int)>(0, 0, 0, 0);
+
+     label101:
+        if $i0 == 113 goto label102;
+
+        virtualinvoke $r64.<android.widget.TextView: void onLayout(boolean,int,int,int,int)>(false, 0, 0, 0, 0);
+
+     label102:
+        if $i0 == 114 goto label103;
+
+        $r65 = new android.view.KeyEvent;
+
+        specialinvoke $r65.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z17 = virtualinvoke $r64.<android.widget.TextView: boolean onKeyShortcut(int,android.view.KeyEvent)>(0, $r65);
+
+        $r65 = null;
+
+     label103:
+        if $i0 == 115 goto label104;
+
+        $r66 = new android.graphics.Rect;
+
+        specialinvoke $r66.<android.graphics.Rect: void <init>()>();
+
+        virtualinvoke $r64.<android.widget.TextView: void onFocusChanged(boolean,int,android.graphics.Rect)>(false, 0, $r66);
+
+        $r66 = null;
+
+     label104:
+        if $i0 == 116 goto label105;
+
+        $r67 = new android.view.DragEvent;
+
+        specialinvoke $r67.<android.view.DragEvent: void <init>()>();
+
+        $z18 = virtualinvoke $r64.<android.widget.TextView: boolean onDragEvent(android.view.DragEvent)>($r67);
+
+        $r67 = null;
+
+     label105:
+        if $i0 == 117 goto label106;
+
+        $r68 = virtualinvoke $r64.<android.widget.TextView: android.os.Parcelable onSaveInstanceState()>();
+
+     label106:
+        if $i0 == 118 goto label107;
+
+        $z19 = virtualinvoke $r64.<android.widget.TextView: boolean verifyDrawable(android.graphics.drawable.Drawable)>(null);
+
+     label107:
+        if $i0 == 119 goto label108;
+
+        $r69 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r69.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r64.<android.widget.TextView: void onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r69);
+
+        $r69 = null;
+
+     label108:
+        if $i0 == 120 goto label109;
+
+        $i2 = virtualinvoke $r64.<android.widget.TextView: int computeHorizontalScrollRange()>();
+
+     label109:
+        if $i0 == 121 goto label110;
+
+        $f0 = virtualinvoke $r64.<android.widget.TextView: float getRightFadingEdgeStrength()>();
+
+     label110:
+        if $i0 == 122 goto label111;
+
+        $z20 = virtualinvoke $r64.<android.widget.TextView: boolean hasOverlappingRendering()>();
+
+     label111:
+        if $i0 == 123 goto label112;
+
+        virtualinvoke $r64.<android.widget.TextView: void setPaddingRelative(int,int,int,int)>(0, 0, 0, 0);
+
+     label112:
+        if $i0 == 124 goto label113;
+
+        virtualinvoke $r64.<android.widget.TextView: void drawableStateChanged()>();
+
+     label113:
+        if $i0 == 125 goto label114;
+
+        $i3 = virtualinvoke $r64.<android.widget.TextView: int computeVerticalScrollExtent()>();
+
+     label114:
+        if $i0 == 126 goto label115;
+
+        $r70 = new android.view.MotionEvent;
+
+        specialinvoke $r70.<android.view.MotionEvent: void <init>()>();
+
+        $z21 = virtualinvoke $r64.<android.widget.TextView: boolean onTouchEvent(android.view.MotionEvent)>($r70);
+
+        $r70 = null;
+
+     label115:
+        if $i0 == 127 goto label116;
+
+        $r71 = new android.view.inputmethod.EditorInfo;
+
+        specialinvoke $r71.<android.view.inputmethod.EditorInfo: void <init>()>();
+
+        $r72 = virtualinvoke $r64.<android.widget.TextView: android.view.inputmethod.InputConnection onCreateInputConnection(android.view.inputmethod.EditorInfo)>($r71);
+
+        $r71 = null;
+
+     label116:
+        if $i0 == 128 goto label117;
+
+        virtualinvoke $r64.<android.widget.TextView: void computeScroll()>();
+
+     label117:
+        if $i0 == 129 goto label118;
+
+        $i4 = virtualinvoke $r64.<android.widget.TextView: int getLeftPaddingOffset()>();
+
+     label118:
+        if $i0 == 130 goto label119;
+
+        virtualinvoke $r64.<android.widget.TextView: void onDetachedFromWindow()>();
+
+     label119:
+        if $i0 == 131 goto label120;
+
+        $i5 = virtualinvoke $r64.<android.widget.TextView: int getBaseline()>();
+
+     label120:
+        if $i0 == 132 goto label121;
+
+        $r73 = new android.view.KeyEvent;
+
+        specialinvoke $r73.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z22 = virtualinvoke $r64.<android.widget.TextView: boolean onKeyDown(int,android.view.KeyEvent)>(0, $r73);
+
+        $r73 = null;
+
+     label121:
+        if $i0 == 133 goto label122;
+
+        virtualinvoke $r64.<android.widget.TextView: void jumpDrawablesToCurrentState()>();
+
+     label122:
+        if $i0 == 134 goto label123;
+
+        $r74 = new android.view.MotionEvent;
+
+        specialinvoke $r74.<android.view.MotionEvent: void <init>()>();
+
+        $z23 = virtualinvoke $r64.<android.widget.TextView: boolean onGenericMotionEvent(android.view.MotionEvent)>($r74);
+
+        $r74 = null;
+
+     label123:
+        if $i0 == 135 goto label124;
+
+        $r75 = virtualinvoke $r64.<android.widget.TextView: int[] onCreateDrawableState(int)>(0);
+
+     label124:
+        if $i0 == 136 goto label125;
+
+        $z24 = virtualinvoke $r64.<android.widget.TextView: boolean performLongClick()>();
+
+     label125:
+        if $i0 == 137 goto label126;
+
+        $i6 = virtualinvoke $r64.<android.widget.TextView: int computeVerticalScrollRange()>();
+
+     label126:
+        if $i0 == 138 goto label127;
+
+        virtualinvoke $r64.<android.widget.TextView: void onScrollChanged(int,int,int,int)>(0, 0, 0, 0);
+
+     label127:
+        if $i0 == 139 goto label128;
+
+        $r76 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r76.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r64.<android.widget.TextView: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r76);
+
+        $r76 = null;
+
+     label128:
+        if $i0 == 140 goto label129;
+
+        virtualinvoke $r64.<android.widget.TextView: void onStartTemporaryDetach()>();
+
+     label129:
+        if $i0 == 141 goto label130;
+
+        $f1 = virtualinvoke $r64.<android.widget.TextView: float getLeftFadingEdgeStrength()>();
+
+     label130:
+        if $i0 == 142 goto label131;
+
+        virtualinvoke $r64.<android.widget.TextView: void onFinishTemporaryDetach()>();
+
+     label131:
+        if $i0 == 143 goto label132;
+
+        virtualinvoke $r64.<android.widget.TextView: void cancelLongPress()>();
+
+     label132:
+        if $i0 == 144 goto label133;
+
+        virtualinvoke $r64.<android.widget.TextView: void setEnabled(boolean)>(false);
+
+     label133:
+        if $i0 == 145 goto label134;
+
+        virtualinvoke $r64.<android.widget.TextView: void onMeasure(int,int)>(0, 0);
+
+     label134:
+        if $i0 == 146 goto label135;
+
+        $r77 = new android.view.KeyEvent;
+
+        specialinvoke $r77.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z25 = virtualinvoke $r64.<android.widget.TextView: boolean onKeyPreIme(int,android.view.KeyEvent)>(0, $r77);
+
+        $r77 = null;
+
+     label135:
+        if $i0 == 147 goto label136;
+
+        virtualinvoke $r64.<android.widget.TextView: void sendAccessibilityEvent(int)>(0);
+
+     label136:
+        if $i0 == 148 goto label137;
+
+        $r78 = new android.view.KeyEvent;
+
+        specialinvoke $r78.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z26 = virtualinvoke $r64.<android.widget.TextView: boolean onKeyMultiple(int,int,android.view.KeyEvent)>(0, 0, $r78);
+
+        $r78 = null;
+
+     label137:
+        if $i0 == 149 goto label138;
+
+        virtualinvoke $r64.<android.widget.TextView: void onWindowFocusChanged(boolean)>(false);
+
+     label138:
+        if $i0 == 150 goto label139;
+
+        $z27 = virtualinvoke $r64.<android.widget.TextView: boolean onCheckIsTextEditor()>();
+
+     label139:
+        if $i0 == 151 goto label140;
+
+        $r79 = new android.view.View;
+
+        specialinvoke $r79.<android.view.View: void <init>(android.content.Context)>($r29);
+
+        virtualinvoke $r64.<android.widget.TextView: void onVisibilityChanged(android.view.View,int)>($r79, 0);
+
+        $r79 = null;
+
+     label140:
+        if $i0 == 152 goto label141;
+
+        virtualinvoke $r64.<android.widget.TextView: void invalidateDrawable(android.graphics.drawable.Drawable)>(null);
+
+     label141:
+        if $i0 == 153 goto label142;
+
+        $r80 = new android.graphics.Rect;
+
+        specialinvoke $r80.<android.graphics.Rect: void <init>()>();
+
+        virtualinvoke $r64.<android.widget.TextView: void getFocusedRect(android.graphics.Rect)>($r80);
+
+        $r80 = null;
+
+     label142:
+        if $i0 == 154 goto label143;
+
+        $r81 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r81.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r64.<android.widget.TextView: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r81);
+
+        $r81 = null;
+
+     label143:
+        if $i0 == 155 goto label144;
+
+        virtualinvoke $r64.<android.widget.TextView: void onScreenStateChanged(int)>(0);
+
+     label144:
+        if $i0 == 156 goto label145;
+
+        $i7 = virtualinvoke $r64.<android.widget.TextView: int getRightPaddingOffset()>();
+
+     label145:
+        if $i0 == 157 goto label146;
+
+        $i8 = virtualinvoke $r64.<android.widget.TextView: int getBottomPaddingOffset()>();
+
+     label146:
+        if $i0 == 158 goto label147;
+
+        $r82 = new android.os.Bundle;
+
+        specialinvoke $r82.<android.os.Bundle: void <init>()>();
+
+        $z28 = virtualinvoke $r64.<android.widget.TextView: boolean performAccessibilityAction(int,android.os.Bundle)>(0, $r82);
+
+        $r82 = null;
+
+     label147:
+        if $i0 == 159 goto label148;
+
+        virtualinvoke $r64.<android.widget.TextView: void onRestoreInstanceState(android.os.Parcelable)>(null);
+
+     label148:
+        if $i0 == 160 goto label149;
+
+        virtualinvoke $r64.<android.widget.TextView: void onRtlPropertiesChanged(int)>(0);
+
+     label149:
+        if $i0 == 161 goto label150;
+
+        virtualinvoke $r64.<android.widget.TextView: void setSelected(boolean)>(false);
+
+     label150:
+        if $i0 == 162 goto label151;
+
+        virtualinvoke $r64.<android.widget.TextView: void findViewsWithText(java.util.ArrayList,java.lang.CharSequence,int)>(null, null, 0);
+
+     label151:
+        if $i0 == 163 goto label152;
+
+        $z29 = virtualinvoke $r64.<android.widget.TextView: boolean isPaddingOffsetRequired()>();
+
+     label152:
+        if $i0 == 164 goto label153;
+
+        $r83 = new android.view.MotionEvent;
+
+        specialinvoke $r83.<android.view.MotionEvent: void <init>()>();
+
+        $z30 = virtualinvoke $r64.<android.widget.TextView: boolean onTrackballEvent(android.view.MotionEvent)>($r83);
+
+        $r83 = null;
+
+     label153:
+        if $i0 == 165 goto label154;
+
+        $i9 = virtualinvoke $r64.<android.widget.TextView: int getTopPaddingOffset()>();
+
+     label154:
+        if $i0 == 166 goto label155;
+
+        $r84 = new android.graphics.Canvas;
+
+        specialinvoke $r84.<android.graphics.Canvas: void <init>()>();
+
+        virtualinvoke $r64.<android.widget.TextView: void onDraw(android.graphics.Canvas)>($r84);
+
+        $r84 = null;
+
+     label155:
+        if $i0 == 167 goto label156;
+
+        $r85 = new android.view.KeyEvent;
+
+        specialinvoke $r85.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z31 = virtualinvoke $r64.<android.widget.TextView: boolean onKeyUp(int,android.view.KeyEvent)>(0, $r85);
+
+        $r85 = null;
+
+     label156:
+        if $i0 == 168 goto label046;
+
+     label157:
+        if $i0 == 169 goto label045;
+
+        if $i0 == 170 goto label158;
+
+        if $i0 == 171 goto label045;
+
+     label158:
+        if $i0 == 173 goto label260;
+
+        $r86 = new org.npr.android.news.PlaylistActivity;
+
+        specialinvoke $r86.<org.npr.android.news.PlaylistActivity: void <init>()>();
+
+        if $i0 == 174 goto label260;
+
+        $r87 = new android.os.Bundle;
+
+        specialinvoke $r87.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r86.<org.npr.android.news.PlaylistActivity: void onCreate(android.os.Bundle)>($r87);
+
+        $r87 = null;
+
+     label159:
+        if $i0 == 175 goto label259;
+
+     label160:
+        if $i0 == 176 goto label161;
+
+        $r88 = new android.view.View;
+
+        specialinvoke $r88.<android.view.View: void <init>(android.content.Context)>($r86);
+
+        virtualinvoke $r86.<org.npr.android.news.PlaylistActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r88, 0, 0L);
+
+        $r88 = null;
+
+     label161:
+        if $i0 == 177 goto label162;
+
+        $r89 = new android.view.View;
+
+        specialinvoke $r89.<android.view.View: void <init>(android.content.Context)>($r86);
+
+        virtualinvoke $r86.<org.npr.android.news.PlaylistActivity: void onClick(android.view.View)>($r89);
+
+        $r89 = null;
+
+     label162:
+        if $i0 == 178 goto label163;
+
+        virtualinvoke $r86.<org.npr.android.news.PlaylistActivity: void onCheckedChanged(android.widget.CompoundButton,boolean)>(null, false);
+
+     label163:
+        if $i0 == 179 goto label164;
+
+        staticinvoke <org.npr.android.news.PlaylistActivity: void <clinit>()>();
+
+     label164:
+        $r90 = new android.widget.RadioButton;
+
+        specialinvoke $r90.<android.widget.RadioButton: void <init>(android.content.Context)>($r86);
+
+        if $i0 == 180 goto label165;
+
+        $r91 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r91.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r90.<android.widget.RadioButton: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r91);
+
+        $r91 = null;
+
+     label165:
+        if $i0 == 181 goto label166;
+
+        virtualinvoke $r90.<android.widget.RadioButton: void toggle()>();
+
+     label166:
+        if $i0 == 182 goto label167;
+
+        $r92 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r92.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r90.<android.widget.RadioButton: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r92);
+
+        $r92 = null;
+
+     label167:
+        $r93 = new android.widget.RadioGroup;
+
+        specialinvoke $r93.<android.widget.RadioGroup: void <init>(android.content.Context)>($r86);
+
+        if $i0 == 183 goto label168;
+
+        $r94 = virtualinvoke $r93.<android.widget.RadioGroup: android.widget.LinearLayout$LayoutParams generateLayoutParams(android.util.AttributeSet)>(null);
+
+     label168:
+        if $i0 == 184 goto label169;
+
+        virtualinvoke $r93.<android.widget.RadioGroup: void onFinishInflate()>();
+
+     label169:
+        if $i0 == 185 goto label170;
+
+        $r95 = new android.view.ViewGroup$LayoutParams;
+
+        specialinvoke $r95.<android.view.ViewGroup$LayoutParams: void <init>(android.content.Context,android.util.AttributeSet)>($r86, null);
+
+        $z32 = virtualinvoke $r93.<android.widget.RadioGroup: boolean checkLayoutParams(android.view.ViewGroup$LayoutParams)>($r95);
+
+        $r95 = null;
+
+     label170:
+        if $i0 == 186 goto label171;
+
+        $r96 = virtualinvoke $r93.<android.widget.RadioGroup: android.widget.LinearLayout$LayoutParams generateDefaultLayoutParams()>();
+
+     label171:
+        if $i0 == 187 goto label172;
+
+        $r97 = new android.view.View;
+
+        specialinvoke $r97.<android.view.View: void <init>(android.content.Context)>($r86);
+
+        $r98 = new android.view.ViewGroup$LayoutParams;
+
+        specialinvoke $r98.<android.view.ViewGroup$LayoutParams: void <init>(android.content.Context,android.util.AttributeSet)>($r86, null);
+
+        virtualinvoke $r93.<android.widget.RadioGroup: void addView(android.view.View,int,android.view.ViewGroup$LayoutParams)>($r97, 0, $r98);
+
+        $r97 = null;
+
+        $r98 = null;
+
+     label172:
+        if $i0 == 188 goto label173;
+
+        $r99 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r99.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r93.<android.widget.RadioGroup: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r99);
+
+        $r99 = null;
+
+     label173:
+        if $i0 == 189 goto label174;
+
+        virtualinvoke $r93.<android.widget.RadioGroup: void setOnHierarchyChangeListener(android.view.ViewGroup$OnHierarchyChangeListener)>(null);
+
+     label174:
+        if $i0 == 190 goto label175;
+
+        $r100 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r100.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r93.<android.widget.RadioGroup: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r100);
+
+        $r100 = null;
+
+     label175:
+        $r101 = new android.widget.ListView;
+
+        specialinvoke $r101.<android.widget.ListView: void <init>(android.content.Context)>($r86);
+
+        if $i0 == 191 goto label176;
+
+        $r102 = new android.view.KeyEvent;
+
+        specialinvoke $r102.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z33 = virtualinvoke $r101.<android.widget.ListView: boolean dispatchKeyEvent(android.view.KeyEvent)>($r102);
+
+        $r102 = null;
+
+     label176:
+        if $i0 == 192 goto label177;
+
+        $r103 = new android.view.View;
+
+        specialinvoke $r103.<android.view.View: void <init>(android.content.Context)>($r86);
+
+        $r104 = new android.graphics.Rect;
+
+        specialinvoke $r104.<android.graphics.Rect: void <init>()>();
+
+        $z34 = virtualinvoke $r101.<android.widget.ListView: boolean requestChildRectangleOnScreen(android.view.View,android.graphics.Rect,boolean)>($r103, $r104, false);
+
+        $r103 = null;
+
+        $r104 = null;
+
+     label177:
+        if $i0 == 193 goto label178;
+
+        $r105 = new android.view.View;
+
+        specialinvoke $r105.<android.view.View: void <init>(android.content.Context)>($r86);
+
+        $r106 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r106.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r101.<android.widget.ListView: void onInitializeAccessibilityNodeInfoForItem(android.view.View,int,android.view.accessibility.AccessibilityNodeInfo)>($r105, 0, $r106);
+
+        $r105 = null;
+
+        $r106 = null;
+
+     label178:
+        if $i0 == 194 goto label179;
+
+        $r107 = new android.view.KeyEvent;
+
+        specialinvoke $r107.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z35 = virtualinvoke $r101.<android.widget.ListView: boolean onKeyDown(int,android.view.KeyEvent)>(0, $r107);
+
+        $r107 = null;
+
+     label179:
+        if $i0 == 195 goto label180;
+
+        $r108 = new android.graphics.Rect;
+
+        specialinvoke $r108.<android.graphics.Rect: void <init>()>();
+
+        virtualinvoke $r101.<android.widget.ListView: void onFocusChanged(boolean,int,android.graphics.Rect)>(false, 0, $r108);
+
+        $r108 = null;
+
+     label180:
+        if $i0 == 196 goto label181;
+
+        $r109 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r109.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r101.<android.widget.ListView: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r109);
+
+        $r109 = null;
+
+     label181:
+        if $i0 == 197 goto label182;
+
+        virtualinvoke $r101.<android.widget.ListView: void layoutChildren()>();
+
+     label182:
+        if $i0 == 198 goto label183;
+
+        $r110 = virtualinvoke $r101.<android.widget.ListView: android.widget.Adapter getAdapter()>();
+
+     label183:
+        if $i0 == 199 goto label184;
+
+        virtualinvoke $r101.<android.widget.ListView: void onSizeChanged(int,int,int,int)>(0, 0, 0, 0);
+
+     label184:
+        if $i0 == 200 goto label185;
+
+        $z36 = virtualinvoke $r101.<android.widget.ListView: boolean canAnimate()>();
+
+     label185:
+        if $i0 == 201 goto label186;
+
+        virtualinvoke $r101.<android.widget.ListView: void setCacheColorHint(int)>(0);
+
+     label186:
+        if $i0 == 202 goto label187;
+
+        virtualinvoke $r101.<android.widget.ListView: void smoothScrollToPosition(int)>(0);
+
+     label187:
+        if $i0 == 203 goto label188;
+
+        virtualinvoke $r101.<android.widget.ListView: void setAdapter(android.widget.Adapter)>(null);
+
+     label188:
+        if $i0 == 204 goto label189;
+
+        virtualinvoke $r101.<android.widget.ListView: void onFinishInflate()>();
+
+     label189:
+        if $i0 == 205 goto label190;
+
+        virtualinvoke $r101.<android.widget.ListView: void onMeasure(int,int)>(0, 0);
+
+     label190:
+        if $i0 == 206 goto label191;
+
+        $r111 = new android.content.Intent;
+
+        specialinvoke $r111.<android.content.Intent: void <init>()>();
+
+        virtualinvoke $r101.<android.widget.ListView: void setRemoteViewsAdapter(android.content.Intent)>($r111);
+
+        $r111 = null;
+
+     label191:
+        if $i0 == 207 goto label192;
+
+        $r112 = new android.graphics.Canvas;
+
+        specialinvoke $r112.<android.graphics.Canvas: void <init>()>();
+
+        $r113 = new android.view.View;
+
+        specialinvoke $r113.<android.view.View: void <init>(android.content.Context)>($r86);
+
+        $z37 = virtualinvoke $r101.<android.widget.ListView: boolean drawChild(android.graphics.Canvas,android.view.View,long)>($r112, $r113, 0L);
+
+        $r112 = null;
+
+        $r113 = null;
+
+     label192:
+        if $i0 == 208 goto label193;
+
+        $r114 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r114.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r101.<android.widget.ListView: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r114);
+
+        $r114 = null;
+
+     label193:
+        if $i0 == 209 goto label194;
+
+        $r115 = new android.view.KeyEvent;
+
+        specialinvoke $r115.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z38 = virtualinvoke $r101.<android.widget.ListView: boolean onKeyMultiple(int,int,android.view.KeyEvent)>(0, 0, $r115);
+
+        $r115 = null;
+
+     label194:
+        if $i0 == 210 goto label195;
+
+        virtualinvoke $r101.<android.widget.ListView: void setSelection(int)>(0);
+
+     label195:
+        if $i0 == 211 goto label196;
+
+        $r116 = new android.graphics.Canvas;
+
+        specialinvoke $r116.<android.graphics.Canvas: void <init>()>();
+
+        virtualinvoke $r101.<android.widget.ListView: void dispatchDraw(android.graphics.Canvas)>($r116);
+
+        $r116 = null;
+
+     label196:
+        if $i0 == 212 goto label197;
+
+        $r117 = new android.view.KeyEvent;
+
+        specialinvoke $r117.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z39 = virtualinvoke $r101.<android.widget.ListView: boolean onKeyUp(int,android.view.KeyEvent)>(0, $r117);
+
+        $r117 = null;
+
+     label197:
+        if $i0 == 213 goto label198;
+
+        virtualinvoke $r101.<android.widget.ListView: void setAdapter(android.widget.ListAdapter)>(null);
+
+     label198:
+        if $i0 == 214 goto label199;
+
+        $z40 = virtualinvoke $r101.<android.widget.ListView: boolean isOpaque()>();
+
+     label199:
+        $r118 = new android.widget.Button;
+
+        specialinvoke $r118.<android.widget.Button: void <init>(android.content.Context)>($r86);
+
+        if $i0 == 215 goto label200;
+
+        $r119 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r119.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r118.<android.widget.Button: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r119);
+
+        $r119 = null;
+
+     label200:
+        if $i0 == 216 goto label201;
+
+        $r120 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r120.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r118.<android.widget.Button: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r120);
+
+        $r120 = null;
+
+     label201:
+        $r121 = new android.widget.TextView;
+
+        specialinvoke $r121.<android.widget.TextView: void <init>(android.content.Context)>($r86);
+
+        if $i0 == 217 goto label202;
+
+        virtualinvoke $r121.<android.widget.TextView: void onAttachedToWindow()>();
+
+     label202:
+        if $i0 == 218 goto label203;
+
+        virtualinvoke $r121.<android.widget.TextView: void setPadding(int,int,int,int)>(0, 0, 0, 0);
+
+     label203:
+        if $i0 == 219 goto label204;
+
+        virtualinvoke $r121.<android.widget.TextView: void onLayout(boolean,int,int,int,int)>(false, 0, 0, 0, 0);
+
+     label204:
+        if $i0 == 220 goto label205;
+
+        $r122 = new android.view.KeyEvent;
+
+        specialinvoke $r122.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z41 = virtualinvoke $r121.<android.widget.TextView: boolean onKeyShortcut(int,android.view.KeyEvent)>(0, $r122);
+
+        $r122 = null;
+
+     label205:
+        if $i0 == 221 goto label206;
+
+        $r123 = new android.graphics.Rect;
+
+        specialinvoke $r123.<android.graphics.Rect: void <init>()>();
+
+        virtualinvoke $r121.<android.widget.TextView: void onFocusChanged(boolean,int,android.graphics.Rect)>(false, 0, $r123);
+
+        $r123 = null;
+
+     label206:
+        if $i0 == 222 goto label207;
+
+        $r124 = new android.view.DragEvent;
+
+        specialinvoke $r124.<android.view.DragEvent: void <init>()>();
+
+        $z42 = virtualinvoke $r121.<android.widget.TextView: boolean onDragEvent(android.view.DragEvent)>($r124);
+
+        $r124 = null;
+
+     label207:
+        if $i0 == 223 goto label208;
+
+        $r125 = virtualinvoke $r121.<android.widget.TextView: android.os.Parcelable onSaveInstanceState()>();
+
+     label208:
+        if $i0 == 224 goto label209;
+
+        $z43 = virtualinvoke $r121.<android.widget.TextView: boolean verifyDrawable(android.graphics.drawable.Drawable)>(null);
+
+     label209:
+        if $i0 == 225 goto label210;
+
+        $r126 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r126.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r121.<android.widget.TextView: void onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r126);
+
+        $r126 = null;
+
+     label210:
+        if $i0 == 226 goto label211;
+
+        $i10 = virtualinvoke $r121.<android.widget.TextView: int computeHorizontalScrollRange()>();
+
+     label211:
+        if $i0 == 227 goto label212;
+
+        $f2 = virtualinvoke $r121.<android.widget.TextView: float getRightFadingEdgeStrength()>();
+
+     label212:
+        if $i0 == 228 goto label213;
+
+        $z44 = virtualinvoke $r121.<android.widget.TextView: boolean hasOverlappingRendering()>();
+
+     label213:
+        if $i0 == 229 goto label214;
+
+        virtualinvoke $r121.<android.widget.TextView: void setPaddingRelative(int,int,int,int)>(0, 0, 0, 0);
+
+     label214:
+        if $i0 == 230 goto label215;
+
+        virtualinvoke $r121.<android.widget.TextView: void drawableStateChanged()>();
+
+     label215:
+        if $i0 == 231 goto label216;
+
+        $i11 = virtualinvoke $r121.<android.widget.TextView: int computeVerticalScrollExtent()>();
+
+     label216:
+        if $i0 == 232 goto label217;
+
+        $r127 = new android.view.MotionEvent;
+
+        specialinvoke $r127.<android.view.MotionEvent: void <init>()>();
+
+        $z45 = virtualinvoke $r121.<android.widget.TextView: boolean onTouchEvent(android.view.MotionEvent)>($r127);
+
+        $r127 = null;
+
+     label217:
+        if $i0 == 233 goto label218;
+
+        $r128 = new android.view.inputmethod.EditorInfo;
+
+        specialinvoke $r128.<android.view.inputmethod.EditorInfo: void <init>()>();
+
+        $r129 = virtualinvoke $r121.<android.widget.TextView: android.view.inputmethod.InputConnection onCreateInputConnection(android.view.inputmethod.EditorInfo)>($r128);
+
+        $r128 = null;
+
+     label218:
+        if $i0 == 234 goto label219;
+
+        virtualinvoke $r121.<android.widget.TextView: void computeScroll()>();
+
+     label219:
+        if $i0 == 235 goto label220;
+
+        $i12 = virtualinvoke $r121.<android.widget.TextView: int getLeftPaddingOffset()>();
+
+     label220:
+        if $i0 == 236 goto label221;
+
+        virtualinvoke $r121.<android.widget.TextView: void onDetachedFromWindow()>();
+
+     label221:
+        if $i0 == 237 goto label222;
+
+        $i13 = virtualinvoke $r121.<android.widget.TextView: int getBaseline()>();
+
+     label222:
+        if $i0 == 238 goto label223;
+
+        $r130 = new android.view.KeyEvent;
+
+        specialinvoke $r130.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z46 = virtualinvoke $r121.<android.widget.TextView: boolean onKeyDown(int,android.view.KeyEvent)>(0, $r130);
+
+        $r130 = null;
+
+     label223:
+        if $i0 == 239 goto label224;
+
+        virtualinvoke $r121.<android.widget.TextView: void jumpDrawablesToCurrentState()>();
+
+     label224:
+        if $i0 == 240 goto label225;
+
+        $r131 = new android.view.MotionEvent;
+
+        specialinvoke $r131.<android.view.MotionEvent: void <init>()>();
+
+        $z47 = virtualinvoke $r121.<android.widget.TextView: boolean onGenericMotionEvent(android.view.MotionEvent)>($r131);
+
+        $r131 = null;
+
+     label225:
+        if $i0 == 241 goto label226;
+
+        $r132 = virtualinvoke $r121.<android.widget.TextView: int[] onCreateDrawableState(int)>(0);
+
+     label226:
+        if $i0 == 242 goto label227;
+
+        $z48 = virtualinvoke $r121.<android.widget.TextView: boolean performLongClick()>();
+
+     label227:
+        if $i0 == 243 goto label228;
+
+        $i14 = virtualinvoke $r121.<android.widget.TextView: int computeVerticalScrollRange()>();
+
+     label228:
+        if $i0 == 244 goto label229;
+
+        virtualinvoke $r121.<android.widget.TextView: void onScrollChanged(int,int,int,int)>(0, 0, 0, 0);
+
+     label229:
+        if $i0 == 245 goto label230;
+
+        $r133 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r133.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r121.<android.widget.TextView: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r133);
+
+        $r133 = null;
+
+     label230:
+        if $i0 == 246 goto label231;
+
+        virtualinvoke $r121.<android.widget.TextView: void onStartTemporaryDetach()>();
+
+     label231:
+        if $i0 == 247 goto label232;
+
+        $f3 = virtualinvoke $r121.<android.widget.TextView: float getLeftFadingEdgeStrength()>();
+
+     label232:
+        if $i0 == 248 goto label233;
+
+        virtualinvoke $r121.<android.widget.TextView: void onFinishTemporaryDetach()>();
+
+     label233:
+        if $i0 == 249 goto label234;
+
+        virtualinvoke $r121.<android.widget.TextView: void cancelLongPress()>();
+
+     label234:
+        if $i0 == 250 goto label235;
+
+        virtualinvoke $r121.<android.widget.TextView: void setEnabled(boolean)>(false);
+
+     label235:
+        if $i0 == 251 goto label236;
+
+        virtualinvoke $r121.<android.widget.TextView: void onMeasure(int,int)>(0, 0);
+
+     label236:
+        if $i0 == 252 goto label237;
+
+        $r134 = new android.view.KeyEvent;
+
+        specialinvoke $r134.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z49 = virtualinvoke $r121.<android.widget.TextView: boolean onKeyPreIme(int,android.view.KeyEvent)>(0, $r134);
+
+        $r134 = null;
+
+     label237:
+        if $i0 == 253 goto label238;
+
+        virtualinvoke $r121.<android.widget.TextView: void sendAccessibilityEvent(int)>(0);
+
+     label238:
+        if $i0 == 254 goto label239;
+
+        $r135 = new android.view.KeyEvent;
+
+        specialinvoke $r135.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z50 = virtualinvoke $r121.<android.widget.TextView: boolean onKeyMultiple(int,int,android.view.KeyEvent)>(0, 0, $r135);
+
+        $r135 = null;
+
+     label239:
+        if $i0 == 255 goto label240;
+
+        virtualinvoke $r121.<android.widget.TextView: void onWindowFocusChanged(boolean)>(false);
+
+     label240:
+        if $i0 == 256 goto label241;
+
+        $z51 = virtualinvoke $r121.<android.widget.TextView: boolean onCheckIsTextEditor()>();
+
+     label241:
+        if $i0 == 257 goto label242;
+
+        $r136 = new android.view.View;
+
+        specialinvoke $r136.<android.view.View: void <init>(android.content.Context)>($r86);
+
+        virtualinvoke $r121.<android.widget.TextView: void onVisibilityChanged(android.view.View,int)>($r136, 0);
+
+        $r136 = null;
+
+     label242:
+        if $i0 == 258 goto label243;
+
+        virtualinvoke $r121.<android.widget.TextView: void invalidateDrawable(android.graphics.drawable.Drawable)>(null);
+
+     label243:
+        if $i0 == 259 goto label244;
+
+        $r137 = new android.graphics.Rect;
+
+        specialinvoke $r137.<android.graphics.Rect: void <init>()>();
+
+        virtualinvoke $r121.<android.widget.TextView: void getFocusedRect(android.graphics.Rect)>($r137);
+
+        $r137 = null;
+
+     label244:
+        if $i0 == 260 goto label245;
+
+        $r138 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r138.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r121.<android.widget.TextView: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r138);
+
+        $r138 = null;
+
+     label245:
+        if $i0 == 261 goto label246;
+
+        virtualinvoke $r121.<android.widget.TextView: void onScreenStateChanged(int)>(0);
+
+     label246:
+        if $i0 == 262 goto label247;
+
+        $i15 = virtualinvoke $r121.<android.widget.TextView: int getRightPaddingOffset()>();
+
+     label247:
+        if $i0 == 263 goto label248;
+
+        $i16 = virtualinvoke $r121.<android.widget.TextView: int getBottomPaddingOffset()>();
+
+     label248:
+        if $i0 == 264 goto label249;
+
+        $r139 = new android.os.Bundle;
+
+        specialinvoke $r139.<android.os.Bundle: void <init>()>();
+
+        $z52 = virtualinvoke $r121.<android.widget.TextView: boolean performAccessibilityAction(int,android.os.Bundle)>(0, $r139);
+
+        $r139 = null;
+
+     label249:
+        if $i0 == 265 goto label250;
+
+        virtualinvoke $r121.<android.widget.TextView: void onRestoreInstanceState(android.os.Parcelable)>(null);
+
+     label250:
+        if $i0 == 266 goto label251;
+
+        virtualinvoke $r121.<android.widget.TextView: void onRtlPropertiesChanged(int)>(0);
+
+     label251:
+        if $i0 == 267 goto label252;
+
+        virtualinvoke $r121.<android.widget.TextView: void setSelected(boolean)>(false);
+
+     label252:
+        if $i0 == 268 goto label253;
+
+        virtualinvoke $r121.<android.widget.TextView: void findViewsWithText(java.util.ArrayList,java.lang.CharSequence,int)>(null, null, 0);
+
+     label253:
+        if $i0 == 269 goto label254;
+
+        $z53 = virtualinvoke $r121.<android.widget.TextView: boolean isPaddingOffsetRequired()>();
+
+     label254:
+        if $i0 == 270 goto label255;
+
+        $r140 = new android.view.MotionEvent;
+
+        specialinvoke $r140.<android.view.MotionEvent: void <init>()>();
+
+        $z54 = virtualinvoke $r121.<android.widget.TextView: boolean onTrackballEvent(android.view.MotionEvent)>($r140);
+
+        $r140 = null;
+
+     label255:
+        if $i0 == 271 goto label256;
+
+        $i17 = virtualinvoke $r121.<android.widget.TextView: int getTopPaddingOffset()>();
+
+     label256:
+        if $i0 == 272 goto label257;
+
+        $r141 = new android.graphics.Canvas;
+
+        specialinvoke $r141.<android.graphics.Canvas: void <init>()>();
+
+        virtualinvoke $r121.<android.widget.TextView: void onDraw(android.graphics.Canvas)>($r141);
+
+        $r141 = null;
+
+     label257:
+        if $i0 == 273 goto label258;
+
+        $r142 = new android.view.KeyEvent;
+
+        specialinvoke $r142.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z55 = virtualinvoke $r121.<android.widget.TextView: boolean onKeyUp(int,android.view.KeyEvent)>(0, $r142);
+
+        $r142 = null;
+
+     label258:
+        if $i0 == 274 goto label160;
+
+     label259:
+        if $i0 == 275 goto label159;
+
+        if $i0 == 276 goto label260;
+
+        if $i0 == 277 goto label159;
+
+     label260:
+        if $i0 == 279 goto label287;
+
+        $r143 = new org.npr.android.news.StationSearchActivity;
+
+        specialinvoke $r143.<org.npr.android.news.StationSearchActivity: void <init>()>();
+
+        if $i0 == 280 goto label287;
+
+        $r144 = new android.os.Bundle;
+
+        specialinvoke $r144.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r143.<org.npr.android.news.StationSearchActivity: void onCreate(android.os.Bundle)>($r144);
+
+        $r144 = null;
+
+     label261:
+        virtualinvoke $r143.<org.npr.android.news.StationSearchActivity: void onResume()>();
+
+        if $i0 == 281 goto label286;
+
+     label262:
+        if $i0 == 282 goto label263;
+
+        staticinvoke <org.npr.android.news.StationSearchActivity: void <clinit>()>();
+
+     label263:
+        if $i0 == 283 goto label264;
+
+        $r145 = new android.view.View;
+
+        specialinvoke $r145.<android.view.View: void <init>(android.content.Context)>($r143);
+
+        virtualinvoke $r143.<org.npr.android.news.StationSearchActivity: void onClick(android.view.View)>($r145);
+
+        $r145 = null;
+
+     label264:
+        if $i0 == 284 goto label265;
+
+        $r146 = new android.widget.RadioGroup;
+
+        specialinvoke $r146.<android.widget.RadioGroup: void <init>(android.content.Context)>($r143);
+
+        virtualinvoke $r143.<org.npr.android.news.StationSearchActivity: void onCheckedChanged(android.widget.RadioGroup,int)>($r146, 0);
+
+        $r146 = null;
+
+     label265:
+        $r147 = new android.widget.RadioButton;
+
+        specialinvoke $r147.<android.widget.RadioButton: void <init>(android.content.Context)>($r143);
+
+        if $i0 == 285 goto label266;
+
+        $r148 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r148.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r147.<android.widget.RadioButton: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r148);
+
+        $r148 = null;
+
+     label266:
+        if $i0 == 286 goto label267;
+
+        virtualinvoke $r147.<android.widget.RadioButton: void toggle()>();
+
+     label267:
+        if $i0 == 287 goto label268;
+
+        $r149 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r149.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r147.<android.widget.RadioButton: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r149);
+
+        $r149 = null;
+
+     label268:
+        $r150 = new android.widget.RadioGroup;
+
+        specialinvoke $r150.<android.widget.RadioGroup: void <init>(android.content.Context)>($r143);
+
+        if $i0 == 288 goto label269;
+
+        $r151 = virtualinvoke $r150.<android.widget.RadioGroup: android.widget.LinearLayout$LayoutParams generateLayoutParams(android.util.AttributeSet)>(null);
+
+     label269:
+        if $i0 == 289 goto label270;
+
+        virtualinvoke $r150.<android.widget.RadioGroup: void onFinishInflate()>();
+
+     label270:
+        if $i0 == 290 goto label271;
+
+        $r152 = new android.view.ViewGroup$LayoutParams;
+
+        specialinvoke $r152.<android.view.ViewGroup$LayoutParams: void <init>(android.content.Context,android.util.AttributeSet)>($r143, null);
+
+        $z56 = virtualinvoke $r150.<android.widget.RadioGroup: boolean checkLayoutParams(android.view.ViewGroup$LayoutParams)>($r152);
+
+        $r152 = null;
+
+     label271:
+        if $i0 == 291 goto label272;
+
+        $r153 = virtualinvoke $r150.<android.widget.RadioGroup: android.widget.LinearLayout$LayoutParams generateDefaultLayoutParams()>();
+
+     label272:
+        if $i0 == 292 goto label273;
+
+        $r154 = new android.view.View;
+
+        specialinvoke $r154.<android.view.View: void <init>(android.content.Context)>($r143);
+
+        $r155 = new android.view.ViewGroup$LayoutParams;
+
+        specialinvoke $r155.<android.view.ViewGroup$LayoutParams: void <init>(android.content.Context,android.util.AttributeSet)>($r143, null);
+
+        virtualinvoke $r150.<android.widget.RadioGroup: void addView(android.view.View,int,android.view.ViewGroup$LayoutParams)>($r154, 0, $r155);
+
+        $r154 = null;
+
+        $r155 = null;
+
+     label273:
+        if $i0 == 293 goto label274;
+
+        $r156 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r156.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r150.<android.widget.RadioGroup: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r156);
+
+        $r156 = null;
+
+     label274:
+        if $i0 == 294 goto label275;
+
+        virtualinvoke $r150.<android.widget.RadioGroup: void setOnHierarchyChangeListener(android.view.ViewGroup$OnHierarchyChangeListener)>(null);
+
+     label275:
+        if $i0 == 295 goto label276;
+
+        $r157 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r157.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r150.<android.widget.RadioGroup: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r157);
+
+        $r157 = null;
+
+     label276:
+        $r158 = new android.widget.EditText;
+
+        specialinvoke $r158.<android.widget.EditText: void <init>(android.content.Context)>($r143);
+
+        if $i0 == 296 goto label277;
+
+        virtualinvoke $r158.<android.widget.EditText: void setEllipsize(android.text.TextUtils$TruncateAt)>(null);
+
+     label277:
+        if $i0 == 297 goto label278;
+
+        virtualinvoke $r158.<android.widget.EditText: void setText(java.lang.CharSequence,android.widget.TextView$BufferType)>(null, null);
+
+     label278:
+        if $i0 == 298 goto label279;
+
+        $r159 = virtualinvoke $r158.<android.widget.EditText: android.text.method.MovementMethod getDefaultMovementMethod()>();
+
+     label279:
+        if $i0 == 299 goto label280;
+
+        $r160 = virtualinvoke $r158.<android.widget.EditText: java.lang.CharSequence getText()>();
+
+     label280:
+        if $i0 == 300 goto label281;
+
+        $r161 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r161.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r158.<android.widget.EditText: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r161);
+
+        $r161 = null;
+
+     label281:
+        if $i0 == 301 goto label282;
+
+        $z57 = virtualinvoke $r158.<android.widget.EditText: boolean getDefaultEditable()>();
+
+     label282:
+        if $i0 == 302 goto label283;
+
+        $r162 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r162.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r158.<android.widget.EditText: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r162);
+
+        $r162 = null;
+
+     label283:
+        $r163 = new android.widget.Button;
+
+        specialinvoke $r163.<android.widget.Button: void <init>(android.content.Context)>($r143);
+
+        if $i0 == 303 goto label284;
+
+        $r164 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r164.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r163.<android.widget.Button: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r164);
+
+        $r164 = null;
+
+     label284:
+        if $i0 == 304 goto label285;
+
+        $r165 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r165.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r163.<android.widget.Button: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r165);
+
+        $r165 = null;
+
+     label285:
+        if $i0 == 305 goto label262;
+
+     label286:
+        if $i0 == 306 goto label261;
+
+        if $i0 == 307 goto label287;
+
+        if $i0 == 308 goto label261;
+
+     label287:
+        if $i0 == 310 goto label294;
+
+        if $i0 == 311 goto label294;
+
+        if $i0 == 312 goto label294;
+
+     label288:
+        if $i0 == 313 goto label289;
+
+        $r166 = newarray (java.lang.String)[1];
+
+        $r166[0] = "";
+
+        $i18 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>(null, "", $r166);
+
+     label289:
+        if $i0 == 314 goto label290;
+
+        $r167 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: java.lang.String getType(android.net.Uri)>(null);
+
+     label290:
+        if $i0 == 315 goto label291;
+
+        $r168 = newarray (java.lang.String)[1];
+
+        $r168[0] = "";
+
+        $r169 = newarray (java.lang.String)[1];
+
+        $r169[0] = "";
+
+        $r170 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>(null, $r168, "", $r169, "");
+
+     label291:
+        if $i0 == 316 goto label292;
+
+        $r171 = new android.content.ContentValues;
+
+        specialinvoke $r171.<android.content.ContentValues: void <init>()>();
+
+        $r172 = newarray (java.lang.String)[1];
+
+        $r172[0] = "";
+
+        $i19 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>(null, $r171, "", $r172);
+
+        $r171 = null;
+
+     label292:
+        if $i0 == 317 goto label293;
+
+        $r173 = new android.content.ContentValues;
+
+        specialinvoke $r173.<android.content.ContentValues: void <init>()>();
+
+        $r174 = virtualinvoke $r0.<org.npr.android.util.PlaylistProvider: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>(null, $r173);
+
+        $r173 = null;
+
+     label293:
+        if $i0 == 318 goto label288;
+
+     label294:
+        if $i0 == 319 goto label299;
+
+        $r175 = new org.npr.android.news.StationDetailsActivity;
+
+        specialinvoke $r175.<org.npr.android.news.StationDetailsActivity: void <init>()>();
+
+        if $i0 == 320 goto label299;
+
+        $r176 = new android.os.Bundle;
+
+        specialinvoke $r176.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r175.<org.npr.android.news.StationDetailsActivity: void onCreate(android.os.Bundle)>($r176);
+
+        $r176 = null;
+
+     label295:
+        if $i0 == 321 goto label298;
+
+     label296:
+        if $i0 == 322 goto label297;
+
+        $r177 = new android.widget.ExpandableListView;
+
+        specialinvoke $r177.<android.widget.ExpandableListView: void <init>(android.content.Context)>($r175);
+
+        $r178 = new android.view.View;
+
+        specialinvoke $r178.<android.view.View: void <init>(android.content.Context)>($r175);
+
+        $z58 = virtualinvoke $r175.<org.npr.android.news.StationDetailsActivity: boolean onChildClick(android.widget.ExpandableListView,android.view.View,int,int,long)>($r177, $r178, 0, 0, 0L);
+
+        $r177 = null;
+
+        $r178 = null;
+
+     label297:
+        if $i0 == 323 goto label296;
+
+     label298:
+        if $i0 == 324 goto label295;
+
+        if $i0 == 325 goto label299;
+
+        if $i0 == 326 goto label295;
+
+     label299:
+        if $i0 == 328 goto label306;
+
+        $r179 = new org.npr.android.news.NewsListActivity;
+
+        specialinvoke $r179.<org.npr.android.news.NewsListActivity: void <init>()>();
+
+        if $i0 == 329 goto label306;
+
+        $r180 = new android.os.Bundle;
+
+        specialinvoke $r180.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r179.<org.npr.android.news.NewsListActivity: void onCreate(android.os.Bundle)>($r180);
+
+        $r180 = null;
+
+     label300:
+        if $i0 == 330 goto label305;
+
+     label301:
+        if $i0 == 331 goto label302;
+
+        staticinvoke <org.npr.android.news.NewsListActivity: void <clinit>()>();
+
+     label302:
+        if $i0 == 332 goto label303;
+
+        $r181 = new android.view.View;
+
+        specialinvoke $r181.<android.view.View: void <init>(android.content.Context)>($r179);
+
+        virtualinvoke $r179.<org.npr.android.news.NewsListActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r181, 0, 0L);
+
+        $r181 = null;
+
+     label303:
+        if $i0 == 333 goto label304;
+
+        virtualinvoke $r179.<org.npr.android.news.NewsListActivity: void onLowMemory()>();
+
+     label304:
+        if $i0 == 334 goto label301;
+
+     label305:
+        if $i0 == 335 goto label300;
+
+        if $i0 == 336 goto label306;
+
+        if $i0 == 337 goto label300;
+
+     label306:
+        if $i0 == 339 goto label308;
+
+        $r182 = new org.npr.android.news.EditPreferences;
+
+        specialinvoke $r182.<org.npr.android.news.EditPreferences: void <init>()>();
+
+        if $i0 == 340 goto label308;
+
+        $r183 = new android.os.Bundle;
+
+        specialinvoke $r183.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r182.<org.npr.android.news.EditPreferences: void onCreate(android.os.Bundle)>($r183);
+
+        $r183 = null;
+
+     label307:
+        if $i0 == 342 goto label307;
+
+        if $i0 == 343 goto label308;
+
+        if $i0 == 344 goto label307;
+
+     label308:
+        if $i0 == 346 goto label315;
+
+        $r184 = new org.npr.android.news.SearchActivity;
+
+        specialinvoke $r184.<org.npr.android.news.SearchActivity: void <init>()>();
+
+        if $i0 == 347 goto label315;
+
+        $r185 = new android.os.Bundle;
+
+        specialinvoke $r185.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r184.<org.npr.android.news.SearchActivity: void onCreate(android.os.Bundle)>($r185);
+
+        $r185 = null;
+
+     label309:
+        if $i0 == 348 goto label314;
+
+     label310:
+        $r186 = new org.npr.android.news.SearchActivity$2;
+
+        specialinvoke $r186.<org.npr.android.news.SearchActivity$2: void <init>(org.npr.android.news.SearchActivity)>($r184);
+
+        if $i0 == 349 goto label311;
+
+        $r187 = new android.widget.DatePicker;
+
+        specialinvoke $r187.<android.widget.DatePicker: void <init>(android.content.Context)>($r184);
+
+        virtualinvoke $r186.<org.npr.android.news.SearchActivity$2: void onDateSet(android.widget.DatePicker,int,int,int)>($r187, 0, 0, 0);
+
+        $r187 = null;
+
+     label311:
+        $r188 = new org.npr.android.news.SearchActivity$1;
+
+        specialinvoke $r188.<org.npr.android.news.SearchActivity$1: void <init>(org.npr.android.news.SearchActivity)>($r184);
+
+        if $i0 == 350 goto label312;
+
+        $r189 = new android.widget.DatePicker;
+
+        specialinvoke $r189.<android.widget.DatePicker: void <init>(android.content.Context)>($r184);
+
+        virtualinvoke $r188.<org.npr.android.news.SearchActivity$1: void onDateSet(android.widget.DatePicker,int,int,int)>($r189, 0, 0, 0);
+
+        $r189 = null;
+
+     label312:
+        if $i0 == 351 goto label313;
+
+        $r190 = new android.view.View;
+
+        specialinvoke $r190.<android.view.View: void <init>(android.content.Context)>($r184);
+
+        virtualinvoke $r184.<org.npr.android.news.SearchActivity: void onClick(android.view.View)>($r190);
+
+        $r190 = null;
+
+     label313:
+        if $i0 == 352 goto label310;
+
+     label314:
+        if $i0 == 353 goto label309;
+
+        if $i0 == 354 goto label315;
+
+        if $i0 == 355 goto label309;
+
+     label315:
+        if $i0 == 357 goto label320;
+
+        $r191 = new org.npr.android.news.NewsTopicActivity;
+
+        specialinvoke $r191.<org.npr.android.news.NewsTopicActivity: void <init>()>();
+
+        if $i0 == 358 goto label320;
+
+        $r192 = new android.os.Bundle;
+
+        specialinvoke $r192.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r191.<org.npr.android.news.NewsTopicActivity: void onCreate(android.os.Bundle)>($r192);
+
+        $r192 = null;
+
+     label316:
+        if $i0 == 359 goto label319;
+
+     label317:
+        if $i0 == 360 goto label318;
+
+        $r193 = new android.view.View;
+
+        specialinvoke $r193.<android.view.View: void <init>(android.content.Context)>($r191);
+
+        virtualinvoke $r191.<org.npr.android.news.NewsTopicActivity: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>(null, $r193, 0, 0L);
+
+        $r193 = null;
+
+     label318:
+        if $i0 == 361 goto label317;
+
+     label319:
+        if $i0 == 362 goto label316;
+
+        if $i0 == 363 goto label320;
+
+        if $i0 == 364 goto label316;
+
+     label320:
+        if $i0 == 366 goto label414;
+
+        $r194 = new org.npr.android.news.AboutActivity;
+
+        specialinvoke $r194.<org.npr.android.news.AboutActivity: void <init>()>();
+
+        if $i0 == 367 goto label414;
+
+        $r195 = new android.os.Bundle;
+
+        specialinvoke $r195.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r194.<org.npr.android.news.AboutActivity: void onCreate(android.os.Bundle)>($r195);
+
+        $r195 = null;
+
+     label321:
+        if $i0 == 368 goto label413;
+
+     label322:
+        $r196 = new android.widget.ImageView;
+
+        specialinvoke $r196.<android.widget.ImageView: void <init>(android.content.Context)>($r194);
+
+        if $i0 == 369 goto label323;
+
+        $r197 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r197.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r196.<android.widget.ImageView: void onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r197);
+
+        $r197 = null;
+
+     label323:
+        if $i0 == 370 goto label324;
+
+        $r198 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r198.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r196.<android.widget.ImageView: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r198);
+
+        $r198 = null;
+
+     label324:
+        if $i0 == 371 goto label325;
+
+        virtualinvoke $r196.<android.widget.ImageView: void onAttachedToWindow()>();
+
+     label325:
+        if $i0 == 372 goto label326;
+
+        $z59 = virtualinvoke $r196.<android.widget.ImageView: boolean verifyDrawable(android.graphics.drawable.Drawable)>(null);
+
+     label326:
+        if $i0 == 373 goto label327;
+
+        $z60 = virtualinvoke $r196.<android.widget.ImageView: boolean hasOverlappingRendering()>();
+
+     label327:
+        if $i0 == 374 goto label328;
+
+        virtualinvoke $r196.<android.widget.ImageView: void drawableStateChanged()>();
+
+     label328:
+        if $i0 == 375 goto label329;
+
+        $r199 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r199.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r196.<android.widget.ImageView: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r199);
+
+        $r199 = null;
+
+     label329:
+        if $i0 == 376 goto label330;
+
+        virtualinvoke $r196.<android.widget.ImageView: void onMeasure(int,int)>(0, 0);
+
+     label330:
+        if $i0 == 377 goto label331;
+
+        virtualinvoke $r196.<android.widget.ImageView: void onRtlPropertiesChanged(int)>(0);
+
+     label331:
+        if $i0 == 378 goto label332;
+
+        virtualinvoke $r196.<android.widget.ImageView: void setVisibility(int)>(0);
+
+     label332:
+        if $i0 == 379 goto label333;
+
+        virtualinvoke $r196.<android.widget.ImageView: void invalidateDrawable(android.graphics.drawable.Drawable)>(null);
+
+     label333:
+        if $i0 == 380 goto label334;
+
+        virtualinvoke $r196.<android.widget.ImageView: void onDetachedFromWindow()>();
+
+     label334:
+        if $i0 == 381 goto label335;
+
+        virtualinvoke $r196.<android.widget.ImageView: void setSelected(boolean)>(false);
+
+     label335:
+        if $i0 == 382 goto label336;
+
+        $r200 = virtualinvoke $r196.<android.widget.ImageView: int[] onCreateDrawableState(int)>(0);
+
+     label336:
+        if $i0 == 383 goto label337;
+
+        $i20 = virtualinvoke $r196.<android.widget.ImageView: int getBaseline()>();
+
+     label337:
+        if $i0 == 384 goto label338;
+
+        $r201 = new android.graphics.Canvas;
+
+        specialinvoke $r201.<android.graphics.Canvas: void <init>()>();
+
+        virtualinvoke $r196.<android.widget.ImageView: void onDraw(android.graphics.Canvas)>($r201);
+
+        $r201 = null;
+
+     label338:
+        if $i0 == 385 goto label339;
+
+        virtualinvoke $r196.<android.widget.ImageView: void jumpDrawablesToCurrentState()>();
+
+     label339:
+        $r202 = new org.npr.android.news.AboutActivity$3;
+
+        specialinvoke $r202.<org.npr.android.news.AboutActivity$3: void <init>(org.npr.android.news.AboutActivity)>($r194);
+
+        if $i0 == 386 goto label340;
+
+        $r203 = new android.view.View;
+
+        specialinvoke $r203.<android.view.View: void <init>(android.content.Context)>($r194);
+
+        virtualinvoke $r202.<org.npr.android.news.AboutActivity$3: void onClick(android.view.View)>($r203);
+
+        $r203 = null;
+
+     label340:
+        $r204 = new android.widget.LinearLayout;
+
+        specialinvoke $r204.<android.widget.LinearLayout: void <init>(android.content.Context)>($r194);
+
+        if $i0 == 387 goto label341;
+
+        $r205 = new android.view.ViewGroup$LayoutParams;
+
+        specialinvoke $r205.<android.view.ViewGroup$LayoutParams: void <init>(android.content.Context,android.util.AttributeSet)>($r194, null);
+
+        $r206 = virtualinvoke $r204.<android.widget.LinearLayout: android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams)>($r205);
+
+        $r205 = null;
+
+     label341:
+        if $i0 == 388 goto label342;
+
+        $r207 = new android.view.ViewGroup$LayoutParams;
+
+        specialinvoke $r207.<android.view.ViewGroup$LayoutParams: void <init>(android.content.Context,android.util.AttributeSet)>($r194, null);
+
+        $z61 = virtualinvoke $r204.<android.widget.LinearLayout: boolean checkLayoutParams(android.view.ViewGroup$LayoutParams)>($r207);
+
+        $r207 = null;
+
+     label342:
+        if $i0 == 389 goto label343;
+
+        $r208 = virtualinvoke $r204.<android.widget.LinearLayout: android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet)>(null);
+
+     label343:
+        if $i0 == 390 goto label344;
+
+        $r209 = new android.graphics.Canvas;
+
+        specialinvoke $r209.<android.graphics.Canvas: void <init>()>();
+
+        virtualinvoke $r204.<android.widget.LinearLayout: void onDraw(android.graphics.Canvas)>($r209);
+
+        $r209 = null;
+
+     label344:
+        if $i0 == 391 goto label345;
+
+        virtualinvoke $r204.<android.widget.LinearLayout: void onLayout(boolean,int,int,int,int)>(false, 0, 0, 0, 0);
+
+     label345:
+        if $i0 == 392 goto label346;
+
+        $r210 = virtualinvoke $r204.<android.widget.LinearLayout: android.view.ViewGroup$LayoutParams generateDefaultLayoutParams()>();
+
+     label346:
+        if $i0 == 393 goto label347;
+
+        $i21 = virtualinvoke $r204.<android.widget.LinearLayout: int getBaseline()>();
+
+     label347:
+        if $i0 == 394 goto label348;
+
+        $z62 = virtualinvoke $r204.<android.widget.LinearLayout: boolean shouldDelayChildPressedState()>();
+
+     label348:
+        if $i0 == 395 goto label349;
+
+        $r211 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r211.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r204.<android.widget.LinearLayout: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r211);
+
+        $r211 = null;
+
+     label349:
+        if $i0 == 396 goto label350;
+
+        virtualinvoke $r204.<android.widget.LinearLayout: void onMeasure(int,int)>(0, 0);
+
+     label350:
+        if $i0 == 397 goto label351;
+
+        $r212 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r212.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r204.<android.widget.LinearLayout: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r212);
+
+        $r212 = null;
+
+     label351:
+        $r213 = new org.npr.android.news.AboutActivity$2;
+
+        specialinvoke $r213.<org.npr.android.news.AboutActivity$2: void <init>(org.npr.android.news.AboutActivity)>($r194);
+
+        if $i0 == 398 goto label352;
+
+        $r214 = new android.view.View;
+
+        specialinvoke $r214.<android.view.View: void <init>(android.content.Context)>($r194);
+
+        virtualinvoke $r213.<org.npr.android.news.AboutActivity$2: void onClick(android.view.View)>($r214);
+
+        $r214 = null;
+
+     label352:
+        $r215 = new org.npr.android.news.AboutActivity$1;
+
+        specialinvoke $r215.<org.npr.android.news.AboutActivity$1: void <init>(org.npr.android.news.AboutActivity)>($r194);
+
+        if $i0 == 399 goto label353;
+
+        $r216 = new android.view.View;
+
+        specialinvoke $r216.<android.view.View: void <init>(android.content.Context)>($r194);
+
+        virtualinvoke $r215.<org.npr.android.news.AboutActivity$1: void onClick(android.view.View)>($r216);
+
+        $r216 = null;
+
+     label353:
+        $r217 = new android.widget.Button;
+
+        specialinvoke $r217.<android.widget.Button: void <init>(android.content.Context)>($r194);
+
+        if $i0 == 400 goto label354;
+
+        $r218 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r218.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r217.<android.widget.Button: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r218);
+
+        $r218 = null;
+
+     label354:
+        if $i0 == 401 goto label355;
+
+        $r219 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r219.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r217.<android.widget.Button: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r219);
+
+        $r219 = null;
+
+     label355:
+        $r220 = new android.widget.TextView;
+
+        specialinvoke $r220.<android.widget.TextView: void <init>(android.content.Context)>($r194);
+
+        if $i0 == 402 goto label356;
+
+        virtualinvoke $r220.<android.widget.TextView: void onAttachedToWindow()>();
+
+     label356:
+        if $i0 == 403 goto label357;
+
+        virtualinvoke $r220.<android.widget.TextView: void setPadding(int,int,int,int)>(0, 0, 0, 0);
+
+     label357:
+        if $i0 == 404 goto label358;
+
+        virtualinvoke $r220.<android.widget.TextView: void onLayout(boolean,int,int,int,int)>(false, 0, 0, 0, 0);
+
+     label358:
+        if $i0 == 405 goto label359;
+
+        $r221 = new android.view.KeyEvent;
+
+        specialinvoke $r221.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z63 = virtualinvoke $r220.<android.widget.TextView: boolean onKeyShortcut(int,android.view.KeyEvent)>(0, $r221);
+
+        $r221 = null;
+
+     label359:
+        if $i0 == 406 goto label360;
+
+        $r222 = new android.graphics.Rect;
+
+        specialinvoke $r222.<android.graphics.Rect: void <init>()>();
+
+        virtualinvoke $r220.<android.widget.TextView: void onFocusChanged(boolean,int,android.graphics.Rect)>(false, 0, $r222);
+
+        $r222 = null;
+
+     label360:
+        if $i0 == 407 goto label361;
+
+        $r223 = new android.view.DragEvent;
+
+        specialinvoke $r223.<android.view.DragEvent: void <init>()>();
+
+        $z64 = virtualinvoke $r220.<android.widget.TextView: boolean onDragEvent(android.view.DragEvent)>($r223);
+
+        $r223 = null;
+
+     label361:
+        if $i0 == 408 goto label362;
+
+        $r224 = virtualinvoke $r220.<android.widget.TextView: android.os.Parcelable onSaveInstanceState()>();
+
+     label362:
+        if $i0 == 409 goto label363;
+
+        $z65 = virtualinvoke $r220.<android.widget.TextView: boolean verifyDrawable(android.graphics.drawable.Drawable)>(null);
+
+     label363:
+        if $i0 == 410 goto label364;
+
+        $r225 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r225.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r220.<android.widget.TextView: void onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r225);
+
+        $r225 = null;
+
+     label364:
+        if $i0 == 411 goto label365;
+
+        $i22 = virtualinvoke $r220.<android.widget.TextView: int computeHorizontalScrollRange()>();
+
+     label365:
+        if $i0 == 412 goto label366;
+
+        $f4 = virtualinvoke $r220.<android.widget.TextView: float getRightFadingEdgeStrength()>();
+
+     label366:
+        if $i0 == 413 goto label367;
+
+        $z66 = virtualinvoke $r220.<android.widget.TextView: boolean hasOverlappingRendering()>();
+
+     label367:
+        if $i0 == 414 goto label368;
+
+        virtualinvoke $r220.<android.widget.TextView: void setPaddingRelative(int,int,int,int)>(0, 0, 0, 0);
+
+     label368:
+        if $i0 == 415 goto label369;
+
+        virtualinvoke $r220.<android.widget.TextView: void drawableStateChanged()>();
+
+     label369:
+        if $i0 == 416 goto label370;
+
+        $i23 = virtualinvoke $r220.<android.widget.TextView: int computeVerticalScrollExtent()>();
+
+     label370:
+        if $i0 == 417 goto label371;
+
+        $r226 = new android.view.MotionEvent;
+
+        specialinvoke $r226.<android.view.MotionEvent: void <init>()>();
+
+        $z67 = virtualinvoke $r220.<android.widget.TextView: boolean onTouchEvent(android.view.MotionEvent)>($r226);
+
+        $r226 = null;
+
+     label371:
+        if $i0 == 418 goto label372;
+
+        $r227 = new android.view.inputmethod.EditorInfo;
+
+        specialinvoke $r227.<android.view.inputmethod.EditorInfo: void <init>()>();
+
+        $r228 = virtualinvoke $r220.<android.widget.TextView: android.view.inputmethod.InputConnection onCreateInputConnection(android.view.inputmethod.EditorInfo)>($r227);
+
+        $r227 = null;
+
+     label372:
+        if $i0 == 419 goto label373;
+
+        virtualinvoke $r220.<android.widget.TextView: void computeScroll()>();
+
+     label373:
+        if $i0 == 420 goto label374;
+
+        $i24 = virtualinvoke $r220.<android.widget.TextView: int getLeftPaddingOffset()>();
+
+     label374:
+        if $i0 == 421 goto label375;
+
+        virtualinvoke $r220.<android.widget.TextView: void onDetachedFromWindow()>();
+
+     label375:
+        if $i0 == 422 goto label376;
+
+        $i25 = virtualinvoke $r220.<android.widget.TextView: int getBaseline()>();
+
+     label376:
+        if $i0 == 423 goto label377;
+
+        $r229 = new android.view.KeyEvent;
+
+        specialinvoke $r229.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z68 = virtualinvoke $r220.<android.widget.TextView: boolean onKeyDown(int,android.view.KeyEvent)>(0, $r229);
+
+        $r229 = null;
+
+     label377:
+        if $i0 == 424 goto label378;
+
+        virtualinvoke $r220.<android.widget.TextView: void jumpDrawablesToCurrentState()>();
+
+     label378:
+        if $i0 == 425 goto label379;
+
+        $r230 = virtualinvoke $r220.<android.widget.TextView: int[] onCreateDrawableState(int)>(0);
+
+     label379:
+        if $i0 == 426 goto label380;
+
+        $r231 = new android.view.MotionEvent;
+
+        specialinvoke $r231.<android.view.MotionEvent: void <init>()>();
+
+        $z69 = virtualinvoke $r220.<android.widget.TextView: boolean onGenericMotionEvent(android.view.MotionEvent)>($r231);
+
+        $r231 = null;
+
+     label380:
+        if $i0 == 427 goto label381;
+
+        $z70 = virtualinvoke $r220.<android.widget.TextView: boolean performLongClick()>();
+
+     label381:
+        if $i0 == 428 goto label382;
+
+        $i26 = virtualinvoke $r220.<android.widget.TextView: int computeVerticalScrollRange()>();
+
+     label382:
+        if $i0 == 429 goto label383;
+
+        virtualinvoke $r220.<android.widget.TextView: void onScrollChanged(int,int,int,int)>(0, 0, 0, 0);
+
+     label383:
+        if $i0 == 430 goto label384;
+
+        $r232 = new android.view.accessibility.AccessibilityEvent;
+
+        specialinvoke $r232.<android.view.accessibility.AccessibilityEvent: void <init>()>();
+
+        virtualinvoke $r220.<android.widget.TextView: void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent)>($r232);
+
+        $r232 = null;
+
+     label384:
+        if $i0 == 431 goto label385;
+
+        virtualinvoke $r220.<android.widget.TextView: void onStartTemporaryDetach()>();
+
+     label385:
+        if $i0 == 432 goto label386;
+
+        $f5 = virtualinvoke $r220.<android.widget.TextView: float getLeftFadingEdgeStrength()>();
+
+     label386:
+        if $i0 == 433 goto label387;
+
+        virtualinvoke $r220.<android.widget.TextView: void onFinishTemporaryDetach()>();
+
+     label387:
+        if $i0 == 434 goto label388;
+
+        virtualinvoke $r220.<android.widget.TextView: void cancelLongPress()>();
+
+     label388:
+        if $i0 == 435 goto label389;
+
+        virtualinvoke $r220.<android.widget.TextView: void setEnabled(boolean)>(false);
+
+     label389:
+        if $i0 == 436 goto label390;
+
+        virtualinvoke $r220.<android.widget.TextView: void onMeasure(int,int)>(0, 0);
+
+     label390:
+        if $i0 == 437 goto label391;
+
+        $r233 = new android.view.KeyEvent;
+
+        specialinvoke $r233.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z71 = virtualinvoke $r220.<android.widget.TextView: boolean onKeyPreIme(int,android.view.KeyEvent)>(0, $r233);
+
+        $r233 = null;
+
+     label391:
+        if $i0 == 438 goto label392;
+
+        virtualinvoke $r220.<android.widget.TextView: void sendAccessibilityEvent(int)>(0);
+
+     label392:
+        if $i0 == 439 goto label393;
+
+        $r234 = new android.view.KeyEvent;
+
+        specialinvoke $r234.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z72 = virtualinvoke $r220.<android.widget.TextView: boolean onKeyMultiple(int,int,android.view.KeyEvent)>(0, 0, $r234);
+
+        $r234 = null;
+
+     label393:
+        if $i0 == 440 goto label394;
+
+        virtualinvoke $r220.<android.widget.TextView: void onWindowFocusChanged(boolean)>(false);
+
+     label394:
+        if $i0 == 441 goto label395;
+
+        $z73 = virtualinvoke $r220.<android.widget.TextView: boolean onCheckIsTextEditor()>();
+
+     label395:
+        if $i0 == 442 goto label396;
+
+        $r235 = new android.view.View;
+
+        specialinvoke $r235.<android.view.View: void <init>(android.content.Context)>($r194);
+
+        virtualinvoke $r220.<android.widget.TextView: void onVisibilityChanged(android.view.View,int)>($r235, 0);
+
+        $r235 = null;
+
+     label396:
+        if $i0 == 443 goto label397;
+
+        virtualinvoke $r220.<android.widget.TextView: void invalidateDrawable(android.graphics.drawable.Drawable)>(null);
+
+     label397:
+        if $i0 == 444 goto label398;
+
+        $r236 = new android.graphics.Rect;
+
+        specialinvoke $r236.<android.graphics.Rect: void <init>()>();
+
+        virtualinvoke $r220.<android.widget.TextView: void getFocusedRect(android.graphics.Rect)>($r236);
+
+        $r236 = null;
+
+     label398:
+        if $i0 == 445 goto label399;
+
+        $r237 = new android.view.accessibility.AccessibilityNodeInfo;
+
+        specialinvoke $r237.<android.view.accessibility.AccessibilityNodeInfo: void <init>()>();
+
+        virtualinvoke $r220.<android.widget.TextView: void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo)>($r237);
+
+        $r237 = null;
+
+     label399:
+        if $i0 == 446 goto label400;
+
+        virtualinvoke $r220.<android.widget.TextView: void onScreenStateChanged(int)>(0);
+
+     label400:
+        if $i0 == 447 goto label401;
+
+        $i27 = virtualinvoke $r220.<android.widget.TextView: int getRightPaddingOffset()>();
+
+     label401:
+        if $i0 == 448 goto label402;
+
+        $i28 = virtualinvoke $r220.<android.widget.TextView: int getBottomPaddingOffset()>();
+
+     label402:
+        if $i0 == 449 goto label403;
+
+        $r238 = new android.os.Bundle;
+
+        specialinvoke $r238.<android.os.Bundle: void <init>()>();
+
+        $z74 = virtualinvoke $r220.<android.widget.TextView: boolean performAccessibilityAction(int,android.os.Bundle)>(0, $r238);
+
+        $r238 = null;
+
+     label403:
+        if $i0 == 450 goto label404;
+
+        virtualinvoke $r220.<android.widget.TextView: void onRestoreInstanceState(android.os.Parcelable)>(null);
+
+     label404:
+        if $i0 == 451 goto label405;
+
+        virtualinvoke $r220.<android.widget.TextView: void onRtlPropertiesChanged(int)>(0);
+
+     label405:
+        if $i0 == 452 goto label406;
+
+        virtualinvoke $r220.<android.widget.TextView: void setSelected(boolean)>(false);
+
+     label406:
+        if $i0 == 453 goto label407;
+
+        virtualinvoke $r220.<android.widget.TextView: void findViewsWithText(java.util.ArrayList,java.lang.CharSequence,int)>(null, null, 0);
+
+     label407:
+        if $i0 == 454 goto label408;
+
+        $z75 = virtualinvoke $r220.<android.widget.TextView: boolean isPaddingOffsetRequired()>();
+
+     label408:
+        if $i0 == 455 goto label409;
+
+        $r239 = new android.view.MotionEvent;
+
+        specialinvoke $r239.<android.view.MotionEvent: void <init>()>();
+
+        $z76 = virtualinvoke $r220.<android.widget.TextView: boolean onTrackballEvent(android.view.MotionEvent)>($r239);
+
+        $r239 = null;
+
+     label409:
+        if $i0 == 456 goto label410;
+
+        $r240 = new android.graphics.Canvas;
+
+        specialinvoke $r240.<android.graphics.Canvas: void <init>()>();
+
+        virtualinvoke $r220.<android.widget.TextView: void onDraw(android.graphics.Canvas)>($r240);
+
+        $r240 = null;
+
+     label410:
+        if $i0 == 457 goto label411;
+
+        $i29 = virtualinvoke $r220.<android.widget.TextView: int getTopPaddingOffset()>();
+
+     label411:
+        if $i0 == 458 goto label412;
+
+        $r241 = new android.view.KeyEvent;
+
+        specialinvoke $r241.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+
+        $z77 = virtualinvoke $r220.<android.widget.TextView: boolean onKeyUp(int,android.view.KeyEvent)>(0, $r241);
+
+        $r241 = null;
+
+     label412:
+        if $i0 == 459 goto label322;
+
+     label413:
+        if $i0 == 460 goto label321;
+
+        if $i0 == 461 goto label414;
+
+        if $i0 == 462 goto label321;
+
+     label414:
+        if $i0 == 464 goto label420;
+
+        $r242 = new org.npr.android.news.NewsStoryActivity;
+
+        specialinvoke $r242.<org.npr.android.news.NewsStoryActivity: void <init>()>();
+
+        if $i0 == 465 goto label420;
+
+        $r243 = new android.os.Bundle;
+
+        specialinvoke $r243.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r242.<org.npr.android.news.NewsStoryActivity: void onCreate(android.os.Bundle)>($r243);
+
+        $r243 = null;
+
+     label415:
+        if $i0 == 466 goto label419;
+
+     label416:
+        if $i0 == 467 goto label417;
+
+        $r244 = new android.view.View;
+
+        specialinvoke $r244.<android.view.View: void <init>(android.content.Context)>($r242);
+
+        virtualinvoke $r242.<org.npr.android.news.NewsStoryActivity: void onClick(android.view.View)>($r244);
+
+        $r244 = null;
+
+     label417:
+        if $i0 == 468 goto label418;
+
+        staticinvoke <org.npr.android.news.NewsStoryActivity: void <clinit>()>();
+
+     label418:
+        if $i0 == 469 goto label416;
+
+     label419:
+        if $i0 == 470 goto label415;
+
+        if $i0 == 471 goto label420;
+
+        if $i0 == 472 goto label415;
+
+     label420:
+        if $i0 == 474 goto label003;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 7.0 seconds.
+[Spark] Solution found in 7.0 seconds.
+[main] INFO soot.jimple.infoflow.util.InterproceduralConstantValuePropagator - Removing side-effect free methods is enabled
+Removed 251 call edges
+[main] INFO soot.jimple.infoflow.Infoflow - Dead code elimination took 0.371397 seconds
+[main] INFO soot.jimple.infoflow.Infoflow - Callgraph has 3824 edges
+979
+Analysis has run for 42.174347 seconds

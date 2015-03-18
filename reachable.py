@@ -28,16 +28,19 @@ def convertString(s):
     method = postfixes[0]
     return clazz+method
 
-def readMethods(fileName):
+def readMethods(fileName,package):
     file = open(fileName,'r')
     methods = {}
 
     contents = [convertString(x.strip('\n')) for x in file.readlines()]
-
+    appMethods = 0
     for (id,method) in enumerate(contents):
         methods[id] = method
+        if method.startswith(package):
+            appMethods+=1;
+    
 
-    return methods
+    return methods,appMethods
 
 def readCoverage(fileName):
 
@@ -55,22 +58,24 @@ def readDroidel(fileName):
     droidel = []
     package = file.readline();
     package = "L" + package.strip('\n');
-    for x in file.readlines():
+    f = file.readlines()
+    for x in f:
         m = x.strip('\n')
         if m.startswith(package):
             droidel.append(m)
 
-    return package,droidel
+    return package,droidel,len(f)
 
 def readFlowDroid(fileName,package):
     file = open(fileName,'r')
     flowDroid = []
-    for x in file.readlines():
+    f = file.readlines()
+    for x in f:
         m = convertString(x.strip('\n'))
         if m.startswith(package):
             flowDroid.append(m)
 
-    return flowDroid
+    return flowDroid,len(f)
 
 def missedMethods(model,concrete):
     total = len(concrete)
@@ -97,9 +102,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     coverage = readCoverage(args.coverage)
-    methods = readMethods(args.methods)
-    package,droidel = readDroidel(args.droidel)
-    flowDroid = readFlowDroid(args.flowDroid,package)
+    package,droidel,totalD = readDroidel(args.droidel)
+    methods,appMethods = readMethods(args.methods,package)
+    
+    print len(methods)
+    
+    flowDroid,totalFD = readFlowDroid(args.flowDroid,package)
     
     #print "reachable methods: " +str(len(methods))
     
@@ -133,12 +141,19 @@ if __name__ == "__main__":
     print "Total Methods Missed: " +str(totalMissedFlow)
     print "Percentage Methods Missed: " +str(100*(totalMissedFlow/len(reachable)))
     
-    row = args.app + "," + str(len(reachable))+"," + str(totalMissedFlow)+ "," + \
-        str(totalMissedDroidel) +"," + str(100*(totalMissedFlow/len(reachable))) + "," + \
-        str(100*(totalMissedDroidel/len(reachable)))+"\n"
-    
+    row = [args.app,'0',str(len(methods)),str(appMethods),str(len(reachable)),
+           str(totalFD),str(len(flowDroid)),
+           str(totalD),str(len(droidel)),
+           str(100*(totalMissedFlow/len(reachable))),str(100*(totalMissedDroidel/len(reachable))),
+           0,0,0]
+    '''
+    row = args.app + "," + str(appMethods) + "," + str(len(reachable))+"," + str(len(flowDroid))+ "," + \
+    str(len(droidel)) +"," + str(100*(totalMissedFlow/len(reachable))) + "," + \
+    str(100*(totalMissedDroidel/len(reachable)))+"\n"
+    '''
     file = open('output/data.csv','a')
-    file.write(row)
+    wr = csv.writer(file,dialect='excel')
+    wr.writerow(row)
     file.close()
     
     

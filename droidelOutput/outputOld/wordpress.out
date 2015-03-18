@@ -1,0 +1,54 @@
+[0m[[0minfo[0m] [0mLoading global plugins from /Users/Alex/.sbt/0.13/plugins[0m
+[0m[[0minfo[0m] [0mSet current project to Droidel (in build file:/Users/Alex/Desktop/Development/src/droidel/)[0m
+[0m[[0minfo[0m] [0mLoading global plugins from /Users/Alex/.sbt/0.13/plugins[0m
+[0m[[0minfo[0m] [0mSet current project to Droidel (in build file:/Users/Alex/Desktop/Development/src/droidel/)[0m
+[0m[[0minfo[0m] [0mRunning edu.colorado.droidel.driver.Main -app /Users/Alex/Downloads/benchmarks/wordpress/build/apk/WordPress-Android-debug-unaligned.apk -android_jar ../permGrep/src/main/resources/androidPlatforms/droidel_android-4.4.2.jar -build_cg[0m
+I: Using Apktool 2.0.0-RC2 on WordPress-Android-debug-unaligned.apk
+I: Loading resource table...
+I: Loading resource table...
+I: Decoding AndroidManifest.xml with resources...
+I: Loading resource table from file: /Users/Alex/Library/apktool/framework/1.apk
+I: Regular manifest package...
+I: Decoding file-resources...
+I: Decoding values */* XMLs...
+I: Baksmaling classes.dex...
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files...
+
+Running dex2jar
+dex2jar /Users/Alex/Downloads/benchmarks/wordpress/build/apk/WordPress-Android-debug-unaligned.apk -> /Users/Alex/Downloads/benchmarks/wordpress/build/apk/WordPress-Android-debug-unaligned_dex2jar.jar
+
+Running JPhantom
+Exception in thread "main" java.util.zip.ZipException: duplicate entry: com/crashlytics/android/A.class
+	at java.util.zip.ZipOutputStream.putNextEntry(ZipOutputStream.java:215)
+	at java.util.jar.JarOutputStream.putNextEntry(JarOutputStream.java:109)
+	at jphantom.jar.JarExtender$JarEntryCopyingVisitor.visitFile(JarExtender.java:92)
+	at jphantom.jar.JarExtender$JarEntryCopyingVisitor.visitFile(JarExtender.java:70)
+	at java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:135)
+	at java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:199)
+	at java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:199)
+	at java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:199)
+	at java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:199)
+	at java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:69)
+	at java.nio.file.Files.walkFileTree(Files.java:2602)
+	at java.nio.file.Files.walkFileTree(Files.java:2635)
+	at jphantom.jar.JarExtender.extend(JarExtender.java:61)
+	at jphantom.Driver.main(Driver.java:317)
+JPhantom failed: java.lang.RuntimeException: Nonzero exit value: 1. Continuing
+Running JPhantom took 51.092
+Transforming /Users/Alex/Downloads/benchmarks/wordpress/build/apk/WordPress-Android-debug-unaligned/
+Parsing layout
+Warning: layout file app_passcode_keyboard.xml uses unsupported construct requestFocus
+Parsing layout took 17.475
+Generating stubs
+Generating and compiling stubs took 13.987
+Generating android.content.BroadcastReceiver stubs
+Generating android.app.Activity stubs
+Generating android.app.Service stubs
+Generating android.content.ContentProvider stubs
+Generating android.app.Application stubs
+Total Time of Droidel took 35.345
+Building call graph
+Building Call Graph took 219.746
+[0m[[32msuccess[0m] [0mTotal time: 329 s, completed Mar 17, 2015 2:54:36 PM[0m

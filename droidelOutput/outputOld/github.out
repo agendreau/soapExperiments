@@ -1,0 +1,313 @@
+[0m[[0minfo[0m] [0mLoading global plugins from /Users/Alex/.sbt/0.13/plugins[0m
+[0m[[0minfo[0m] [0mSet current project to Droidel (in build file:/Users/Alex/Desktop/Development/src/droidel/)[0m
+[0m[[0minfo[0m] [0mRunning edu.colorado.droidel.driver.Main -app /Users/Alex/Desktop/Development/src/ella/apps/github/app-debug.apk -android_jar ../permGrep/src/main/resources/androidPlatforms/droidel_android-4.4.2.jar -build_cg[0m
+I: Using Apktool 2.0.0-RC2 on app-debug.apk
+I: Loading resource table...
+I: Loading resource table...
+I: Decoding AndroidManifest.xml with resources...
+I: Loading resource table from file: /Users/Alex/Library/apktool/framework/1.apk
+I: Regular manifest package...
+I: Decoding file-resources...
+I: Decoding values */* XMLs...
+I: Baksmaling classes.dex...
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files...
+
+Running dex2jar
+dex2jar /Users/Alex/Desktop/Development/src/ella/apps/github/app-debug.apk -> /Users/Alex/Desktop/Development/src/ella/apps/github/app-debug_dex2jar.jar
+Detail Error Information in File ./app-debug-error.zip
+Please report this file to http://code.google.com/p/dex2jar/issues/entry if possible.
+
+Running JPhantom
+Exception in thread "main" jphantom.exc.IllegalBytecodeException: Instruction: 3, occurred while analyzing
+   Class: com.github.mobile.ui.user.HomePagerAdapter
+   Method: getItem(I)Landroid/support/v4/app/Fragment;
+   Caused by: jphantom.exc.InsolvableConstraintException: java.lang.RuntimeException <: java.lang.Runtime
+	at jphantom.exc.IllegalBytecodeException$Builder.build(IllegalBytecodeException.java:84)
+	at jphantom.constraints.extractors.TypeConstraintExtractor.visit(TypeConstraintExtractor.java:91)
+	at jphantom.constraints.extractors.TypeConstraintExtractor.visit(TypeConstraintExtractor.java:44)
+	at jphantom.Driver.run(Driver.java:126)
+	at jphantom.Driver.main(Driver.java:314)
+Caused by: jphantom.exc.InsolvableConstraintException: java.lang.RuntimeException <: java.lang.Runtime
+	at jphantom.constraints.extractors.AbstractExtractor.visit(AbstractExtractor.java:79)
+	at jphantom.conversions.WideningReferenceConversion.accept(WideningReferenceConversion.java:13)
+	at jphantom.constraints.extractors.TypeConstraintExtractor$MethodConstraintExtractor.addConstraint(TypeConstraintExtractor.java:506)
+	at jphantom.constraints.extractors.TypeConstraintExtractor$MethodConstraintExtractor.addConstraint(TypeConstraintExtractor.java:495)
+	at jphantom.constraints.extractors.TypeConstraintExtractor$MethodConstraintExtractor.addConstraint(TypeConstraintExtractor.java:489)
+	at jphantom.constraints.extractors.TypeConstraintExtractor$MethodConstraintExtractor.visitMethodInsn(TypeConstraintExtractor.java:329)
+	at org.objectweb.asm.tree.MethodInsnNode.accept(MethodInsnNode.java:133)
+	at org.objectweb.asm.tree.InsnList.accept(InsnList.java:162)
+	at org.objectweb.asm.tree.MethodNode.accept(MethodNode.java:816)
+	at jphantom.constraints.extractors.TypeConstraintExtractor.visit(TypeConstraintExtractor.java:85)
+	... 3 more
+JPhantom failed: java.lang.RuntimeException: Nonzero exit value: 1. Continuing
+Running JPhantom took 43.885
+Transforming /Users/Alex/Desktop/Development/src/ella/apps/github/app-debug/
+Parsing layout
+Warning: layout file repo_details.xml uses unsupported construct merge
+Warning: layout file issues_filter_details.xml uses unsupported construct merge
+Warning: layout file issue_details.xml uses unsupported construct merge
+Warning: layout file gist_create.xml uses unsupported construct requestFocus
+Warning: layout file comment_create.xml uses unsupported construct requestFocus
+Parsing layout took 14.137
+Generating stubs
+Generating and compiling stubs took 7.816
+Performing bytecode instrumentation to explicate dependency injection
+Landroid/accounts/AccountManager; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+Landroid/accounts/AccountManager; -- Ljava/lang/Object;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/lang/Object;
+Landroid/accounts/Account; -- Ljava/lang/Throwable;
+Landroid/accounts/AccountManager; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/io/IOException;
+Landroid/accounts/Account; -- Ljava/lang/Object;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+Ljava/io/IOException; -- Landroid/accounts/AccountManager;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Landroid/accounts/Account;
+L?; -- Landroid/accounts/AccountManager;
+L?; -- Landroid/accounts/Account;
+L?; -- Landroid/accounts/AccountManager;
+Landroid/accounts/AccountManager; -- Ljava/lang/Object;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/io/IOException;
+L?; -- Ljava/lang/Object;
+L?; -- Ljava/io/IOException;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/lang/Object;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/lang/Object;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/lang/Object;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/lang/Object;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/lang/Object;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/lang/Object;
+Ljava/lang/String; -- Lorg/eclipse/egit/github/core/Reference;
+Ljava/util/Collection; -- Ljava/util/HashSet;
+Ljava/util/Collection; -- L?;
+Landroid/database/sqlite/SQLiteOpenHelper; -- Landroid/database/sqlite/SQLiteDatabase;
+Landroid/database/sqlite/SQLiteOpenHelper; -- Landroid/database/sqlite/SQLiteDatabase;
+Lcom/github/mobile/persistence/PersistableResource; -- Ljava/util/List;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+L?; -- Lcom/github/mobile/persistence/PersistableResource;
+Lcom/github/mobile/persistence/PersistableResource; -- Ljava/util/List;
+Landroid/accounts/Account; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Ljava/lang/Throwable;
+L?; -- Landroid/accounts/Account;
+L?; -- Landroid/accounts/Account;
+L?; -- Landroid/accounts/Account;
+L?; -- Landroid/accounts/Account;
+L?; -- Landroid/accounts/Account;
+Landroid/content/SyncStats; -- Ljava/io/IOException;
+Landroid/content/SyncStats; -- L?;
+Ljava/io/IOException; -- Landroid/database/SQLException;
+Lorg/eclipse/egit/github/core/User; -- Landroid/content/SyncStats;
+L?; -- Ljava/io/IOException;
+Lorg/eclipse/egit/github/core/User; -- Landroid/content/SyncStats;
+L?; -- Landroid/database/SQLException;
+L?; -- Landroid/content/SyncStats;
+L?; -- Landroid/content/SyncStats;
+L?; -- Landroid/content/SyncStats;
+L?; -- Landroid/content/SyncStats;
+L?; -- Landroid/content/SyncStats;
+L?; -- Landroid/content/SyncStats;
+L?; -- Landroid/content/SyncStats;
+L?; -- Landroid/content/SyncStats;
+L?; -- Landroid/content/SyncStats;
+L?; -- Landroid/content/SyncStats;
+L?; -- Landroid/content/SyncStats;
+L?; -- Landroid/content/SyncStats;
+L?; -- Landroid/content/SyncStats;
+Ljava/util/List; -- Ljava/util/Iterator;
+++ L; -- Ljava/lang/CharSequence; ++
+++ L; -- Ljava/lang/CharSequence; ++
+++ L; -- Ljava/lang/CharSequence; ++
+++ L; -- Ljava/lang/CharSequence; ++
+++ Ljava/lang/CharSequence; -- L; ++
+++ Ljava/lang/CharSequence; -- L; ++
+++ Ljava/lang/CharSequence; -- L; ++
+++ L; -- Ljava/lang/CharSequence; ++
+Lcom/actionbarsherlock/view/Menu; -- Lcom/actionbarsherlock/view/MenuItem;
+L?; -- Lcom/actionbarsherlock/view/MenuItem;
+Lcom/actionbarsherlock/view/MenuItem; -- Landroid/content/Intent;
+Ljava/util/Date; -- Lcom/github/mobile/ui/StyledText;
+Ljava/util/Date; -- L?;
+Ljava/util/Date; -- L?;
+++ L; -- Ljava/lang/String; ++
+++ L; -- Ljava/lang/String; ++
+Ljava/util/List; -- Lorg/eclipse/egit/github/core/Milestone;
+Ljava/lang/String; -- Lcom/github/mobile/ui/StyledText;
+++ Ljava/util/Collection; -- L; ++
+++ null -- L; ++
+++ L; -- Lorg/eclipse/egit/github/core/RepositoryId; ++
+++ Ljava/util/Collection; -- L; ++
+++ L; -- Lorg/eclipse/egit/github/core/RepositoryId; ++
+++ L; -- Lorg/eclipse/egit/github/core/RepositoryId; ++
+Ljava/util/Collection; -- Lorg/eclipse/egit/github/core/RepositoryId;
+Ljava/util/Collection; -- L?;
+++ Lorg/eclipse/egit/github/core/RepositoryId; -- L; ++
+++ Lorg/eclipse/egit/github/core/RepositoryId; -- L; ++
+++ Lorg/eclipse/egit/github/core/RepositoryId; -- L; ++
+Landroid/os/Bundle; -- Ljava/io/Serializable;
+Ljava/io/Serializable; -- Lorg/eclipse/egit/github/core/Repository;
+L?; -- Landroid/os/Bundle;
+Landroid/os/Bundle; -- Lcom/actionbarsherlock/app/ActionBar;
+Landroid/os/Bundle; -- L?;
+Landroid/os/Bundle; -- L?;
+L?; -- Ljava/io/Serializable;
+L?; -- Lorg/eclipse/egit/github/core/Repository;
+Lorg/eclipse/egit/github/core/Repository; -- Landroid/content/Intent;
+Landroid/accounts/Account; -- Ljava/lang/String;
+L?; -- Ljava/lang/String;
+L?; -- Ljava/lang/String;
+L?; -- Ljava/lang/String;
+L?; -- Ljava/lang/String;
+L?; -- Ljava/lang/String;
+L?; -- Ljava/lang/String;
+L?; -- Ljava/lang/String;
+L?; -- Ljava/lang/String;
+L?; -- Ljava/lang/String;
+L?; -- Landroid/accounts/Account;
+L?; -- Landroid/accounts/Account;
+L?; -- Landroid/accounts/Account;
+L?; -- Landroid/accounts/Account;
+L?; -- Landroid/accounts/Account;
+L?; -- Landroid/accounts/Account;
+L?; -- Landroid/accounts/Account;
+L?; -- Ljava/lang/String;
+++ L; -- Ljava/lang/String; ++
+++ L; -- Ljava/lang/String; ++
+Ljava/util/List; -- Ljava/lang/String;
+L?; -- Ljava/lang/String;
+L?; -- Ljava/lang/String;
+Lcom/actionbarsherlock/view/Menu; -- Lcom/actionbarsherlock/view/MenuItem;
+L?; -- Lcom/actionbarsherlock/view/MenuItem;
+++ L; -- Lorg/eclipse/egit/github/core/Repository; ++
+++ L; -- Lorg/eclipse/egit/github/core/Repository; ++
+++ L; -- Lorg/eclipse/egit/github/core/Repository; ++
+++ L; -- Lorg/eclipse/egit/github/core/Repository; ++
+Lorg/eclipse/egit/github/core/User; -- Landroid/support/v4/app/FragmentActivity;
+Lorg/eclipse/egit/github/core/RepositoryId; -- Lorg/eclipse/egit/github/core/Repository;
+Generating android.content.BroadcastReceiver stubs
+Generating android.app.Activity stubs
+Generating android.app.Service stubs
+Generating android.content.ContentProvider stubs
+Generating android.app.Application stubs
+Total Time of Droidel took 47.692
+Building call graph
+Building Call Graph took 334.564
+[0m[[32msuccess[0m] [0mTotal time: 449 s, completed Mar 17, 2015 6:29:40 PM[0m

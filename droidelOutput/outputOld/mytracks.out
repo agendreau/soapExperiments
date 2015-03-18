@@ -1,0 +1,1829 @@
+[0m[[0minfo[0m] [0mLoading global plugins from /Users/Alex/.sbt/0.13/plugins[0m
+[0m[[0minfo[0m] [0mSet current project to Droidel (in build file:/Users/Alex/Desktop/Development/src/droidel/)[0m
+[0m[[0minfo[0m] [0mRunning edu.colorado.droidel.driver.Main -app /Users/Alex/Desktop/Development/src/ella/apps/mytracks/TrackListActivity-debug.apk -android_jar ../permGrep/src/main/resources/androidPlatforms/droidel_android-4.4.2.jar -build_cg[0m
+I: Using Apktool 2.0.0-RC2 on TrackListActivity-debug.apk
+I: Loading resource table...
+I: Loading resource table...
+I: Decoding AndroidManifest.xml with resources...
+I: Loading resource table from file: /Users/Alex/Library/apktool/framework/1.apk
+I: Regular manifest package...
+I: Decoding file-resources...
+I: Decoding values */* XMLs...
+I: Baksmaling classes.dex...
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files...
+
+Running dex2jar
+dex2jar /Users/Alex/Desktop/Development/src/ella/apps/mytracks/TrackListActivity-debug.apk -> /Users/Alex/Desktop/Development/src/ella/apps/mytracks/TrackListActivity-debug_dex2jar.jar
+
+Running JPhantom
+08:55:24.548 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "junit.framework.TestCase" detected
+08:55:24.556 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.xmlpull.v1.XmlPullParser" detected
+08:55:24.626 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpConnection" detected
+08:55:24.671 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.entity.AbstractHttpEntity" detected
+08:55:24.703 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.DalvikLogHandler" detected
+08:55:24.703 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.SipListener" detected
+08:55:24.703 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.params.ConnPerRoute" detected
+08:55:24.726 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "junit.runner.BaseTestRunner" detected
+08:55:25.849 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.microedition.khronos.opengles.GL11Ext" detected
+08:55:25.912 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.SocketTagger" detected
+08:55:25.918 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "junit.framework.TestSuite" detected
+08:55:25.918 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.HttpClient" detected
+08:55:25.943 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.microedition.khronos.opengles.GL10Ext" detected
+08:55:25.954 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "junit.textui.ResultPrinter" detected
+08:55:25.984 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.xmlpull.v1.XmlSerializer" detected
+08:55:25.984 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.scheme.SocketFactory" detected
+08:55:25.999 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "junit.framework.TestListener" detected
+08:55:26.022 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.conn.ProxySelectorRoutePlanner" detected
+08:55:26.093 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.BlockGuard$Policy" detected
+08:55:26.129 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.microedition.khronos.opengles.GL" detected
+08:55:26.167 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "junit.framework.TestResult" detected
+08:55:26.178 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.apt.AnnotationProcessor" detected
+08:55:26.195 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.microedition.khronos.egl.EGL11" detected
+08:55:26.208 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.microedition.khronos.opengles.GL10" detected
+08:55:26.237 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.BlockGuard$BlockGuardPolicyException" detected
+08:55:26.237 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.microedition.khronos.opengles.GL11ExtensionPack" detected
+08:55:26.251 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager" detected
+08:55:26.323 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwContents$InternalAccessDelegate" detected
+08:55:26.324 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.CloseGuard$Reporter" detected
+08:55:26.393 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.harmony.luni.internal.util.TimezoneGetter" detected
+08:55:26.400 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.james.mime4j.ContentHandler" detected
+08:55:26.410 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.entity.HttpEntityWrapper" detected
+08:55:26.446 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.microedition.khronos.opengles.GL11" detected
+08:55:26.446 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpInetConnection" detected
+08:55:26.446 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpRequestInterceptor" detected
+08:55:26.446 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "gov.nist.javax.sip.clientauthutils.UserCredentials" detected
+08:55:26.446 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwContentsClient" detected
+08:55:26.455 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.client.DefaultHttpClient" detected
+08:55:26.455 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.harmony.dalvik.ddmc.ChunkHandler" detected
+08:55:26.488 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.scheme.LayeredSocketFactory" detected
+08:55:26.488 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "gov.nist.javax.sip.clientauthutils.AccountManager" detected
+08:55:26.492 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.apt.AnnotationProcessorFactory" detected
+08:55:26.492 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.methods.HttpEntityEnclosingRequestBase" detected
+08:55:26.965 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.xmlpull.v1.XmlPullParserException" detected
+08:55:27.320 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "android.net.http.HttpDateTime" detected
+08:55:28.310 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.ParseException" detected
+08:55:28.310 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpException" detected
+08:55:28.316 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.message.BasicHttpEntityEnclosingRequest" detected
+08:55:28.316 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpHost" detected
+08:55:28.317 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpEntityEnclosingRequest" detected
+08:55:28.317 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.Header" detected
+08:55:28.317 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.entity.StringEntity" detected
+08:55:28.318 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpEntity" detected
+08:55:28.318 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.RequestLine" detected
+08:55:28.389 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.DefaultHttpClientConnection" detected
+08:55:28.390 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.scheme.PlainSocketFactory" detected
+08:55:28.391 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.params.BasicHttpParams" detected
+08:55:28.397 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.params.HttpParams" detected
+08:55:28.397 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpRequest" detected
+08:55:28.398 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpConnectionMetrics" detected
+08:55:28.398 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpResponse" detected
+08:55:28.398 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.StatusLine" detected
+08:55:28.398 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.ProtocolVersion" detected
+08:55:28.398 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpVersion" detected
+08:55:29.125 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.methods.HttpUriRequest" detected
+08:55:29.125 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.methods.HttpGet" detected
+08:55:29.126 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.methods.HttpPost" detected
+08:55:29.126 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.entity.InputStreamEntity" detected
+08:55:29.148 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.entity.ByteArrayEntity" detected
+08:55:29.160 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.xmlpull.v1.XmlPullParserFactory" detected
+08:55:29.632 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.util.EncodingUtils" detected
+08:55:29.636 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.ClientConnectionManager" detected
+08:55:29.636 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.scheme.SchemeRegistry" detected
+08:55:29.637 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.scheme.Scheme" detected
+08:55:29.637 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.client.RequestWrapper" detected
+08:55:29.638 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.ProtocolException" detected
+08:55:29.638 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.client.EntityEnclosingRequestWrapper" detected
+08:55:29.638 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.ClientProtocolException" detected
+08:55:29.639 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.ResponseHandler" detected
+08:55:29.639 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.HttpContext" detected
+08:55:29.645 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.message.BasicHeader" detected
+08:55:29.651 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.ConnectionReuseStrategy" detected
+08:55:29.652 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.HttpRequestExecutor" detected
+08:55:29.652 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.BasicHttpProcessor" detected
+08:55:29.653 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.RequestContent" detected
+08:55:29.653 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.RequestTargetHost" detected
+08:55:29.653 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.RequestConnControl" detected
+08:55:29.653 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.RequestUserAgent" detected
+08:55:29.654 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.RequestExpectContinue" detected
+08:55:29.654 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.DefaultConnectionReuseStrategy" detected
+08:55:29.654 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.BasicHttpContext" detected
+08:55:29.655 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpClientConnection" detected
+08:55:29.655 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.params.DefaultedHttpParams" detected
+08:55:29.655 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.HttpProcessor" detected
+08:55:29.686 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpServerConnection" detected
+08:55:29.686 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.HttpService" detected
+08:55:29.686 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpResponseFactory" detected
+08:55:29.686 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.HttpExpectationVerifier" detected
+08:55:29.687 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.HttpRequestHandlerRegistry" detected
+08:55:29.687 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.HttpRequestHandlerResolver" detected
+08:55:29.687 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.ConnectionClosedException" detected
+08:55:29.694 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.ResponseDate" detected
+08:55:29.694 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpResponseInterceptor" detected
+08:55:29.694 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.ResponseServer" detected
+08:55:29.694 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.ResponseContent" detected
+08:55:29.694 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.ResponseConnControl" detected
+08:55:29.695 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.DefaultHttpResponseFactory" detected
+08:55:29.695 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.DefaultHttpServerConnection" detected
+08:55:29.696 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.HttpRequestHandler" detected
+08:55:29.699 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.util.EntityUtils" detected
+08:55:30.127 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.methods.HttpRequestBase" detected
+08:55:30.128 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.params.ConnManagerParams" detected
+08:55:30.128 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.params.HttpConnectionParams" detected
+08:55:30.129 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.params.HttpProtocolParams" detected
+08:55:30.129 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.params.ConnPerRouteBean" detected
+08:55:30.130 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.ssl.SSLSocketFactory" detected
+08:55:30.130 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.client.DefaultHttpRequestRetryHandler" detected
+08:55:30.130 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.HttpRequestRetryHandler" detected
+08:55:30.130 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.methods.HttpDelete" detected
+08:55:30.130 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.methods.HttpHead" detected
+08:55:30.130 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.methods.HttpPut" detected
+08:55:30.131 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.methods.HttpTrace" detected
+08:55:30.131 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.methods.HttpOptions" detected
+08:55:31.575 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.apt.AnnotationProcessorEnvironment" detected
+08:55:31.575 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.apt.Messager" detected
+08:55:31.576 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.apt.Filer" detected
+08:55:31.576 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.declaration.TypeDeclaration" detected
+08:55:31.576 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.declaration.AnnotationTypeDeclaration" detected
+08:55:31.576 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.util.Types" detected
+08:55:31.576 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.type.TypeMirror" detected
+08:55:31.577 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.type.DeclaredType" detected
+08:55:31.577 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.type.InterfaceType" detected
+08:55:31.580 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.declaration.Declaration" detected
+08:55:31.580 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.declaration.ClassDeclaration" detected
+08:55:31.581 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.util.SourcePosition" detected
+08:55:31.581 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.type.ClassType" detected
+08:55:31.581 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.sun.mirror.apt.Filer$Location" detected
+08:55:32.935 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.google.android.collect.Maps" detected
+08:55:32.956 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.google.android.collect.Sets" detected
+08:55:33.099 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.conscrypt.TrustedCertificateStore" detected
+08:55:33.124 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.PathClassLoader" detected
+08:55:33.154 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.io.ErrnoException" detected
+08:55:33.154 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.io.Libcore" detected
+08:55:33.154 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.io.Os" detected
+08:55:33.154 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.io.StructStat" detected
+08:55:33.154 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.io.OsConstants" detected
+08:55:33.344 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.BlockGuard" detected
+08:55:33.344 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.io.IoUtils" detected
+08:55:33.459 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.CloseGuard" detected
+08:55:33.566 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "java.lang.IntegralToString" detected
+08:55:33.625 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.google.android.collect.Lists" detected
+08:55:33.650 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.icu.NativePluralRules" detected
+08:55:33.914 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.commons.codec.binary.Hex" detected
+08:55:34.046 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.harmony.dalvik.ddmc.Chunk" detected
+08:55:34.047 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.harmony.dalvik.ddmc.DdmServer" detected
+08:55:34.055 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.harmony.dalvik.ddmc.DdmVmInternal" detected
+08:55:34.120 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.io.Streams" detected
+08:55:34.641 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.util.Objects" detected
+08:55:34.711 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "android.R$styleable" detected
+08:55:34.711 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "android.R" detected
+08:55:34.994 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.net.RawSocket" detected
+08:55:35.025 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.auth.AuthSchemeRegistry" detected
+08:55:35.025 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.cookie.CookieSpecRegistry" detected
+08:55:35.026 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.CredentialsProvider" detected
+08:55:35.027 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.client.params.HttpClientParams" detected
+08:55:35.030 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.io.SessionInputBuffer" detected
+08:55:35.030 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.io.SessionOutputBuffer" detected
+08:55:35.031 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.entity.EntitySerializer" detected
+08:55:35.031 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.io.HttpMessageWriter" detected
+08:55:35.031 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.HttpConnectionMetricsImpl" detected
+08:55:35.031 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.entity.StrictContentLengthStrategy" detected
+08:55:35.031 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.entity.ContentLengthStrategy" detected
+08:55:35.031 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.io.SocketInputBuffer" detected
+08:55:35.032 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.io.SocketOutputBuffer" detected
+08:55:35.032 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.io.HttpRequestWriter" detected
+08:55:35.032 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.message.LineFormatter" detected
+08:55:35.032 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.io.HttpTransportMetrics" detected
+08:55:35.034 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HttpMessage" detected
+08:55:35.034 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.util.CharArrayBuffer" detected
+08:55:35.034 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.NoHttpResponseException" detected
+08:55:35.034 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.message.BasicLineParser" detected
+08:55:35.035 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.message.ParserCursor" detected
+08:55:35.036 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.entity.BasicHttpEntity" detected
+08:55:35.036 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.io.ChunkedInputStream" detected
+08:55:35.037 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.io.IdentityInputStream" detected
+08:55:35.037 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.impl.io.ContentLengthInputStream" detected
+08:55:35.038 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.net.ssl.DefaultHostnameVerifier" detected
+08:55:35.050 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.conscrypt.SSLParametersImpl" detected
+08:55:35.050 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.conscrypt.TrustManagerImpl" detected
+08:55:35.054 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.protocol.HTTP" detected
+08:55:35.057 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.message.BasicHeaderValueParser" detected
+08:55:35.057 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.HeaderElement" detected
+08:55:35.059 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.okhttp.HttpResponseCache" detected
+08:55:35.067 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.conscrypt.FileClientSessionCache" detected
+08:55:35.067 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.conscrypt.SSLClientSessionCache" detected
+08:55:35.067 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.conscrypt.OpenSSLContextImpl" detected
+08:55:35.067 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.conscrypt.ClientSessionContext" detected
+08:55:35.068 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.message.BasicHttpRequest" detected
+08:55:35.072 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "junit.framework.Assert" detected
+08:55:35.072 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.commons.codec.binary.Base64" detected
+08:55:35.075 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.bouncycastle.asn1.x509.X509Name" detected
+08:55:35.075 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.bouncycastle.asn1.ASN1ObjectIdentifier" detected
+08:55:35.107 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.routing.HttpRoute" detected
+08:55:35.108 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.routing.HttpRoutePlanner" detected
+08:55:35.117 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.SipException" detected
+08:55:35.118 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.address.AddressFactory" detected
+08:55:35.118 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.address.SipURI" detected
+08:55:35.118 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.PeerUnavailableException" detected
+08:55:35.118 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.SipFactory" detected
+08:55:35.118 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.address.Address" detected
+08:55:35.119 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.address.URI" detected
+08:55:35.119 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.InvalidArgumentException" detected
+08:55:35.129 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.conscrypt.OpenSSLSocketImpl" detected
+08:55:35.135 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.net.UriCodec" detected
+08:55:35.229 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.microedition.khronos.egl.EGL10" detected
+08:55:35.229 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.microedition.khronos.egl.EGL" detected
+08:55:35.229 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.microedition.khronos.egl.EGLDisplay" detected
+08:55:35.229 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.microedition.khronos.egl.EGLConfig" detected
+08:55:35.230 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.microedition.khronos.egl.EGLSurface" detected
+08:55:35.231 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.microedition.khronos.egl.EGLContext" detected
+08:55:35.667 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.google.android.gles_jni.EGLImpl" detected
+08:55:35.711 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.VMDebug" detected
+08:55:35.711 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.bytecode.OpcodeInfo" detected
+08:55:35.955 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.io.Memory" detected
+08:55:35.971 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.harmony.security.asn1.BerInputStream" detected
+08:55:35.971 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.harmony.security.pkcs7.ContentInfo" detected
+08:55:35.971 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.harmony.security.asn1.ASN1Sequence" detected
+08:55:35.971 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.harmony.security.pkcs7.SignedData" detected
+08:55:35.971 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.harmony.security.provider.cert.X509CertImpl" detected
+08:55:35.972 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.harmony.security.x509.Certificate" detected
+08:55:35.972 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.harmony.security.pkcs7.SignerInfo" detected
+08:55:35.978 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.io.StructStatVfs" detected
+08:55:36.283 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.conscrypt.OpenSSLEngine" detected
+08:55:36.284 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.bouncycastle.x509.X509V3CertificateGenerator" detected
+08:55:36.345 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.conscrypt.OpenSSLKeyHolder" detected
+08:55:36.345 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.conscrypt.OpenSSLKey" detected
+08:55:36.346 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.bouncycastle.util.io.pem.PemWriter" detected
+08:55:36.347 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.bouncycastle.util.io.pem.PemObject" detected
+08:55:36.347 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.bouncycastle.util.io.pem.PemObjectGenerator" detected
+08:55:36.347 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.bouncycastle.util.io.pem.PemReader" detected
+08:55:36.424 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "android.support.v7.gridlayout.R$styleable" detected
+08:55:36.424 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "android.support.v7.gridlayout.R" detected
+08:55:36.425 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "android.support.v7.gridlayout.R$dimen" detected
+08:55:36.480 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "junit.framework.Test" detected
+08:55:36.483 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.DexFile" detected
+08:55:36.484 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "junit.framework.ComparisonFailure" detected
+08:55:36.485 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "junit.framework.AssertionFailedError" detected
+08:55:36.523 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "junit.textui.TestRunner" detected
+08:55:36.543 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.icu.ICU" detected
+08:55:36.543 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.icu.LocaleData" detected
+08:55:36.547 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.icu.DateIntervalFormat" detected
+08:55:36.550 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.ccil.cowan.tagsoup.HTMLSchema" detected
+08:55:36.551 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.ccil.cowan.tagsoup.Parser" detected
+08:55:36.690 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.internal.StringPool" detected
+08:55:36.732 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.util.ZoneInfoDB$TzData" detected
+08:55:36.732 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.util.ZoneInfoDB" detected
+08:55:36.736 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.harmony.xml.ExpatReader" detected
+08:55:36.736 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.kxml2.io.KXmlParser" detected
+08:55:37.186 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.net.MimeUtils" detected
+08:55:37.810 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.colorpicker.R$string" detected
+08:55:37.810 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.colorpicker.R" detected
+08:55:37.810 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.colorpicker.R$layout" detected
+08:55:37.810 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.colorpicker.R$id" detected
+08:55:37.812 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.colorpicker.R$dimen" detected
+08:55:37.813 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.colorpicker.R$drawable" detected
+08:55:37.877 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.DexClassLoader" detected
+08:55:37.922 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.datetimepicker.R$layout" detected
+08:55:37.922 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.datetimepicker.R" detected
+08:55:37.922 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.datetimepicker.R$id" detected
+08:55:37.922 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.datetimepicker.R$string" detected
+08:55:37.933 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.datetimepicker.R$color" detected
+08:55:37.933 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.datetimepicker.R$dimen" detected
+08:55:37.968 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.datetimepicker.R$drawable" detected
+08:55:38.000 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.commons.io.IOUtils" detected
+08:55:38.009 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.james.mime4j.BodyDescriptor" detected
+08:55:38.012 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.james.mime4j.EOLConvertingInputStream$Callback" detected
+08:55:38.012 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.james.mime4j.EOLConvertingInputStream" detected
+08:55:38.012 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.james.mime4j.MimeStreamParser" detected
+08:55:38.015 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.james.mime4j.field.Field" detected
+08:55:38.015 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.james.mime4j.field.DateTimeField" detected
+08:55:38.022 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.james.mime4j.codec.EncoderUtil$Usage" detected
+08:55:38.025 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.james.mime4j.codec.EncoderUtil" detected
+08:55:38.025 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.james.mime4j.decoder.DecoderUtil" detected
+08:55:38.025 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.james.mime4j.util.CharsetUtil" detected
+08:55:38.026 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.james.mime4j.decoder.QuotedPrintableInputStream" detected
+08:55:38.044 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.emailcommon.R$string" detected
+08:55:38.044 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.emailcommon.R" detected
+08:55:38.090 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.ssl.X509HostnameVerifier" detected
+08:55:38.106 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.scheme.HostNameResolver" detected
+08:55:38.119 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.ssl.AllowAllHostnameVerifier" detected
+08:55:38.120 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.ssl.BrowserCompatHostnameVerifier" detected
+08:55:38.120 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.ssl.StrictHostnameVerifier" detected
+08:55:38.158 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.chips.R$layout" detected
+08:55:38.158 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.chips.R" detected
+08:55:38.158 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.chips.R$drawable" detected
+08:55:38.178 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.chips.R$string" detected
+08:55:38.178 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.chips.R$styleable" detected
+08:55:38.178 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.chips.R$dimen" detected
+08:55:38.178 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.chips.R$integer" detected
+08:55:38.233 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.photo.R$layout" detected
+08:55:38.233 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.photo.R" detected
+08:55:38.233 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.photo.R$id" detected
+08:55:38.233 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.photo.R$drawable" detected
+08:55:38.234 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.photo.R$bool" detected
+08:55:38.234 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.photo.R$string" detected
+08:55:38.239 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.photo.R$dimen" detected
+08:55:38.240 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.photo.R$integer" detected
+08:55:38.254 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.ex.photo.R$color" detected
+08:55:38.388 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.VMRuntime" detected
+08:55:38.406 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.org.bouncycastle.util.encoders.Base64" detected
+08:55:38.410 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.commons.logging.Log" detected
+08:55:38.410 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.commons.logging.LogFactory" detected
+08:55:38.417 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.DalvikLogging" detected
+08:55:38.445 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.profiler.SamplingProfiler$ThreadSet" detected
+08:55:38.445 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.profiler.SamplingProfiler" detected
+08:55:38.449 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.profiler.HprofData" detected
+08:55:38.449 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.profiler.BinaryHprofWriter" detected
+08:55:38.451 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.Zygote" detected
+08:55:38.767 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.internal.telephony.gsm.GSMPhone$1" detected
+08:55:38.859 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.icu.TimeZoneNames" detected
+08:55:39.791 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "java.net.InetUnixAddress" detected
+08:55:39.791 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.io.StructUcred" detected
+08:55:39.792 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "libcore.io.StructTimeval" detected
+08:55:40.220 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.apache.http.conn.params.ConnRouteParams" detected
+08:55:40.384 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "dalvik.system.StaleDexCacheError" detected
+08:55:40.554 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.SipStack" detected
+08:55:40.554 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.SipProvider" detected
+08:55:40.554 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.HeaderFactory" detected
+08:55:40.554 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.message.MessageFactory" detected
+08:55:40.555 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.FromHeader" detected
+08:55:40.555 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.ToHeader" detected
+08:55:40.555 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.CallIdHeader" detected
+08:55:40.555 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.CSeqHeader" detected
+08:55:40.555 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.MaxForwardsHeader" detected
+08:55:40.555 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.ListeningPoint" detected
+08:55:40.556 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.ViaHeader" detected
+08:55:40.556 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.ContactHeader" detected
+08:55:40.556 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.ClientTransaction" detected
+08:55:40.556 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.message.Request" detected
+08:55:40.557 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.Header" detected
+08:55:40.557 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.ExpiresHeader" detected
+08:55:40.557 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.ResponseEvent" detected
+08:55:40.557 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "gov.nist.javax.sip.SipStackExt" detected
+08:55:40.558 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "gov.nist.javax.sip.clientauthutils.AuthenticationHelper" detected
+08:55:40.558 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.message.Response" detected
+08:55:40.558 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "gov.nist.javax.sip.header.extensions.ReferredByHeader" detected
+08:55:40.558 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.ContentTypeHeader" detected
+08:55:40.559 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.Dialog" detected
+08:55:40.559 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.RequestEvent" detected
+08:55:40.559 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.ServerTransaction" detected
+08:55:40.560 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.TransactionState" detected
+08:55:40.561 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.SubscriptionStateHeader" detected
+08:55:40.561 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.EventHeader" detected
+08:55:40.561 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.message.Message" detected
+08:55:40.562 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.DialogTerminatedEvent" detected
+08:55:40.562 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.TransactionTerminatedEvent" detected
+08:55:40.562 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.Transaction" detected
+08:55:40.568 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "gov.nist.javax.sip.header.extensions.ReplacesHeader" detected
+08:55:40.572 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.ObjectInUseException" detected
+08:55:40.573 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.TimeoutEvent" detected
+08:55:40.574 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.DialogState" detected
+08:55:40.575 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "gov.nist.javax.sip.header.WWWAuthenticate" detected
+08:55:40.575 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "gov.nist.javax.sip.header.ProxyAuthenticate" detected
+08:55:40.575 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "gov.nist.javax.sip.header.StatusLine" detected
+08:55:40.575 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "gov.nist.javax.sip.message.SIPResponse" detected
+08:55:40.577 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.ReferToHeader" detected
+08:55:40.578 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.header.HeaderAddress" detected
+08:55:40.581 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "javax.sip.IOExceptionEvent" detected
+08:55:40.581 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "gov.nist.javax.sip.message.SIPMessage" detected
+08:55:40.695 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.timezonepicker.R$string" detected
+08:55:40.695 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.timezonepicker.R" detected
+08:55:40.695 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.timezonepicker.R$array" detected
+08:55:40.697 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.timezonepicker.R$id" detected
+08:55:40.697 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.timezonepicker.R$layout" detected
+08:55:40.699 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "com.android.timezonepicker.R$drawable" detected
+08:55:40.738 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwSettings$LayoutAlgorithm" detected
+08:55:40.738 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwSettings" detected
+08:55:40.742 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwCookieManager" detected
+08:55:40.742 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.common.CleanupReference" detected
+08:55:40.743 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwGeolocationPermissions" detected
+08:55:40.743 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.R$attr" detected
+08:55:40.743 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.R" detected
+08:55:40.743 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.ui.R$color" detected
+08:55:40.744 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.ui.R" detected
+08:55:40.744 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.R$dimen" detected
+08:55:40.744 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.R$drawable" detected
+08:55:40.744 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.ui.R$drawable" detected
+08:55:40.744 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.R$id" detected
+08:55:40.744 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.ui.R$id" detected
+08:55:40.744 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.R$layout" detected
+08:55:40.744 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.ui.R$layout" detected
+08:55:40.744 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.R$menu" detected
+08:55:40.744 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.R$string" detected
+08:55:40.744 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.ui.R$string" detected
+08:55:40.745 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.R$style" detected
+08:55:40.745 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.ui.R$style" detected
+08:55:40.745 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwResource" detected
+08:55:40.746 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.browser.NavigationHistory" detected
+08:55:40.746 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.browser.NavigationEntry" detected
+08:55:40.747 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwContents" detected
+08:55:40.747 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwQuotaManagerBridge$Origins" detected
+08:55:40.747 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwQuotaManagerBridge" detected
+08:55:40.749 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.browser.LoadUrlParams" detected
+08:55:40.755 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.base.ThreadUtils" detected
+08:55:40.756 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwContents$HitTestData" detected
+08:55:40.756 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwBrowserContext" detected
+08:55:40.757 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwLayoutSizer" detected
+08:55:40.759 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwPrintDocumentAdapter" detected
+08:55:40.759 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwPdfExporter" detected
+08:55:40.765 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.browser.ContentViewStatics" detected
+08:55:40.766 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwDevToolsServer" detected
+08:55:40.766 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwBrowserProcess" detected
+08:55:40.766 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.common.ProcessInitException" detected
+08:55:40.766 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.common.CommandLine" detected
+08:55:40.766 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.browser.ResourceExtractor" detected
+08:55:40.766 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.app.LibraryLoader" detected
+08:55:40.767 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.base.PathService" detected
+08:55:40.767 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.app.ContentMain" detected
+08:55:40.767 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwFormDatabase" detected
+08:55:40.767 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.HttpAuthDatabase" detected
+08:55:40.768 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.AwHttpAuthHandler" detected
+08:55:40.769 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.JsPromptResultReceiver" detected
+08:55:40.769 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.JsResultReceiver" detected
+08:55:40.770 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.content.common.TraceEvent" detected
+08:55:40.770 [main] INFO  jphantom.adapters.PhantomAdder - Phantom Class "org.chromium.android_webview.InterceptedRequestData" detected
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: org.apache.james.mime4j.field.Field must be a class
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: org.apache.http.ParseException <: java.lang.Throwable
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: android.os.StrictMode$StrictModeViolation <: dalvik.system.BlockGuard$BlockGuardPolicyException
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: junit.framework.TestCase must be a class
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: org.apache.james.mime4j.field.DateTimeField must be a class
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: com.android.org.conscrypt.OpenSSLSocketImpl must be a class
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: android.test.TestRunner$JunitTestSuite <: junit.framework.TestSuite
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: javax.microedition.khronos.egl.EGLContext must be a class
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.io.ContentLengthInputStream must be a class
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpConnectionMetrics must be an interface
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: com.google.android.common.http.MultipartEntity <: org.apache.http.entity.AbstractHttpEntity
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: android.test.InstrumentationTestRunner$WatcherResultPrinter <: junit.framework.TestListener
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: org.apache.http.params.DefaultedHttpParams must be a class
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: libcore.io.StructStat must be a class
+08:55:52.270 [main] INFO  jphantom.Driver - Constraint: org.apache.http.entity.BasicHttpEntity <: org.apache.http.HttpEntity
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: libcore.io.IoUtils must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpRequestBase <: org.apache.http.client.methods.HttpUriRequest
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.chromium.ui.R$string must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.JsPromptResultReceiver must be an interface
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: com.google.api.client.http.apache.ContentEntity <: org.apache.http.HttpEntity
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.io.IdentityInputStream <: java.io.InputStream
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: javax.sip.DialogTerminatedEvent <: java.util.EventObject
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: gov.nist.javax.sip.header.extensions.ReferredByHeader must be an interface
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.browser.NavigationEntry must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.client.DefaultHttpClient <: org.apache.http.client.HttpClient
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwBrowserContext must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: android.test.NoExecTestResult <: junit.framework.TestResult
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: libcore.net.RawSocket must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: android.os.StrictMode$AndroidBlockGuardPolicy <: dalvik.system.BlockGuard$Policy
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: javax.microedition.khronos.opengles.GL11Ext must be an interface
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpHost must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.chromium.ui.R$color must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.ResponseServer must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.message.BasicHttpRequest <: org.apache.http.HttpRequest
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.security.pkcs7.SignerInfo must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.scheme.HostNameResolver must be an interface
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: junit.framework.TestSuite must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: junit.framework.TestCase <: junit.framework.Test
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpHead must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.james.mime4j.codec.EncoderUtil must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.ResponseContent <: org.apache.http.HttpResponseInterceptor
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.params.HttpParams must be an interface
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.message.BasicHeader must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.xml.ExpatReader must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.ssl.X509HostnameVerifier must be an interface
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.james.mime4j.MimeStreamParser must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.R$dimen must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.xmlpull.v1.XmlPullParserFactory must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: gov.nist.javax.sip.header.StatusLine must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.xmlpull.v1.XmlSerializer must be an interface
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.app.LibraryLoader must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager <: org.apache.http.conn.ClientConnectionManager
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.message.BasicHeader <: org.apache.http.Header
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.entity.StrictContentLengthStrategy must be a class
+08:55:52.271 [main] INFO  jphantom.Driver - Constraint: javax.sip.PeerUnavailableException <: java.lang.Throwable
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: com.google.android.common.http.NetworkStatsEntity <: org.apache.http.HttpEntity
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: gov.nist.javax.sip.SipStackExt must be an interface
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: android.os.StrictMode$StrictModeDiskReadViolation <: dalvik.system.BlockGuard$BlockGuardPolicyException
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpHead <: org.apache.http.client.methods.HttpRequestBase
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.ViaHeader must be an interface
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.apache.http.ParseException <: java.lang.Exception
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwSettings must be a class
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.HeaderFactory must be an interface
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: libcore.util.ZoneInfoDB$TzData must be a class
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpTrace <: org.apache.http.client.methods.HttpRequestBase
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: com.android.emailsync.SyncManager$1 <: org.apache.http.conn.params.ConnPerRoute
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.SubscriptionStateHeader <: javax.sip.header.Header
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: javax.sip.ResponseEvent <: java.util.EventObject
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.apache.http.NoHttpResponseException must be a class
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.apache.http.io.SessionInputBuffer must be an interface
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: javax.sip.message.Message must be an interface
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.DefaultHttpResponseFactory must be a class
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: com.sun.mirror.type.ClassType <: com.sun.mirror.type.TypeMirror
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.apache.http.entity.StringEntity <: org.apache.http.HttpEntity
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: com.android.server.sip.SipSessionGroup <: javax.sip.SipListener
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: android.ddm.DdmHandleThread <: org.apache.harmony.dalvik.ddmc.ChunkHandler
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.apache.http.Header must be an interface
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.RequestConnControl <: org.apache.http.HttpRequestInterceptor
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.apache.http.io.HttpMessageWriter must be an interface
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: com.android.org.bouncycastle.util.io.pem.PemObject must be a class
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: android.test.AndroidTestRunner <: junit.runner.BaseTestRunner
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: libcore.icu.TimeZoneNames must be a class
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: com.sun.mirror.declaration.ClassDeclaration <: com.sun.mirror.declaration.TypeDeclaration
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.xmlpull.v1.XmlPullParserException <: java.lang.Throwable
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: android.opengl.EGLLogWrapper <: javax.microedition.khronos.egl.EGL
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.InterceptedRequestData must be a class
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpRequest <: org.apache.http.HttpMessage
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.ExpiresHeader <: javax.sip.header.Header
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: java.lang.IntegralToString must be a class
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpVersion <: org.apache.http.ProtocolVersion
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.scheme.SchemeRegistry must be a class
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: com.google.android.common.http.NetworkStatsEntity <: org.apache.http.entity.HttpEntityWrapper
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.ContactHeader <: javax.sip.header.Header
+08:55:52.272 [main] INFO  jphantom.Driver - Constraint: dalvik.system.CloseGuard must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.commons.codec.binary.Hex must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: javax.microedition.khronos.opengles.GL10 must be an interface
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: android.test.InstrumentationTestRunner$StringResultPrinter <: junit.framework.TestListener
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.R$menu must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: dalvik.system.BlockGuard$BlockGuardPolicyException must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.params.HttpConnectionParams must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.ProtocolVersion must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.ssl.BrowserCompatHostnameVerifier must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: android.net.http.AndroidHttpClient$2 <: org.apache.http.client.HttpClient
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpOptions must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: android.test.InstrumentationTestRunner$StringResultPrinter <: junit.textui.ResultPrinter
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.HeaderAddress must be an interface
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.client.DefaultHttpRequestRetryHandler <: org.apache.http.client.HttpRequestRetryHandler
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: libcore.util.ZoneInfoDB must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: android.test.suitebuilder.TestSuiteBuilder$FailedToCreateTests <: junit.framework.Test
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: javax.sip.SipProvider must be an interface
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpPost must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.BasicHttpProcessor must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.ssl.AllowAllHostnameVerifier <: org.apache.http.conn.ssl.X509HostnameVerifier
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.message.BasicHttpEntityEnclosingRequest must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwQuotaManagerBridge$Origins must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.HttpRequestExecutor must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: javax.microedition.khronos.opengles.GL11 must be an interface
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.params.ConnManagerParams must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpEntityEnclosingRequest <: org.apache.http.HttpRequest
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.client.DefaultHttpClient must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: android.test.InstrumentationTestSuite <: junit.framework.TestSuite
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.dalvik.ddmc.ChunkHandler must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.io.ChunkedInputStream <: java.io.InputStream
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.message.BasicHttpRequest must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: libcore.icu.DateIntervalFormat must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: gov.nist.javax.sip.message.SIPMessage must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpServerConnection must be an interface
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.util.CharArrayBuffer must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.ToHeader <: javax.sip.header.Header
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.BasicHttpContext <: org.apache.http.protocol.HttpContext
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: javax.sip.Transaction must be an interface
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.ClientProtocolException must be a class
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.scheme.LayeredSocketFactory must be an interface
+08:55:52.273 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpPut must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: libcore.io.StructUcred must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpPost <: org.apache.http.client.methods.HttpRequestBase
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: android.ddm.DdmHandleHello <: org.apache.harmony.dalvik.ddmc.ChunkHandler
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.apache.http.ConnectionReuseStrategy must be an interface
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: android.ddm.DdmHandleAppName <: org.apache.harmony.dalvik.ddmc.ChunkHandler
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.RequestExpectContinue must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.xmlpull.v1.XmlPullParser must be an interface
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: junit.textui.TestRunner must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: libcore.io.StructTimeval must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: android.test.suitebuilder.TestSuiteBuilder$FailedToCreateTests <: junit.framework.TestCase
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpUriRequest must be an interface
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: com.android.emailcommon.internet.MimeMessage$MimeMessageBuilder <: org.apache.james.mime4j.ContentHandler
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: com.sun.mirror.declaration.Declaration must be an interface
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: libcore.io.StructStatVfs must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpResponse must be an interface
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: dalvik.system.VMRuntime must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.xmlpull.v1.XmlPullParserException must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpConnection must be an interface
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: com.android.org.conscrypt.OpenSSLKey must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: com.android.internal.os.RuntimeInit$1 <: org.apache.harmony.luni.internal.util.TimezoneGetter
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.RequestConnControl must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: junit.runner.BaseTestRunner must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: gov.nist.javax.sip.header.extensions.ReplacesHeader must be an interface
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.browser.ResourceExtractor must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: dalvik.system.DalvikLogging must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: android.ddm.DdmHandleHeap <: org.apache.harmony.dalvik.ddmc.ChunkHandler
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.apache.james.mime4j.decoder.QuotedPrintableInputStream must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.io.ChunkedInputStream must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: android.ddm.DdmHandleExit <: org.apache.harmony.dalvik.ddmc.ChunkHandler
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: com.android.emailcommon.utility.EmailClientConnectionManager <: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.R$layout must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.RequestUserAgent must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.ccil.cowan.tagsoup.Parser <: org.xml.sax.XMLReader
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: com.android.webview.chromium.WebViewContentsClientAdapter <: org.chromium.android_webview.AwContentsClient
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: junit.framework.TestSuite <: junit.framework.Test
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpUriRequest <: org.apache.http.HttpRequest
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: javax.sip.TimeoutEvent must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: com.android.org.conscrypt.OpenSSLEngine must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.apache.james.mime4j.decoder.DecoderUtil must be a class
+08:55:52.274 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.ResponseContent must be a class
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: libcore.io.Streams must be a class
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.chromium.ui.R$id must be a class
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: android.net.http.AndroidHttpClient$CurlLogger <: org.apache.http.HttpRequestInterceptor
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpEntityEnclosingRequest must be an interface
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: javax.sip.message.MessageFactory must be an interface
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: libcore.io.Memory must be a class
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.DefaultHttpClientConnection must be a class
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: com.google.gdata.data.apt.DataAnnotationProcessorFactory$DataAnnotationProcessor <: com.sun.mirror.apt.AnnotationProcessor
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.client.EntityEnclosingRequestWrapper <: org.apache.http.impl.client.RequestWrapper
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: javax.microedition.khronos.opengles.GL10Ext must be an interface
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.io.SocketInputBuffer must be a class
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwBrowserProcess must be a class
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.io.SocketOutputBuffer <: org.apache.http.io.SessionOutputBuffer
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.security.asn1.BerInputStream must be a class
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.params.BasicHttpParams must be a class
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.io.SessionOutputBuffer must be an interface
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpGet must be a class
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: com.android.org.conscrypt.OpenSSLKeyHolder must be an interface
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.StatusLine must be an interface
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.ReferToHeader <: javax.sip.header.HeaderAddress
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.CallIdHeader must be an interface
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: com.sun.mirror.type.InterfaceType <: com.sun.mirror.type.TypeMirror
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.message.BasicHttpEntityEnclosingRequest <: org.apache.http.HttpEntityEnclosingRequest
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpPut <: org.apache.http.client.methods.HttpRequestBase
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.RequestLine must be an interface
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.ResponseServer <: org.apache.http.HttpResponseInterceptor
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: javax.sip.ListeningPoint must be an interface
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.common.TraceEvent must be a class
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: com.sun.mirror.declaration.ClassDeclaration must be an interface
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: android.opengl.GLErrorWrapper <: javax.microedition.khronos.opengles.GL
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.io.HttpRequestWriter <: org.apache.http.io.HttpMessageWriter
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.params.HttpProtocolParams must be a class
+08:55:52.275 [main] INFO  jphantom.Driver - Constraint: org.apache.http.params.BasicHttpParams <: org.apache.http.params.HttpParams
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: dalvik.system.profiler.BinaryHprofWriter must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwContents$HitTestData must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.RequestContent <: org.apache.http.HttpRequestInterceptor
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: com.android.server.sip.SipSessionGroup$SipSessionImpl$2$1 <: gov.nist.javax.sip.clientauthutils.UserCredentials
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.scheme.Scheme must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: javax.sip.SipException must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: com.google.android.collect.Maps must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpRequestBase must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: javax.sip.TransactionTerminatedEvent must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.common.ProcessInitException <: java.lang.Throwable
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: com.android.org.conscrypt.TrustedCertificateStore must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: java.net.InetUnixAddress must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: javax.sip.address.SipURI must be an interface
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: junit.framework.AssertionFailedError <: java.lang.Throwable
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: com.android.emailcommon.utility.SSLSocketFactory <: org.apache.http.conn.scheme.SocketFactory
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: android.os.StrictMode$StrictModeViolation <: java.lang.Throwable
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.routing.HttpRoute must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.security.pkcs7.ContentInfo must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: libcore.icu.NativePluralRules must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.ToHeader must be an interface
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.R$drawable must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.params.ConnRouteParams must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: org.apache.http.message.ParserCursor must be a class
+08:55:52.276 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.RequestTargetHost must be a class
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: javax.sip.Dialog must be an interface
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: org.apache.james.mime4j.util.CharsetUtil must be a class
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: javax.sip.SipException <: java.lang.Throwable
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwCookieManager must be a class
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: com.android.okhttp.HttpResponseCache must be a class
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpDelete <: org.apache.http.client.methods.HttpRequestBase
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpEntity must be an interface
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.ClientConnectionManager must be an interface
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.entity.EntitySerializer must be a class
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: com.android.org.bouncycastle.util.io.pem.PemWriter must be a class
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: org.apache.http.entity.ByteArrayEntity <: org.apache.http.entity.AbstractHttpEntity
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpPost <: org.apache.http.client.methods.HttpUriRequest
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.luni.internal.util.TimezoneGetter must be a class
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: org.kxml2.io.KXmlParser must be a class
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: com.google.api.client.http.apache.HttpExtensionMethod <: org.apache.http.client.methods.HttpEntityEnclosingRequestBase
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.DefaultConnectionReuseStrategy <: org.apache.http.ConnectionReuseStrategy
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: android.os.StrictMode$StrictModeCustomViolation <: dalvik.system.BlockGuard$BlockGuardPolicyException
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwContents must be a class
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: com.sun.mirror.apt.Filer must be an interface
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: com.android.internal.http.multipart.MultipartEntity <: org.apache.http.entity.AbstractHttpEntity
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.HttpContext must be an interface
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: com.google.android.common.http.GoogleHttpClient$WrappedSocketFactory <: org.apache.http.conn.scheme.SocketFactory
+08:55:52.277 [main] INFO  jphantom.Driver - Constraint: javax.sip.message.Request <: javax.sip.message.Message
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: javax.sip.ServerTransaction must be an interface
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: dalvik.system.DexClassLoader must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.ContactHeader must be an interface
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: libcore.internal.StringPool must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.EventHeader <: javax.sip.header.Header
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.ssl.StrictHostnameVerifier <: org.apache.http.conn.ssl.X509HostnameVerifier
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: dalvik.system.BlockGuard$BlockGuardPolicyException <: java.lang.Throwable
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.chromium.ui.R$layout must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.JsResultReceiver must be an interface
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.security.provider.cert.X509CertImpl <: java.security.cert.Certificate
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.scheme.PlainSocketFactory <: org.apache.http.conn.scheme.SocketFactory
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.common.CommandLine must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.dalvik.ddmc.DdmServer must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.ssl.AllowAllHostnameVerifier must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: gov.nist.javax.sip.message.SIPResponse must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: com.android.uiautomator.testrunner.UiAutomatorTestRunner$WatcherResultPrinter <: junit.framework.TestListener
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: com.google.android.collect.Lists must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: libcore.icu.LocaleData must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.apache.http.entity.AbstractHttpEntity must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.browser.ContentViewStatics must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.client.RequestWrapper must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.app.ContentMain must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.HTTP must be a class
+08:55:52.278 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.HttpRequestHandlerRegistry must be a class
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: javax.sip.DialogTerminatedEvent must be a class
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.BasicHttpProcessor <: org.apache.http.protocol.HttpProcessor
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: javax.sip.RequestEvent must be a class
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: libcore.util.Objects must be a class
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwLayoutSizer must be a class
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.ExpiresHeader must be an interface
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: com.google.api.client.http.apache.ContentEntity <: org.apache.http.entity.AbstractHttpEntity
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: android.test.InstrumentationTestRunner$SuiteAssignmentPrinter <: junit.framework.TestListener
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: org.apache.http.message.BasicLineParser must be a class
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: org.apache.commons.io.IOUtils must be a class
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: android.ddm.DdmHandleProfiling <: org.apache.harmony.dalvik.ddmc.ChunkHandler
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: javax.sip.TransactionTerminatedEvent <: java.util.EventObject
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: com.google.android.common.http.GoogleHttpClient$WrappedLayeredSocketFactory <: org.apache.http.conn.scheme.SocketFactory
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: dalvik.system.PathClassLoader must be a class
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpException <: java.lang.Throwable
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.ssl.StrictHostnameVerifier must be a class
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpDelete must be a class
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: org.apache.http.entity.BasicHttpEntity must be a class
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: android.net.http.AndroidHttpClient$2 <: org.apache.http.impl.client.DefaultHttpClient
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: javax.sip.message.Response <: javax.sip.message.Message
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: android.content.res.XmlBlock$Parser <: org.xmlpull.v1.XmlPullParser
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.entity.StrictContentLengthStrategy <: org.apache.http.entity.ContentLengthStrategy
+08:55:52.279 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwFormDatabase must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: com.android.org.bouncycastle.x509.X509V3CertificateGenerator must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: junit.framework.ComparisonFailure must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: dalvik.system.BlockGuard must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: javax.sip.address.Address must be an interface
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: org.apache.http.entity.StringEntity must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.params.HttpClientParams must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.CSeqHeader must be an interface
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: junit.textui.ResultPrinter must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: javax.sip.address.Address <: java.io.Serializable
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: org.apache.commons.logging.Log must be an interface
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: dalvik.bytecode.OpcodeInfo must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: com.android.org.bouncycastle.asn1.x509.X509Name must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.io.HttpRequestWriter must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.scheme.SocketFactory must be an interface
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpGet <: org.apache.http.client.methods.HttpRequestBase
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: javax.sip.ObjectInUseException <: java.lang.Throwable
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: com.android.okhttp.HttpResponseCache <: java.net.ResponseCache
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: android.net.http.AndroidHttpClient$1 <: org.apache.http.HttpRequestInterceptor
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.ResponseConnControl must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: com.sun.mirror.apt.AnnotationProcessorEnvironment must be an interface
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: org.apache.http.message.BasicHeaderValueParser must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpOptions <: org.apache.http.client.methods.HttpRequestBase
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: android.test.InstrumentationTestCase <: junit.framework.TestCase
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.scheme.PlainSocketFactory must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: libcore.icu.ICU must be a class
+08:55:52.280 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.conn.ProxySelectorRoutePlanner must be a class
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: javax.sip.message.Request must be an interface
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: javax.sip.ClientTransaction <: javax.sip.Transaction
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: com.android.uiautomator.testrunner.UiAutomatorTestCase <: junit.framework.TestCase
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.client.DefaultHttpRequestRetryHandler must be a class
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpException <: java.lang.Exception
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.DefaultHttpServerConnection <: org.apache.http.HttpServerConnection
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: com.android.org.conscrypt.OpenSSLContextImpl must be a class
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: junit.framework.TestResult must be a class
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: com.google.android.gles_jni.EGLImpl must be a class
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: com.sun.mirror.apt.Messager must be an interface
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: javax.sip.message.Response must be an interface
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: javax.sip.SipFactory must be a class
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: gov.nist.javax.sip.header.ProxyAuthenticate must be a class
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: org.apache.http.params.DefaultedHttpParams <: org.apache.http.params.HttpParams
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.R$string must be a class
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: com.android.org.conscrypt.TrustManagerImpl must be a class
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwDevToolsServer must be a class
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: javax.sip.address.SipURI <: javax.sip.address.URI
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.scheme.LayeredSocketFactory <: org.apache.http.conn.scheme.SocketFactory
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: org.apache.http.ParseException must be a class
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.browser.LoadUrlParams must be a class
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.HttpConnectionMetricsImpl must be a class
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: com.android.uiautomator.testrunner.UiAutomatorTestRunner$SimpleResultPrinter <: junit.textui.ResultPrinter
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: org.apache.http.ConnectionClosedException <: java.lang.Throwable
+08:55:52.281 [main] INFO  jphantom.Driver - Constraint: javax.microedition.khronos.opengles.GL11ExtensionPack must be an interface
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.HttpConnectionMetricsImpl <: org.apache.http.HttpConnectionMetrics
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.ccil.cowan.tagsoup.HTMLSchema must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: com.sun.mirror.util.Types must be an interface
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwHttpAuthHandler must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: gov.nist.javax.sip.header.WWWAuthenticate must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.RequestExpectContinue <: org.apache.http.HttpRequestInterceptor
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.ClientProtocolException <: java.lang.Throwable
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.apache.http.util.EncodingUtils must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.DefaultHttpServerConnection must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: android.test.InstrumentationCoreTestRunner$1 <: junit.framework.TestListener
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: libcore.net.UriCodec must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.apache.http.message.BasicHttpEntityEnclosingRequest <: org.apache.http.message.BasicHttpRequest
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.HttpService must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.HttpAuthDatabase must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: javax.sip.RequestEvent <: java.util.EventObject
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: android.test.TestPrinter <: junit.framework.TestListener
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.apache.http.entity.HttpEntityWrapper must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: com.android.server.sip.SipSessionGroup$SipSessionImpl$2 <: gov.nist.javax.sip.clientauthutils.AccountManager
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.apache.http.entity.ByteArrayEntity <: org.apache.http.HttpEntity
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwContentsClient must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: com.android.org.conscrypt.OpenSSLSocketImpl <: java.net.Socket
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.chromium.base.ThreadUtils must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: javax.net.ssl.DefaultHostnameVerifier must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.ResponseDate must be a class
+08:55:52.282 [main] INFO  jphantom.Driver - Constraint: org.chromium.base.PathService must be a class
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.ResponseConnControl <: org.apache.http.HttpResponseInterceptor
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.apache.http.entity.InputStreamEntity must be a class
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.apache.http.entity.AbstractHttpEntity <: org.apache.http.HttpEntity
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.ResponseDate <: org.apache.http.HttpResponseInterceptor
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.client.EntityEnclosingRequestWrapper must be a class
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.ccil.cowan.tagsoup.Parser must be a class
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.ssl.SSLSocketFactory must be a class
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: com.google.android.collect.Sets must be a class
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: javax.sip.ClientTransaction must be an interface
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: javax.sip.header.ReferToHeader must be an interface
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.apache.http.util.EntityUtils must be a class
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: com.android.org.conscrypt.SSLParametersImpl must be a class
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: android.test.AndroidTestCase <: junit.framework.TestCase
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.security.asn1.ASN1Sequence must be a class
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: gov.nist.javax.sip.header.extensions.ReferredByHeader <: javax.sip.header.Header
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: android.net.Proxy$AndroidProxySelectorRoutePlanner <: org.apache.http.conn.routing.HttpRoutePlanner
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.io.IdentityInputStream must be a class
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.params.ConnPerRouteBean <: org.apache.http.conn.params.ConnPerRoute
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpGet <: org.apache.http.client.methods.HttpUriRequest
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: javax.sip.SipStack must be an interface
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.chromium.ui.R$drawable must be a class
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: com.android.org.bouncycastle.util.io.pem.PemReader must be a class
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.apache.http.NoHttpResponseException <: java.lang.Throwable
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpException must be a class
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: javax.sip.InvalidArgumentException <: java.lang.Throwable
+08:55:52.283 [main] INFO  jphantom.Driver - Constraint: com.android.internal.util.FastXmlSerializer <: org.xmlpull.v1.XmlSerializer
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: libcore.io.ErrnoException <: java.lang.Throwable
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwGeolocationPermissions must be a class
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: android.ddm.DdmHandleViewDebug <: org.apache.harmony.dalvik.ddmc.ChunkHandler
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.HttpRequestHandlerRegistry <: org.apache.http.protocol.HttpRequestHandlerResolver
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.security.pkcs7.SignedData must be a class
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: android.net.http.HttpDateTime must be a class
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: org.apache.commons.codec.binary.Base64 must be a class
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: org.kxml2.io.KXmlParser <: org.xmlpull.v1.XmlPullParser
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: com.android.webview.chromium.WebViewChromium$InternalAccessAdapter <: org.chromium.android_webview.AwContents$InternalAccessDelegate
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.io.SocketInputBuffer <: org.apache.http.io.SessionInputBuffer
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: javax.sip.ResponseEvent must be a class
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: android.os.StrictMode$AndroidCloseGuardReporter <: dalvik.system.CloseGuard$Reporter
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: org.apache.http.entity.InputStreamEntity <: org.apache.http.HttpEntity
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: com.android.org.conscrypt.ClientSessionContext must be a class
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: javax.sip.IOExceptionEvent <: java.util.EventObject
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.R$style must be a class
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: junit.framework.Assert must be a class
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: dalvik.system.SocketTagger must be a class
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwQuotaManagerBridge must be a class
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.HttpClient must be an interface
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: libcore.net.MimeUtils must be a class
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: libcore.io.OsConstants must be a class
+08:55:52.284 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.RequestUserAgent <: org.apache.http.HttpRequestInterceptor
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.ssl.SSLSocketFactory <: org.apache.http.conn.scheme.SocketFactory
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.DefaultConnectionReuseStrategy must be a class
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: com.android.server.NetworkManagementSocketTagger <: dalvik.system.SocketTagger
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.chromium.ui.R$style must be a class
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.apache.http.ProtocolException <: java.lang.Throwable
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: com.android.org.bouncycastle.util.encoders.Base64 must be a class
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.apache.commons.logging.LogFactory must be a class
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwPrintDocumentAdapter must be a class
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: android.net.Proxy$AndroidProxySelectorRoutePlanner <: org.apache.http.impl.conn.ProxySelectorRoutePlanner
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.io.ContentLengthInputStream <: java.io.InputStream
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: com.google.api.client.http.apache.HttpExtensionMethod <: org.apache.http.client.methods.HttpRequestBase
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.R$attr must be a class
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.DefaultHttpResponseFactory <: org.apache.http.HttpResponseFactory
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HeaderElement must be an interface
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: dalvik.system.PathClassLoader <: java.lang.ClassLoader
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: javax.sip.TimeoutEvent <: java.util.EventObject
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.BasicHttpContext must be a class
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: dalvik.system.BlockGuard$Policy must be an interface
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.apache.james.mime4j.BodyDescriptor must be a class
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.dalvik.ddmc.DdmVmInternal must be a class
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.apache.james.mime4j.EOLConvertingInputStream must be a class
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: javax.microedition.khronos.egl.EGL10 must be an interface
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.RequestTargetHost <: org.apache.http.HttpRequestInterceptor
+08:55:52.285 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.dalvik.ddmc.Chunk must be a class
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: org.apache.james.mime4j.decoder.QuotedPrintableInputStream <: java.io.InputStream
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.browser.NavigationHistory must be a class
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpTrace must be a class
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: android.os.StrictMode$StrictModeDiskWriteViolation <: dalvik.system.BlockGuard$BlockGuardPolicyException
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: android.ddm.DdmHandleNativeHeap <: org.apache.harmony.dalvik.ddmc.ChunkHandler
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.security.provider.cert.X509CertImpl must be a class
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: java.net.InetUnixAddress <: java.net.InetAddress
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: android.opengl.GLLogWrapper <: javax.microedition.khronos.opengles.GL
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: com.android.org.conscrypt.FileClientSessionCache must be a class
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwResource must be a class
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: android.content.res.XmlResourceParser <: org.xmlpull.v1.XmlPullParser
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: dalvik.system.Zygote must be a class
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: libcore.io.Os must be an interface
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: libcore.io.ErrnoException must be a class
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: dalvik.system.StaleDexCacheError <: java.lang.Throwable
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: javax.sip.ServerTransaction <: javax.sip.Transaction
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: org.apache.james.mime4j.EOLConvertingInputStream <: java.io.InputStream
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: gov.nist.javax.sip.clientauthutils.AuthenticationHelper must be an interface
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: dalvik.system.DexFile must be a class
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: android.test.TestRunner$JunitTestSuite <: junit.framework.TestListener
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwSettings$LayoutAlgorithm must be a class
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: dalvik.system.profiler.SamplingProfiler must be a class
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.common.CleanupReference must be a class
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.io.SocketOutputBuffer must be a class
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: com.android.uiautomator.testrunner.UiAutomatorTestRunner$SimpleResultPrinter <: junit.framework.TestListener
+08:55:52.286 [main] INFO  jphantom.Driver - Constraint: org.apache.http.impl.client.RequestWrapper <: org.apache.http.client.methods.HttpUriRequest
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.ssl.BrowserCompatHostnameVerifier <: org.apache.http.conn.ssl.X509HostnameVerifier
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: org.chromium.android_webview.AwPrintDocumentAdapter <: android.print.PrintDocumentAdapter
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: android.test.TestRunner$JunitTestSuite <: junit.framework.Test
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: javax.sip.address.AddressFactory must be an interface
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: org.apache.http.entity.ByteArrayEntity must be a class
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpRequest must be an interface
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: android.os.StrictMode$StrictModeNetworkViolation <: dalvik.system.BlockGuard$BlockGuardPolicyException
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: org.apache.http.conn.params.ConnPerRouteBean must be a class
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.xml.ExpatReader <: org.xml.sax.XMLReader
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: org.chromium.content.R$id must be a class
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: org.apache.http.protocol.RequestContent must be a class
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: org.apache.http.HttpEntityEnclosingRequest <: org.apache.http.HttpMessage
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: org.apache.http.client.methods.HttpEntityEnclosingRequestBase must be a class
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: org.apache.harmony.security.provider.cert.X509CertImpl <: java.security.cert.X509Certificate
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: android.test.InstrumentationTestSuite <: junit.framework.Test
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: com.android.org.bouncycastle.util.io.pem.PemObject <: com.android.org.bouncycastle.util.io.pem.PemObjectGenerator
+08:55:52.287 [main] INFO  jphantom.Driver - Constraint: dalvik.system.VMDebug must be a class
+08:55:52.425 [main] INFO  jphantom.Driver - Found Solution: 
+
+Class Hierarchy
+
+* class java.lang.Object
+  * class org.apache.james.mime4j.field.Field
+  * class junit.framework.TestCase (implements junit.framework.Test)
+    * class android.test.AndroidTestCase
+    * class com.android.uiautomator.testrunner.UiAutomatorTestCase
+    * class android.test.suitebuilder.TestSuiteBuilder$FailedToCreateTests
+    * class android.test.InstrumentationTestCase
+  * class org.apache.james.mime4j.field.DateTimeField
+  * class android.opengl.GLWrapperBase (implements javax.microedition.khronos.opengles.GL11Ext, javax.microedition.khronos.opengles.GL10, javax.microedition.khronos.opengles.GL11, javax.microedition.khronos.opengles.GL10Ext, javax.microedition.khronos.opengles.GL11ExtensionPack, javax.microedition.khronos.opengles.GL)
+    * class android.opengl.GLLogWrapper
+    * class android.opengl.GLErrorWrapper
+  * class javax.microedition.khronos.egl.EGLContext
+  * class java.security.cert.Certificate (implements java.io.Serializable)
+    * class java.security.cert.X509Certificate (implements java.security.cert.X509Extension)
+      * class org.apache.harmony.security.provider.cert.X509CertImpl
+  * class org.apache.http.params.DefaultedHttpParams (implements org.apache.http.params.HttpParams)
+  * class libcore.io.StructStat
+  * class com.android.emailcommon.utility.SSLSocketFactory (implements org.apache.http.conn.scheme.LayeredSocketFactory)
+  * class libcore.io.IoUtils
+  * class com.google.gdata.data.apt.DataAnnotationProcessorFactory$DataAnnotationProcessor (implements com.sun.mirror.apt.AnnotationProcessor)
+  * class android.content.res.XmlBlock$Parser (implements android.content.res.XmlResourceParser)
+  * class org.chromium.ui.R$string
+  * class com.google.android.common.http.GoogleHttpClient$WrappedSocketFactory (implements org.apache.http.conn.scheme.SocketFactory)
+    * class com.google.android.common.http.GoogleHttpClient$WrappedLayeredSocketFactory (implements org.apache.http.conn.scheme.LayeredSocketFactory)
+  * class java.net.ResponseCache
+    * class com.android.okhttp.HttpResponseCache
+  * class org.chromium.content.browser.NavigationEntry
+  * class org.chromium.android_webview.AwBrowserContext
+  * class libcore.net.RawSocket
+  * class org.apache.http.HttpHost
+  * class org.chromium.ui.R$color
+  * class org.apache.http.protocol.ResponseServer (implements org.apache.http.HttpResponseInterceptor)
+  * class org.apache.harmony.security.pkcs7.SignerInfo
+  * class junit.framework.TestSuite (implements junit.framework.Test)
+    * class android.test.InstrumentationTestSuite
+    * class android.test.TestRunner$JunitTestSuite (implements junit.framework.TestListener)
+  * class org.apache.james.mime4j.codec.EncoderUtil
+  * class com.android.uiautomator.testrunner.UiAutomatorTestRunner$WatcherResultPrinter (implements com.android.uiautomator.testrunner.UiAutomatorTestRunner$ResultReporter)
+  * class org.apache.http.message.BasicHeader (implements org.apache.http.Header)
+  * class org.apache.harmony.xml.ExpatReader (implements org.xml.sax.XMLReader)
+  * class org.apache.james.mime4j.MimeStreamParser
+  * class org.xmlpull.v1.XmlPullParserFactory
+  * class org.chromium.content.R$dimen
+  * class gov.nist.javax.sip.header.StatusLine
+  * class org.chromium.content.app.LibraryLoader
+  * class org.apache.http.impl.entity.StrictContentLengthStrategy (implements org.apache.http.entity.ContentLengthStrategy)
+  * class org.chromium.android_webview.AwSettings
+  * class libcore.util.ZoneInfoDB$TzData
+  * class android.test.InstrumentationTestRunner$SuiteAssignmentPrinter (implements junit.framework.TestListener)
+  * class android.net.http.AndroidHttpClient$CurlLogger (implements org.apache.http.HttpRequestInterceptor)
+  * class org.apache.http.impl.DefaultHttpResponseFactory (implements org.apache.http.HttpResponseFactory)
+  * class com.android.org.bouncycastle.util.io.pem.PemObject (implements com.android.org.bouncycastle.util.io.pem.PemObjectGenerator)
+  * class libcore.icu.TimeZoneNames
+  * class org.chromium.android_webview.InterceptedRequestData
+  * class java.lang.IntegralToString
+  * class org.apache.http.conn.scheme.SchemeRegistry
+  * class dalvik.system.CloseGuard
+  * class org.apache.commons.codec.binary.Hex
+  * class org.chromium.content.R$menu
+  * class org.apache.http.params.HttpConnectionParams
+  * class java.io.InputStream (implements java.io.Closeable)
+    * class org.apache.http.impl.io.ContentLengthInputStream
+    * class org.apache.james.mime4j.decoder.QuotedPrintableInputStream
+    * class org.apache.http.impl.io.ChunkedInputStream
+    * class org.apache.http.impl.io.IdentityInputStream
+    * class org.apache.james.mime4j.EOLConvertingInputStream
+  * class org.apache.http.ProtocolVersion
+    * class org.apache.http.HttpVersion
+  * class org.apache.http.conn.ssl.BrowserCompatHostnameVerifier (implements org.apache.http.conn.ssl.X509HostnameVerifier)
+  * class android.test.InstrumentationCoreTestRunner$1 (implements junit.framework.TestListener)
+  * class libcore.util.ZoneInfoDB
+  * class android.os.StrictMode$AndroidCloseGuardReporter (implements dalvik.system.CloseGuard$Reporter)
+  * class org.apache.http.protocol.BasicHttpProcessor (implements org.apache.http.protocol.HttpProcessor)
+  * class org.chromium.android_webview.AwQuotaManagerBridge$Origins
+  * class org.apache.http.protocol.HttpRequestExecutor
+  * class org.apache.http.conn.params.ConnManagerParams
+  * class org.apache.http.impl.client.DefaultHttpClient (implements org.apache.http.client.HttpClient)
+    * class android.net.http.AndroidHttpClient$2
+  * class org.apache.harmony.dalvik.ddmc.ChunkHandler
+    * class android.ddm.DdmHandleNativeHeap
+    * class android.ddm.DdmHandleThread
+    * class android.ddm.DdmHandleHeap
+    * class android.ddm.DdmHandleHello
+    * class android.ddm.DdmHandleViewDebug
+    * class android.ddm.DdmHandleExit
+    * class android.ddm.DdmHandleProfiling
+    * class android.ddm.DdmHandleAppName
+  * class org.apache.http.message.BasicHttpRequest (implements org.apache.http.HttpRequest)
+    * class org.apache.http.message.BasicHttpEntityEnclosingRequest (implements org.apache.http.HttpEntityEnclosingRequest)
+  * class libcore.icu.DateIntervalFormat
+  * class gov.nist.javax.sip.message.SIPMessage
+  * class org.apache.http.util.CharArrayBuffer
+  * class libcore.io.StructUcred
+  * class java.util.EventObject (implements java.io.Serializable)
+    * class javax.sip.IOExceptionEvent
+    * class javax.sip.TimeoutEvent
+    * class javax.sip.TransactionTerminatedEvent
+    * class javax.sip.DialogTerminatedEvent
+    * class javax.sip.RequestEvent
+    * class javax.sip.ResponseEvent
+  * class org.apache.http.protocol.RequestExpectContinue (implements org.apache.http.HttpRequestInterceptor)
+  * class junit.textui.TestRunner
+  * class libcore.io.StructTimeval
+  * class android.print.PrintDocumentAdapter
+    * class org.chromium.android_webview.AwPrintDocumentAdapter
+  * class libcore.io.StructStatVfs
+  * class dalvik.system.VMRuntime
+  * class com.android.org.conscrypt.OpenSSLKey
+  * class org.apache.http.protocol.RequestConnControl (implements org.apache.http.HttpRequestInterceptor)
+  * class junit.runner.BaseTestRunner
+    * class android.test.AndroidTestRunner
+  * class android.net.http.AndroidHttpClient$1 (implements org.apache.http.HttpRequestInterceptor)
+  * class org.chromium.content.browser.ResourceExtractor
+  * class dalvik.system.DalvikLogging
+  * class com.android.emailcommon.internet.MimeMessage$MimeMessageBuilder (implements org.apache.james.mime4j.ContentHandler)
+  * class org.apache.http.protocol.RequestUserAgent (implements org.apache.http.HttpRequestInterceptor)
+  * class org.chromium.content.R$layout
+  * class com.android.server.sip.SipSessionGroup (implements javax.sip.SipListener)
+  * class com.android.org.conscrypt.OpenSSLEngine
+  * class org.apache.james.mime4j.decoder.DecoderUtil
+  * class org.apache.http.protocol.ResponseContent (implements org.apache.http.HttpResponseInterceptor)
+  * class libcore.io.Streams
+  * class org.chromium.ui.R$id
+  * class java.lang.Throwable (implements java.io.Serializable)
+    * class org.apache.http.ConnectionClosedException
+    * class javax.sip.PeerUnavailableException
+    * class org.apache.http.ProtocolException
+    * class org.apache.http.NoHttpResponseException
+    * class java.lang.Exception
+      * class org.apache.http.ParseException
+      * class org.apache.http.HttpException
+    * class dalvik.system.BlockGuard$BlockGuardPolicyException
+      * class android.os.StrictMode$StrictModeViolation
+        * class android.os.StrictMode$StrictModeDiskReadViolation
+        * class android.os.StrictMode$StrictModeCustomViolation
+        * class android.os.StrictMode$StrictModeDiskWriteViolation
+        * class android.os.StrictMode$StrictModeNetworkViolation
+    * class org.apache.http.client.ClientProtocolException
+    * class org.xmlpull.v1.XmlPullParserException
+    * class org.chromium.content.common.ProcessInitException
+    * class javax.sip.ObjectInUseException
+    * class javax.sip.SipException
+    * class javax.sip.InvalidArgumentException
+    * class dalvik.system.StaleDexCacheError
+    * class junit.framework.AssertionFailedError
+    * class libcore.io.ErrnoException
+  * class libcore.io.Memory
+  * class org.apache.http.impl.DefaultHttpClientConnection
+  * class org.apache.http.impl.io.SocketInputBuffer (implements org.apache.http.io.SessionInputBuffer)
+  * class org.chromium.android_webview.AwBrowserProcess
+  * class org.apache.harmony.security.asn1.BerInputStream
+  * class org.apache.http.params.BasicHttpParams (implements org.apache.http.params.HttpParams)
+  * class org.chromium.content.common.TraceEvent
+  * class android.test.TestPrinter (implements android.test.TestRunner$Listener, junit.framework.TestListener)
+  * class org.apache.http.params.HttpProtocolParams
+  * class com.android.server.sip.SipSessionGroup$SipSessionImpl$2$1 (implements gov.nist.javax.sip.clientauthutils.UserCredentials)
+  * class dalvik.system.profiler.BinaryHprofWriter
+  * class org.chromium.android_webview.AwContents$HitTestData
+  * class org.apache.http.conn.scheme.Scheme
+  * class com.google.android.collect.Maps
+  * class org.apache.http.client.methods.HttpRequestBase (implements org.apache.http.client.methods.HttpUriRequest)
+    * class org.apache.http.client.methods.HttpHead
+    * class org.apache.http.client.methods.HttpOptions
+    * class org.apache.http.client.methods.HttpPost (implements org.apache.http.client.methods.HttpUriRequest)
+    * class org.apache.http.client.methods.HttpPut
+    * class org.apache.http.client.methods.HttpGet (implements org.apache.http.client.methods.HttpUriRequest)
+    * class org.apache.http.client.methods.HttpDelete
+    * class org.apache.http.client.methods.HttpTrace
+    * class org.apache.http.client.methods.HttpEntityEnclosingRequestBase
+      * class com.google.api.client.http.apache.HttpExtensionMethod
+  * class com.android.org.conscrypt.TrustedCertificateStore
+  * class org.apache.http.conn.routing.HttpRoute
+  * class org.apache.harmony.security.pkcs7.ContentInfo
+  * class libcore.icu.NativePluralRules
+  * class org.chromium.content.R$drawable
+  * class org.apache.http.conn.params.ConnRouteParams
+  * class org.apache.http.message.ParserCursor
+  * class org.apache.http.protocol.RequestTargetHost (implements org.apache.http.HttpRequestInterceptor)
+  * class org.apache.james.mime4j.util.CharsetUtil
+  * class org.chromium.android_webview.AwCookieManager
+  * class com.android.org.bouncycastle.util.io.pem.PemWriter
+  * class org.apache.http.impl.entity.EntitySerializer
+  * class org.apache.harmony.luni.internal.util.TimezoneGetter
+    * class com.android.internal.os.RuntimeInit$1
+  * class org.kxml2.io.KXmlParser (implements org.xmlpull.v1.XmlPullParser)
+  * class org.chromium.android_webview.AwContents
+  * class dalvik.system.DexClassLoader
+  * class libcore.internal.StringPool
+  * class org.chromium.ui.R$layout
+  * class org.apache.harmony.dalvik.ddmc.DdmServer
+  * class org.chromium.content.common.CommandLine
+  * class org.apache.http.conn.ssl.AllowAllHostnameVerifier (implements org.apache.http.conn.ssl.X509HostnameVerifier)
+  * class gov.nist.javax.sip.message.SIPResponse
+  * class com.google.android.collect.Lists
+  * class libcore.icu.LocaleData
+  * class org.apache.http.entity.AbstractHttpEntity (implements org.apache.http.HttpEntity)
+    * class com.google.android.common.http.MultipartEntity
+    * class com.google.api.client.http.apache.ContentEntity
+    * class com.android.internal.http.multipart.MultipartEntity
+    * class org.apache.http.entity.ByteArrayEntity (implements org.apache.http.HttpEntity)
+  * class org.chromium.content.browser.ContentViewStatics
+  * class org.apache.http.impl.client.RequestWrapper (implements org.apache.http.client.methods.HttpUriRequest)
+    * class org.apache.http.impl.client.EntityEnclosingRequestWrapper
+  * class org.chromium.content.app.ContentMain
+  * class org.apache.http.protocol.HTTP
+  * class org.apache.http.protocol.HttpRequestHandlerRegistry (implements org.apache.http.protocol.HttpRequestHandlerResolver)
+  * class libcore.util.Objects
+  * class org.chromium.android_webview.AwLayoutSizer
+  * class org.apache.http.message.BasicLineParser
+  * class org.apache.commons.io.IOUtils
+  * class com.android.emailsync.SyncManager$1 (implements org.apache.http.conn.params.ConnPerRoute)
+  * class com.android.server.sip.SipSessionGroup$SipSessionImpl$2 (implements gov.nist.javax.sip.clientauthutils.AccountManager)
+  * class org.apache.http.conn.ssl.StrictHostnameVerifier (implements org.apache.http.conn.ssl.X509HostnameVerifier)
+  * class org.apache.http.entity.BasicHttpEntity (implements org.apache.http.HttpEntity)
+  * class com.android.internal.util.FastXmlSerializer (implements org.xmlpull.v1.XmlSerializer)
+  * class org.chromium.android_webview.AwFormDatabase
+  * class com.android.org.bouncycastle.x509.X509V3CertificateGenerator
+  * class dalvik.system.BlockGuard
+  * class junit.framework.ComparisonFailure
+  * class org.apache.http.entity.StringEntity (implements org.apache.http.HttpEntity)
+  * class org.apache.http.client.params.HttpClientParams
+  * class junit.textui.ResultPrinter (implements junit.framework.TestListener)
+    * class android.test.InstrumentationTestRunner$StringResultPrinter
+    * class com.android.uiautomator.testrunner.UiAutomatorTestRunner$SimpleResultPrinter (implements com.android.uiautomator.testrunner.UiAutomatorTestRunner$ResultReporter)
+  * class dalvik.bytecode.OpcodeInfo
+  * class com.android.org.bouncycastle.asn1.x509.X509Name
+  * class org.apache.http.impl.io.HttpRequestWriter (implements org.apache.http.io.HttpMessageWriter)
+  * class org.apache.http.protocol.ResponseConnControl (implements org.apache.http.HttpResponseInterceptor)
+  * class org.apache.http.message.BasicHeaderValueParser
+  * class org.apache.http.conn.scheme.PlainSocketFactory (implements org.apache.http.conn.scheme.SocketFactory)
+  * class org.apache.http.impl.conn.ProxySelectorRoutePlanner (implements org.apache.http.conn.routing.HttpRoutePlanner)
+    * class android.net.Proxy$AndroidProxySelectorRoutePlanner
+  * class libcore.icu.ICU
+  * class org.apache.http.impl.client.DefaultHttpRequestRetryHandler (implements org.apache.http.client.HttpRequestRetryHandler)
+  * class com.android.org.conscrypt.OpenSSLContextImpl
+  * class com.google.android.gles_jni.EGLImpl
+  * class junit.framework.TestResult
+    * class android.test.NoExecTestResult
+  * class javax.sip.SipFactory
+  * class gov.nist.javax.sip.header.ProxyAuthenticate
+  * class com.android.org.conscrypt.TrustManagerImpl
+  * class org.chromium.content.R$string
+  * class org.chromium.android_webview.AwDevToolsServer
+  * class org.apache.http.impl.HttpConnectionMetricsImpl (implements org.apache.http.HttpConnectionMetrics)
+  * class org.chromium.content.browser.LoadUrlParams
+  * class org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager (implements org.apache.http.conn.ClientConnectionManager)
+    * class com.android.emailcommon.utility.EmailClientConnectionManager
+  * class org.ccil.cowan.tagsoup.HTMLSchema
+  * class android.os.StrictMode$AndroidBlockGuardPolicy (implements dalvik.system.BlockGuard$Policy)
+  * class java.net.Socket (implements java.io.Closeable)
+    * class com.android.org.conscrypt.OpenSSLSocketImpl
+  * class org.chromium.android_webview.AwHttpAuthHandler
+  * class gov.nist.javax.sip.header.WWWAuthenticate
+  * class org.apache.http.util.EncodingUtils
+  * class org.apache.http.impl.DefaultHttpServerConnection (implements org.apache.http.HttpServerConnection)
+  * class libcore.net.UriCodec
+  * class org.apache.http.protocol.HttpService
+  * class org.chromium.android_webview.HttpAuthDatabase
+  * class org.apache.http.entity.HttpEntityWrapper (implements org.apache.http.HttpEntity)
+    * class com.google.android.common.http.NetworkStatsEntity
+  * class org.chromium.android_webview.AwContentsClient
+    * class com.android.webview.chromium.WebViewContentsClientAdapter
+  * class org.chromium.base.ThreadUtils
+  * class javax.net.ssl.DefaultHostnameVerifier
+  * class org.apache.http.protocol.ResponseDate (implements org.apache.http.HttpResponseInterceptor)
+  * class org.chromium.base.PathService
+  * class org.apache.http.entity.InputStreamEntity (implements org.apache.http.HttpEntity)
+  * class org.ccil.cowan.tagsoup.Parser (implements org.xml.sax.XMLReader)
+  * class org.apache.http.conn.ssl.SSLSocketFactory (implements org.apache.http.conn.scheme.SocketFactory)
+  * class com.google.android.collect.Sets
+  * class org.apache.http.util.EntityUtils
+  * class com.android.org.conscrypt.SSLParametersImpl
+  * class org.apache.harmony.security.asn1.ASN1Sequence
+  * class org.chromium.ui.R$drawable
+  * class com.android.org.bouncycastle.util.io.pem.PemReader
+  * class org.chromium.android_webview.AwGeolocationPermissions
+  * class org.apache.harmony.security.pkcs7.SignedData
+  * class android.net.http.HttpDateTime
+  * class org.apache.commons.codec.binary.Base64
+  * class com.android.org.conscrypt.ClientSessionContext
+  * class org.chromium.content.R$style
+  * class junit.framework.Assert
+  * class dalvik.system.SocketTagger
+    * class com.android.server.NetworkManagementSocketTagger
+  * class org.chromium.android_webview.AwQuotaManagerBridge
+  * class libcore.net.MimeUtils
+  * class libcore.io.OsConstants
+  * class com.android.webview.chromium.WebViewChromium$InternalAccessAdapter (implements org.chromium.android_webview.AwContents$InternalAccessDelegate)
+  * class android.opengl.EGLLogWrapper (implements javax.microedition.khronos.egl.EGL11)
+  * class android.test.InstrumentationTestRunner$WatcherResultPrinter (implements android.os.PerformanceCollector$PerformanceResultsWriter, junit.framework.TestListener)
+  * class org.apache.http.impl.DefaultConnectionReuseStrategy (implements org.apache.http.ConnectionReuseStrategy)
+  * class org.chromium.ui.R$style
+  * class com.android.org.bouncycastle.util.encoders.Base64
+  * class org.apache.commons.logging.LogFactory
+  * class org.chromium.content.R$attr
+  * class org.apache.http.protocol.BasicHttpContext (implements org.apache.http.protocol.HttpContext)
+  * class org.apache.james.mime4j.BodyDescriptor
+  * class org.apache.harmony.dalvik.ddmc.DdmVmInternal
+  * class org.apache.harmony.dalvik.ddmc.Chunk
+  * class org.chromium.content.browser.NavigationHistory
+  * class java.lang.ClassLoader
+    * class dalvik.system.PathClassLoader
+  * class com.android.org.conscrypt.FileClientSessionCache
+  * class org.chromium.android_webview.AwResource
+  * class dalvik.system.Zygote
+  * class java.net.InetAddress (implements java.io.Serializable)
+    * class java.net.InetUnixAddress
+  * class dalvik.system.DexFile
+  * class org.chromium.android_webview.AwSettings$LayoutAlgorithm
+  * class dalvik.system.profiler.SamplingProfiler
+  * class org.chromium.content.common.CleanupReference
+  * class org.apache.http.impl.io.SocketOutputBuffer (implements org.apache.http.io.SessionOutputBuffer)
+  * class org.apache.http.conn.params.ConnPerRouteBean (implements org.apache.http.conn.params.ConnPerRoute)
+  * class org.chromium.content.R$id
+  * class org.apache.http.protocol.RequestContent (implements org.apache.http.HttpRequestInterceptor)
+  * class dalvik.system.VMDebug
+
+
+Interface Hierarchy
+
+* interface org.apache.http.HttpConnectionMetrics
+* interface org.chromium.android_webview.JsPromptResultReceiver
+* interface javax.microedition.khronos.egl.EGL
+  * interface javax.microedition.khronos.egl.EGL11
+* interface org.apache.http.HttpMessage
+  * interface org.apache.http.HttpRequest
+    * interface org.apache.http.client.methods.HttpUriRequest
+    * interface org.apache.http.HttpEntityEnclosingRequest
+* interface javax.microedition.khronos.opengles.GL11Ext
+* interface org.apache.http.conn.scheme.HostNameResolver
+* interface org.apache.http.params.HttpParams
+* interface javax.sip.address.URI
+  * interface javax.sip.address.SipURI
+* interface org.apache.http.conn.ssl.X509HostnameVerifier
+* interface org.xmlpull.v1.XmlSerializer
+* interface gov.nist.javax.sip.SipStackExt
+* interface javax.sip.header.ViaHeader
+* interface javax.sip.header.HeaderFactory
+* interface org.apache.http.io.SessionInputBuffer
+* interface javax.sip.message.Message
+  * interface javax.sip.message.Request
+  * interface javax.sip.message.Response
+* interface org.apache.http.Header
+* interface org.apache.http.io.HttpMessageWriter
+* interface org.apache.http.HttpResponseInterceptor
+* interface javax.microedition.khronos.opengles.GL10
+* interface org.xml.sax.XMLReader
+* interface javax.sip.header.HeaderAddress
+  * interface javax.sip.header.ReferToHeader
+* interface javax.sip.SipProvider
+* interface org.apache.james.mime4j.ContentHandler
+* interface javax.microedition.khronos.opengles.GL11
+* interface org.apache.http.HttpServerConnection
+* interface javax.sip.Transaction
+  * interface javax.sip.ServerTransaction
+  * interface javax.sip.ClientTransaction
+* interface org.apache.http.ConnectionReuseStrategy
+* interface org.xmlpull.v1.XmlPullParser
+  * interface android.content.res.XmlResourceParser (also extends java.lang.AutoCloseable, android.util.AttributeSet)
+* interface com.sun.mirror.declaration.Declaration
+* interface org.apache.http.HttpResponse
+* interface org.apache.http.HttpConnection
+* interface gov.nist.javax.sip.header.extensions.ReplacesHeader
+* interface org.apache.http.protocol.HttpProcessor
+* interface javax.sip.message.MessageFactory
+* interface javax.microedition.khronos.opengles.GL10Ext
+* interface org.apache.http.io.SessionOutputBuffer
+* interface com.android.org.conscrypt.OpenSSLKeyHolder
+* interface org.apache.http.StatusLine
+* interface javax.sip.header.CallIdHeader
+* interface org.apache.http.conn.routing.HttpRoutePlanner
+* interface junit.framework.TestListener
+  * interface com.android.uiautomator.testrunner.UiAutomatorTestRunner$ResultReporter
+* interface org.apache.http.RequestLine
+* interface javax.sip.ListeningPoint
+* interface org.apache.http.entity.ContentLengthStrategy
+* interface android.os.PerformanceCollector$PerformanceResultsWriter
+* interface org.apache.http.client.HttpRequestRetryHandler
+* interface com.sun.mirror.type.TypeMirror
+  * interface com.sun.mirror.type.InterfaceType
+  * interface com.sun.mirror.type.ClassType
+* interface javax.sip.Dialog
+* interface org.apache.http.HttpEntity
+* interface org.apache.http.conn.ClientConnectionManager
+* interface com.sun.mirror.apt.Filer
+* interface org.apache.http.protocol.HttpContext
+* interface gov.nist.javax.sip.clientauthutils.AccountManager
+* interface org.chromium.android_webview.JsResultReceiver
+* interface java.io.Serializable
+  * interface javax.sip.address.Address
+* interface javax.sip.SipListener
+* interface org.apache.http.conn.params.ConnPerRoute
+* interface javax.sip.header.Header
+  * interface gov.nist.javax.sip.header.extensions.ReferredByHeader
+  * interface javax.sip.header.EventHeader
+  * interface javax.sip.header.ToHeader
+  * interface javax.sip.header.ContactHeader
+  * interface javax.sip.header.ExpiresHeader
+  * interface javax.sip.header.SubscriptionStateHeader
+* interface java.lang.AutoCloseable
+  * interface java.io.Closeable
+  * interface android.content.res.XmlResourceParser (also extends org.xmlpull.v1.XmlPullParser, android.util.AttributeSet)
+* interface java.security.cert.X509Extension
+* interface javax.sip.header.CSeqHeader
+* interface org.apache.commons.logging.Log
+* interface org.apache.http.conn.scheme.SocketFactory
+  * interface org.apache.http.conn.scheme.LayeredSocketFactory
+* interface com.sun.mirror.apt.AnnotationProcessorEnvironment
+* interface android.util.AttributeSet
+  * interface android.content.res.XmlResourceParser (also extends java.lang.AutoCloseable, org.xmlpull.v1.XmlPullParser)
+* interface com.sun.mirror.apt.Messager
+* interface com.sun.mirror.declaration.TypeDeclaration
+  * interface com.sun.mirror.declaration.ClassDeclaration
+* interface javax.microedition.khronos.opengles.GL11ExtensionPack
+* interface android.test.TestRunner$Listener
+* interface com.sun.mirror.util.Types
+* interface dalvik.system.CloseGuard$Reporter
+* interface gov.nist.javax.sip.clientauthutils.UserCredentials
+* interface com.android.org.bouncycastle.util.io.pem.PemObjectGenerator
+* interface org.apache.http.protocol.HttpRequestHandlerResolver
+* interface javax.sip.SipStack
+* interface org.apache.http.HttpResponseFactory
+* interface org.apache.http.client.HttpClient
+* interface org.apache.http.HeaderElement
+* interface junit.framework.Test
+* interface dalvik.system.BlockGuard$Policy
+* interface javax.microedition.khronos.egl.EGL10
+* interface javax.microedition.khronos.opengles.GL
+* interface com.sun.mirror.apt.AnnotationProcessor
+* interface libcore.io.Os
+* interface gov.nist.javax.sip.clientauthutils.AuthenticationHelper
+* interface org.chromium.android_webview.AwContents$InternalAccessDelegate
+* interface org.apache.http.HttpRequestInterceptor
+* interface javax.sip.address.AddressFactory
+
+08:55:53.289 [main] INFO  jphantom.Driver - Creating complemented jar: /Users/Alex/Desktop/Development/src/ella/apps/mytracks/TrackListActivity-debug/bin/jphantom_classes/jphantom_out.jar
+08:55:53.296 [main] INFO  jphantom.jar.JarExtender - Copying old entries...
+08:55:58.553 [main] INFO  jphantom.jar.JarExtender - Adding entry: android/net/http/HttpDateTime.class
+08:55:58.554 [main] INFO  jphantom.jar.JarExtender - Adding entry: android/R$styleable.class
+08:55:58.555 [main] INFO  jphantom.jar.JarExtender - Adding entry: android/R.class
+08:55:58.556 [main] INFO  jphantom.jar.JarExtender - Adding entry: android/support/v7/gridlayout/R$dimen.class
+08:55:58.557 [main] INFO  jphantom.jar.JarExtender - Adding entry: android/support/v7/gridlayout/R$styleable.class
+08:55:58.557 [main] INFO  jphantom.jar.JarExtender - Adding entry: android/support/v7/gridlayout/R.class
+08:55:58.558 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/colorpicker/R$dimen.class
+08:55:58.559 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/colorpicker/R$drawable.class
+08:55:58.560 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/colorpicker/R$id.class
+08:55:58.560 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/colorpicker/R$layout.class
+08:55:58.561 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/colorpicker/R$string.class
+08:55:58.562 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/colorpicker/R.class
+08:55:58.563 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/datetimepicker/R$color.class
+08:55:58.563 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/datetimepicker/R$dimen.class
+08:55:58.564 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/datetimepicker/R$drawable.class
+08:55:58.565 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/datetimepicker/R$id.class
+08:55:58.565 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/datetimepicker/R$layout.class
+08:55:58.566 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/datetimepicker/R$string.class
+08:55:58.567 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/datetimepicker/R.class
+08:55:58.568 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/emailcommon/R$string.class
+08:55:58.568 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/emailcommon/R.class
+08:55:58.569 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/chips/R$dimen.class
+08:55:58.570 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/chips/R$drawable.class
+08:55:58.571 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/chips/R$integer.class
+08:55:58.571 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/chips/R$layout.class
+08:55:58.572 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/chips/R$string.class
+08:55:58.573 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/chips/R$styleable.class
+08:55:58.573 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/chips/R.class
+08:55:58.574 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/photo/R$bool.class
+08:55:58.575 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/photo/R$color.class
+08:55:58.576 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/photo/R$dimen.class
+08:55:58.576 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/photo/R$drawable.class
+08:55:58.577 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/photo/R$id.class
+08:55:58.578 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/photo/R$integer.class
+08:55:58.578 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/photo/R$layout.class
+08:55:58.579 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/photo/R$string.class
+08:55:58.579 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/ex/photo/R.class
+08:55:58.580 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/internal/telephony/gsm/GSMPhone$1.class
+08:55:58.580 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/okhttp/HttpResponseCache.class
+08:55:58.581 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/bouncycastle/asn1/ASN1ObjectIdentifier.class
+08:55:58.581 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/bouncycastle/asn1/x509/X509Name.class
+08:55:58.582 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/bouncycastle/util/encoders/Base64.class
+08:55:58.583 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/bouncycastle/util/io/pem/PemObject.class
+08:55:58.583 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/bouncycastle/util/io/pem/PemObjectGenerator.class
+08:55:58.583 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/bouncycastle/util/io/pem/PemReader.class
+08:55:58.584 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/bouncycastle/util/io/pem/PemWriter.class
+08:55:58.585 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/bouncycastle/x509/X509V3CertificateGenerator.class
+08:55:58.586 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/conscrypt/ClientSessionContext.class
+08:55:58.586 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/conscrypt/FileClientSessionCache.class
+08:55:58.587 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/conscrypt/OpenSSLContextImpl.class
+08:55:58.588 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/conscrypt/OpenSSLEngine.class
+08:55:58.588 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/conscrypt/OpenSSLKey.class
+08:55:58.589 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/conscrypt/OpenSSLKeyHolder.class
+08:55:58.589 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/conscrypt/OpenSSLSocketImpl.class
+08:55:58.590 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/conscrypt/SSLClientSessionCache.class
+08:55:58.591 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/conscrypt/SSLParametersImpl.class
+08:55:58.592 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/conscrypt/TrustedCertificateStore.class
+08:55:58.592 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/org/conscrypt/TrustManagerImpl.class
+08:55:58.593 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/timezonepicker/R$array.class
+08:55:58.594 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/timezonepicker/R$drawable.class
+08:55:58.594 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/timezonepicker/R$id.class
+08:55:58.595 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/timezonepicker/R$layout.class
+08:55:58.596 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/timezonepicker/R$string.class
+08:55:58.596 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/android/timezonepicker/R.class
+08:55:58.597 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/google/android/collect/Lists.class
+08:55:58.598 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/google/android/collect/Maps.class
+08:55:58.599 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/google/android/collect/Sets.class
+08:55:58.600 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/google/android/gles_jni/EGLImpl.class
+08:55:58.601 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/apt/AnnotationProcessor.class
+08:55:58.601 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/apt/AnnotationProcessorEnvironment.class
+08:55:58.602 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/apt/AnnotationProcessorFactory.class
+08:55:58.602 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/apt/Filer$Location.class
+08:55:58.603 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/apt/Filer.class
+08:55:58.603 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/apt/Messager.class
+08:55:58.603 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/declaration/AnnotationTypeDeclaration.class
+08:55:58.604 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/declaration/ClassDeclaration.class
+08:55:58.604 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/declaration/Declaration.class
+08:55:58.604 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/declaration/TypeDeclaration.class
+08:55:58.605 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/type/ClassType.class
+08:55:58.606 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/type/DeclaredType.class
+08:55:58.606 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/type/InterfaceType.class
+08:55:58.607 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/type/TypeMirror.class
+08:55:58.608 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/util/SourcePosition.class
+08:55:58.608 [main] INFO  jphantom.jar.JarExtender - Adding entry: com/sun/mirror/util/Types.class
+08:55:58.609 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/bytecode/OpcodeInfo.class
+08:55:58.610 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/BlockGuard$BlockGuardPolicyException.class
+08:55:58.610 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/BlockGuard$Policy.class
+08:55:58.610 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/BlockGuard.class
+08:55:58.611 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/CloseGuard$Reporter.class
+08:55:58.611 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/CloseGuard.class
+08:55:58.612 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/DalvikLogging.class
+08:55:58.612 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/DalvikLogHandler.class
+08:55:58.613 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/DexClassLoader.class
+08:55:58.613 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/DexFile.class
+08:55:58.614 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/PathClassLoader.class
+08:55:58.614 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/profiler/BinaryHprofWriter.class
+08:55:58.615 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/profiler/HprofData.class
+08:55:58.616 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/profiler/SamplingProfiler$ThreadSet.class
+08:55:58.617 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/profiler/SamplingProfiler.class
+08:55:58.617 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/SocketTagger.class
+08:55:58.618 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/StaleDexCacheError.class
+08:55:58.619 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/VMDebug.class
+08:55:58.619 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/VMRuntime.class
+08:55:58.620 [main] INFO  jphantom.jar.JarExtender - Adding entry: dalvik/system/Zygote.class
+08:55:58.620 [main] INFO  jphantom.jar.JarExtender - Adding entry: gov/nist/javax/sip/clientauthutils/AccountManager.class
+08:55:58.621 [main] INFO  jphantom.jar.JarExtender - Adding entry: gov/nist/javax/sip/clientauthutils/AuthenticationHelper.class
+08:55:58.621 [main] INFO  jphantom.jar.JarExtender - Adding entry: gov/nist/javax/sip/clientauthutils/UserCredentials.class
+08:55:58.622 [main] INFO  jphantom.jar.JarExtender - Adding entry: gov/nist/javax/sip/header/extensions/ReferredByHeader.class
+08:55:58.622 [main] INFO  jphantom.jar.JarExtender - Adding entry: gov/nist/javax/sip/header/extensions/ReplacesHeader.class
+08:55:58.622 [main] INFO  jphantom.jar.JarExtender - Adding entry: gov/nist/javax/sip/header/ProxyAuthenticate.class
+08:55:58.623 [main] INFO  jphantom.jar.JarExtender - Adding entry: gov/nist/javax/sip/header/StatusLine.class
+08:55:58.623 [main] INFO  jphantom.jar.JarExtender - Adding entry: gov/nist/javax/sip/header/WWWAuthenticate.class
+08:55:58.624 [main] INFO  jphantom.jar.JarExtender - Adding entry: gov/nist/javax/sip/message/SIPMessage.class
+08:55:58.625 [main] INFO  jphantom.jar.JarExtender - Adding entry: gov/nist/javax/sip/message/SIPResponse.class
+08:55:58.625 [main] INFO  jphantom.jar.JarExtender - Adding entry: gov/nist/javax/sip/SipStackExt.class
+08:55:58.626 [main] INFO  jphantom.jar.JarExtender - Adding entry: java/lang/IntegralToString.class
+08:55:58.627 [main] INFO  jphantom.jar.JarExtender - Adding entry: java/net/InetUnixAddress.class
+08:55:58.628 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/microedition/khronos/egl/EGL.class
+08:55:58.628 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/microedition/khronos/egl/EGL10.class
+08:55:58.629 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/microedition/khronos/egl/EGL11.class
+08:55:58.629 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/microedition/khronos/egl/EGLConfig.class
+08:55:58.630 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/microedition/khronos/egl/EGLContext.class
+08:55:58.631 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/microedition/khronos/egl/EGLDisplay.class
+08:55:58.631 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/microedition/khronos/egl/EGLSurface.class
+08:55:58.632 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/microedition/khronos/opengles/GL.class
+08:55:58.633 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/microedition/khronos/opengles/GL10.class
+08:55:58.633 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/microedition/khronos/opengles/GL10Ext.class
+08:55:58.633 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/microedition/khronos/opengles/GL11.class
+08:55:58.634 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/microedition/khronos/opengles/GL11Ext.class
+08:55:58.634 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/microedition/khronos/opengles/GL11ExtensionPack.class
+08:55:58.634 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/net/ssl/DefaultHostnameVerifier.class
+08:55:58.635 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/address/Address.class
+08:55:58.635 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/address/AddressFactory.class
+08:55:58.635 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/address/SipURI.class
+08:55:58.636 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/address/URI.class
+08:55:58.636 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/ClientTransaction.class
+08:55:58.637 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/Dialog.class
+08:55:58.637 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/DialogState.class
+08:55:58.637 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/DialogTerminatedEvent.class
+08:55:58.638 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/CallIdHeader.class
+08:55:58.638 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/ContactHeader.class
+08:55:58.638 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/ContentTypeHeader.class
+08:55:58.639 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/CSeqHeader.class
+08:55:58.639 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/EventHeader.class
+08:55:58.640 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/ExpiresHeader.class
+08:55:58.640 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/FromHeader.class
+08:55:58.641 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/Header.class
+08:55:58.641 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/HeaderAddress.class
+08:55:58.642 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/HeaderFactory.class
+08:55:58.642 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/MaxForwardsHeader.class
+08:55:58.642 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/ReferToHeader.class
+08:55:58.643 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/SubscriptionStateHeader.class
+08:55:58.643 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/ToHeader.class
+08:55:58.644 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/header/ViaHeader.class
+08:55:58.644 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/InvalidArgumentException.class
+08:55:58.644 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/IOExceptionEvent.class
+08:55:58.645 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/ListeningPoint.class
+08:55:58.645 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/message/Message.class
+08:55:58.646 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/message/MessageFactory.class
+08:55:58.646 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/message/Request.class
+08:55:58.646 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/message/Response.class
+08:55:58.646 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/ObjectInUseException.class
+08:55:58.647 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/PeerUnavailableException.class
+08:55:58.648 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/RequestEvent.class
+08:55:58.648 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/ResponseEvent.class
+08:55:58.649 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/ServerTransaction.class
+08:55:58.649 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/SipException.class
+08:55:58.650 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/SipFactory.class
+08:55:58.651 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/SipListener.class
+08:55:58.651 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/SipProvider.class
+08:55:58.651 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/SipStack.class
+08:55:58.652 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/TimeoutEvent.class
+08:55:58.652 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/Transaction.class
+08:55:58.653 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/TransactionState.class
+08:55:58.653 [main] INFO  jphantom.jar.JarExtender - Adding entry: javax/sip/TransactionTerminatedEvent.class
+08:55:58.654 [main] INFO  jphantom.jar.JarExtender - Adding entry: junit/framework/Assert.class
+08:55:58.655 [main] INFO  jphantom.jar.JarExtender - Adding entry: junit/framework/AssertionFailedError.class
+08:55:58.656 [main] INFO  jphantom.jar.JarExtender - Adding entry: junit/framework/ComparisonFailure.class
+08:55:58.656 [main] INFO  jphantom.jar.JarExtender - Adding entry: junit/framework/Test.class
+08:55:58.657 [main] INFO  jphantom.jar.JarExtender - Adding entry: junit/framework/TestCase.class
+08:55:58.658 [main] INFO  jphantom.jar.JarExtender - Adding entry: junit/framework/TestListener.class
+08:55:58.658 [main] INFO  jphantom.jar.JarExtender - Adding entry: junit/framework/TestResult.class
+08:55:58.659 [main] INFO  jphantom.jar.JarExtender - Adding entry: junit/framework/TestSuite.class
+08:55:58.660 [main] INFO  jphantom.jar.JarExtender - Adding entry: junit/runner/BaseTestRunner.class
+08:55:58.661 [main] INFO  jphantom.jar.JarExtender - Adding entry: junit/textui/ResultPrinter.class
+08:55:58.662 [main] INFO  jphantom.jar.JarExtender - Adding entry: junit/textui/TestRunner.class
+08:55:58.662 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/icu/DateIntervalFormat.class
+08:55:58.663 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/icu/ICU.class
+08:55:58.664 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/icu/LocaleData.class
+08:55:58.664 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/icu/NativePluralRules.class
+08:55:58.665 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/icu/TimeZoneNames.class
+08:55:58.666 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/internal/StringPool.class
+08:55:58.667 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/io/ErrnoException.class
+08:55:58.667 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/io/IoUtils.class
+08:55:58.668 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/io/Libcore.class
+08:55:58.669 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/io/Memory.class
+08:55:58.669 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/io/Os.class
+08:55:58.670 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/io/OsConstants.class
+08:55:58.670 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/io/Streams.class
+08:55:58.671 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/io/StructStat.class
+08:55:58.672 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/io/StructStatVfs.class
+08:55:58.672 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/io/StructTimeval.class
+08:55:58.673 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/io/StructUcred.class
+08:55:58.674 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/net/MimeUtils.class
+08:55:58.675 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/net/RawSocket.class
+08:55:58.675 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/net/UriCodec.class
+08:55:58.676 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/util/Objects.class
+08:55:58.677 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/util/ZoneInfoDB$TzData.class
+08:55:58.677 [main] INFO  jphantom.jar.JarExtender - Adding entry: libcore/util/ZoneInfoDB.class
+08:55:58.678 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/commons/codec/binary/Base64.class
+08:55:58.679 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/commons/codec/binary/Hex.class
+08:55:58.680 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/commons/io/IOUtils.class
+08:55:58.681 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/commons/logging/Log.class
+08:55:58.681 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/commons/logging/LogFactory.class
+08:55:58.682 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/harmony/dalvik/ddmc/Chunk.class
+08:55:58.682 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/harmony/dalvik/ddmc/ChunkHandler.class
+08:55:58.683 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/harmony/dalvik/ddmc/DdmServer.class
+08:55:58.684 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/harmony/dalvik/ddmc/DdmVmInternal.class
+08:55:58.685 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/harmony/luni/internal/util/TimezoneGetter.class
+08:55:58.686 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/harmony/security/asn1/ASN1Sequence.class
+08:55:58.686 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/harmony/security/asn1/BerInputStream.class
+08:55:58.687 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/harmony/security/pkcs7/ContentInfo.class
+08:55:58.688 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/harmony/security/pkcs7/SignedData.class
+08:55:58.688 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/harmony/security/pkcs7/SignerInfo.class
+08:55:58.689 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/harmony/security/provider/cert/X509CertImpl.class
+08:55:58.690 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/harmony/security/x509/Certificate.class
+08:55:58.691 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/harmony/xml/ExpatReader.class
+08:55:58.691 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/auth/AuthSchemeRegistry.class
+08:55:58.692 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/ClientProtocolException.class
+08:55:58.693 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/CredentialsProvider.class
+08:55:58.693 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/HttpClient.class
+08:55:58.694 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/HttpRequestRetryHandler.class
+08:55:58.694 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/methods/HttpDelete.class
+08:55:58.695 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/methods/HttpEntityEnclosingRequestBase.class
+08:55:58.696 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/methods/HttpGet.class
+08:55:58.696 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/methods/HttpHead.class
+08:55:58.697 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/methods/HttpOptions.class
+08:55:58.698 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/methods/HttpPost.class
+08:55:58.698 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/methods/HttpPut.class
+08:55:58.699 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/methods/HttpRequestBase.class
+08:55:58.700 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/methods/HttpTrace.class
+08:55:58.701 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/methods/HttpUriRequest.class
+08:55:58.701 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/params/HttpClientParams.class
+08:55:58.702 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/client/ResponseHandler.class
+08:55:58.702 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/ClientConnectionManager.class
+08:55:58.703 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/params/ConnManagerParams.class
+08:55:58.703 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/params/ConnPerRoute.class
+08:55:58.704 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/params/ConnPerRouteBean.class
+08:55:58.705 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/params/ConnRouteParams.class
+08:55:58.705 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/routing/HttpRoute.class
+08:55:58.706 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/routing/HttpRoutePlanner.class
+08:55:58.707 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/scheme/HostNameResolver.class
+08:55:58.707 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/scheme/LayeredSocketFactory.class
+08:55:58.707 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/scheme/PlainSocketFactory.class
+08:55:58.708 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/scheme/Scheme.class
+08:55:58.709 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/scheme/SchemeRegistry.class
+08:55:58.709 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/scheme/SocketFactory.class
+08:55:58.710 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/ssl/AllowAllHostnameVerifier.class
+08:55:58.710 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/ssl/BrowserCompatHostnameVerifier.class
+08:55:58.711 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/ssl/SSLSocketFactory.class
+08:55:58.712 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/ssl/StrictHostnameVerifier.class
+08:55:58.712 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/conn/ssl/X509HostnameVerifier.class
+08:55:58.713 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/ConnectionClosedException.class
+08:55:58.713 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/ConnectionReuseStrategy.class
+08:55:58.714 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/cookie/CookieSpecRegistry.class
+08:55:58.714 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/entity/AbstractHttpEntity.class
+08:55:58.715 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/entity/BasicHttpEntity.class
+08:55:58.716 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/entity/ByteArrayEntity.class
+08:55:58.717 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/entity/ContentLengthStrategy.class
+08:55:58.717 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/entity/HttpEntityWrapper.class
+08:55:58.718 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/entity/InputStreamEntity.class
+08:55:58.719 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/entity/StringEntity.class
+08:55:58.719 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/Header.class
+08:55:58.720 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HeaderElement.class
+08:55:58.720 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpClientConnection.class
+08:55:58.720 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpConnection.class
+08:55:58.721 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpConnectionMetrics.class
+08:55:58.721 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpEntity.class
+08:55:58.721 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpEntityEnclosingRequest.class
+08:55:58.721 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpException.class
+08:55:58.722 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpHost.class
+08:55:58.723 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpInetConnection.class
+08:55:58.723 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpMessage.class
+08:55:58.724 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpRequest.class
+08:55:58.724 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpRequestInterceptor.class
+08:55:58.725 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpResponse.class
+08:55:58.725 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpResponseFactory.class
+08:55:58.726 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpResponseInterceptor.class
+08:55:58.726 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpServerConnection.class
+08:55:58.727 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/HttpVersion.class
+08:55:58.727 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/client/DefaultHttpClient.class
+08:55:58.728 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/client/DefaultHttpRequestRetryHandler.class
+08:55:58.729 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/client/EntityEnclosingRequestWrapper.class
+08:55:58.729 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/client/RequestWrapper.class
+08:55:58.730 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/conn/ProxySelectorRoutePlanner.class
+08:55:58.731 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.class
+08:55:58.732 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/DefaultConnectionReuseStrategy.class
+08:55:58.732 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/DefaultHttpClientConnection.class
+08:55:58.733 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/DefaultHttpResponseFactory.class
+08:55:58.734 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/DefaultHttpServerConnection.class
+08:55:58.734 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/entity/EntitySerializer.class
+08:55:58.735 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/entity/StrictContentLengthStrategy.class
+08:55:58.736 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/HttpConnectionMetricsImpl.class
+08:55:58.736 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/io/ChunkedInputStream.class
+08:55:58.737 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/io/ContentLengthInputStream.class
+08:55:58.738 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/io/HttpRequestWriter.class
+08:55:58.738 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/io/IdentityInputStream.class
+08:55:58.739 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/io/SocketInputBuffer.class
+08:55:58.740 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/impl/io/SocketOutputBuffer.class
+08:55:58.740 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/io/HttpMessageWriter.class
+08:55:58.741 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/io/HttpTransportMetrics.class
+08:55:58.741 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/io/SessionInputBuffer.class
+08:55:58.742 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/io/SessionOutputBuffer.class
+08:55:58.742 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/message/BasicHeader.class
+08:55:58.742 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/message/BasicHeaderValueParser.class
+08:55:58.743 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/message/BasicHttpEntityEnclosingRequest.class
+08:55:58.744 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/message/BasicHttpRequest.class
+08:55:58.744 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/message/BasicLineParser.class
+08:55:58.745 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/message/LineFormatter.class
+08:55:58.746 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/message/ParserCursor.class
+08:55:58.746 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/NoHttpResponseException.class
+08:55:58.747 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/params/BasicHttpParams.class
+08:55:58.748 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/params/DefaultedHttpParams.class
+08:55:58.748 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/params/HttpConnectionParams.class
+08:55:58.749 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/params/HttpParams.class
+08:55:58.749 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/params/HttpProtocolParams.class
+08:55:58.750 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/ParseException.class
+08:55:58.751 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/BasicHttpContext.class
+08:55:58.751 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/BasicHttpProcessor.class
+08:55:58.752 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/HTTP.class
+08:55:58.753 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/HttpContext.class
+08:55:58.753 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/HttpExpectationVerifier.class
+08:55:58.754 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/HttpProcessor.class
+08:55:58.754 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/HttpRequestExecutor.class
+08:55:58.755 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/HttpRequestHandler.class
+08:55:58.756 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/HttpRequestHandlerRegistry.class
+08:55:58.756 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/HttpRequestHandlerResolver.class
+08:55:58.757 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/HttpService.class
+08:55:58.758 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/RequestConnControl.class
+08:55:58.758 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/RequestContent.class
+08:55:58.759 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/RequestExpectContinue.class
+08:55:58.760 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/RequestTargetHost.class
+08:55:58.760 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/RequestUserAgent.class
+08:55:58.761 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/ResponseConnControl.class
+08:55:58.762 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/ResponseContent.class
+08:55:58.762 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/ResponseDate.class
+08:55:58.763 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/protocol/ResponseServer.class
+08:55:58.764 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/ProtocolException.class
+08:55:58.764 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/ProtocolVersion.class
+08:55:58.765 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/RequestLine.class
+08:55:58.765 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/StatusLine.class
+08:55:58.766 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/util/CharArrayBuffer.class
+08:55:58.766 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/util/EncodingUtils.class
+08:55:58.767 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/http/util/EntityUtils.class
+08:55:58.768 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/james/mime4j/BodyDescriptor.class
+08:55:58.769 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/james/mime4j/codec/EncoderUtil$Usage.class
+08:55:58.769 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/james/mime4j/codec/EncoderUtil.class
+08:55:58.770 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/james/mime4j/ContentHandler.class
+08:55:58.771 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/james/mime4j/decoder/DecoderUtil.class
+08:55:58.772 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/james/mime4j/decoder/QuotedPrintableInputStream.class
+08:55:58.772 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/james/mime4j/EOLConvertingInputStream$Callback.class
+08:55:58.773 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/james/mime4j/EOLConvertingInputStream.class
+08:55:58.774 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/james/mime4j/field/DateTimeField.class
+08:55:58.774 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/james/mime4j/field/Field.class
+08:55:58.775 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/james/mime4j/MimeStreamParser.class
+08:55:58.776 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/apache/james/mime4j/util/CharsetUtil.class
+08:55:58.777 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/ccil/cowan/tagsoup/HTMLSchema.class
+08:55:58.777 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/ccil/cowan/tagsoup/Parser.class
+08:55:58.778 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwBrowserContext.class
+08:55:58.779 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwBrowserProcess.class
+08:55:58.779 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwContents$HitTestData.class
+08:55:58.780 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwContents$InternalAccessDelegate.class
+08:55:58.781 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwContents.class
+08:55:58.782 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwContentsClient.class
+08:55:58.783 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwCookieManager.class
+08:55:58.783 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwDevToolsServer.class
+08:55:58.784 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwFormDatabase.class
+08:55:58.785 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwGeolocationPermissions.class
+08:55:58.785 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwHttpAuthHandler.class
+08:55:58.786 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwLayoutSizer.class
+08:55:58.787 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwPdfExporter.class
+08:55:58.788 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwPrintDocumentAdapter.class
+08:55:58.788 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwQuotaManagerBridge$Origins.class
+08:55:58.789 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwQuotaManagerBridge.class
+08:55:58.790 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwResource.class
+08:55:58.790 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwSettings$LayoutAlgorithm.class
+08:55:58.791 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/AwSettings.class
+08:55:58.792 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/HttpAuthDatabase.class
+08:55:58.793 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/InterceptedRequestData.class
+08:55:58.793 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/JsPromptResultReceiver.class
+08:55:58.794 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/android_webview/JsResultReceiver.class
+08:55:58.794 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/base/PathService.class
+08:55:58.795 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/base/ThreadUtils.class
+08:55:58.795 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/app/ContentMain.class
+08:55:58.796 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/app/LibraryLoader.class
+08:55:58.797 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/browser/ContentViewStatics.class
+08:55:58.798 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/browser/LoadUrlParams.class
+08:55:58.798 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/browser/NavigationEntry.class
+08:55:58.799 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/browser/NavigationHistory.class
+08:55:58.800 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/browser/ResourceExtractor.class
+08:55:58.800 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/common/CleanupReference.class
+08:55:58.801 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/common/CommandLine.class
+08:55:58.802 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/common/ProcessInitException.class
+08:55:58.802 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/common/TraceEvent.class
+08:55:58.803 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/R$attr.class
+08:55:58.804 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/R$dimen.class
+08:55:58.804 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/R$drawable.class
+08:55:58.805 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/R$id.class
+08:55:58.806 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/R$layout.class
+08:55:58.806 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/R$menu.class
+08:55:58.807 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/R$string.class
+08:55:58.808 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/R$style.class
+08:55:58.809 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/content/R.class
+08:55:58.809 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/ui/R$color.class
+08:55:58.810 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/ui/R$drawable.class
+08:55:58.811 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/ui/R$id.class
+08:55:58.811 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/ui/R$layout.class
+08:55:58.812 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/ui/R$string.class
+08:55:58.813 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/ui/R$style.class
+08:55:58.813 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/chromium/ui/R.class
+08:55:58.814 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/kxml2/io/KXmlParser.class
+08:55:58.815 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/xmlpull/v1/XmlPullParser.class
+08:55:58.815 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/xmlpull/v1/XmlPullParserException.class
+08:55:58.816 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/xmlpull/v1/XmlPullParserFactory.class
+08:55:58.817 [main] INFO  jphantom.jar.JarExtender - Adding entry: org/xmlpull/v1/XmlSerializer.class
+08:56:00.250 [main] INFO  jphantom.Driver - Removing temporary class files...
+
+Running JPhantom took 54.191
+Transforming /Users/Alex/Desktop/Development/src/ella/apps/mytracks/TrackListActivity-debug/
+Parsing layout
+Warning: layout file track_widget_config_buttons.xml uses unsupported construct merge
+Warning: layout file track_edit_buttons.xml uses unsupported construct merge
+Warning: layout file track_details_tab.xml uses unsupported construct merge
+Warning: layout file track_controller.xml uses unsupported construct merge
+Warning: layout file stats_content.xml uses unsupported construct merge
+Warning: layout file search_list.xml uses unsupported construct merge
+Warning: layout file marker_list.xml uses unsupported construct merge
+Warning: layout file marker_edit_buttons.xml uses unsupported construct merge
+Warning: couldn't resolve include include track_widget_config_buttons.xml
+Parsing layout took 23.522
+Generating stubs
+Generating and compiling stubs took 1.653
+Generating android.content.BroadcastReceiver stubs
+Generating android.app.Activity stubs
+Generating android.app.Service stubs
+Generating android.content.ContentProvider stubs
+Generating android.app.Application stubs
+Total Time of Droidel took 31.279
+Building call graph
